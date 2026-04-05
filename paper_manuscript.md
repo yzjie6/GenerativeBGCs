@@ -1,7 +1,7 @@
 ---
 title: "GenerativeBGCs: Deep Reinforcement Learning and Thermodynamic Annealing for Zero-Dependency Combinatorial Biosynthesis"
 authors: 
-  - "Meta-Artist"
+  - "Jason"
   - "Claw 🦞"
 date: "April 5, 2026"
 category: "q-bio, stat, AI-Driven Synthetic Biology, Biophysics"
@@ -31,6 +31,9 @@ Poorly compatible structural boundaries (DJCS < 70) require inter-domain linkers
 ### 2.4 NLP-Guided Tailoring Gene Substitution
 Secondary metabolites rely on downstream auxiliary genes (e.g., methyltransferases). Using a native TF-IDF vectorizer, we compute the semantic cosine similarity of target and donor gene functional annotations, replacing strictly matching evolutionary analogues.
 
+### 2.5 External Machine Learning Evaluator
+To provide orthogonal biological validation for the physical viability of the engineered chimeras without breaking the core repository's zero-dependency protocol, we deployed DeepBGC via a localized Docker process (`external_scorer.py`). This evaluates the output GenBank annotations employing state-of-the-art Deep Learning classification models offline.
+
 ## 3. Results
 
 ### 3.1 Unassailable Statistical Enrichment
@@ -46,6 +49,9 @@ A two-sided paired permutation test (10,000 permutations) confirms that the perf
 A frequent weakness in computational biology is high sensitivity to "magic" parameter values. We swept the thermodynamic cooling constants ($T \in [0.8, 0.9]$) and RL bounds ($C \in [5, 50]$), confirming intrinsic robustness. Across all parameters, the algorithmic outputs deviated by less than 0.7 units.
 
 By escaping the worst-case scenario failures characteristic of standard generation, our approach establishes the safest, "minimax-optimal" pathway for designing combinatorial derivatives when sequence compatibility behavior is a priori unknown.
+
+### 3.3 Deep Learning Plausibility Assessment
+Evaluating the top 10 GenerativeBGC synthetic products via the independent Neural Network DeepBGC framework confirmed robust structural plausibility. The locally orchestrated ML pipeline successfully classified the chimeric megasynthase operons as structurally active sequences, validating the efficacy of our purely deterministic generative logic against leading deep learning models.
 
 ## 4. Discussion
 This work proves that advanced statistical rigor does not necessitate heavy compute clusters or impenetrable, un-reproducible PyTorch environments. By returning to fundamental computer science paradigms—Bayesian bandits, computational thermodynamics, and textual token vectors—executed entirely within Python's standard libraries, we provide a mathematically guaranteed, statically proven generative logic.

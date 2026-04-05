@@ -66,6 +66,12 @@ Evaluate the exact $P$-values and DJCS enhancement distribution of the RL model 
 python ablation_and_statistics.py
 ```
 
+### 4. Zero-Dependency External ML Validation
+Deploy DeepBGC (via local Docker) to automatically run deep neural network classifications evaluating the biological plausibility of the chimeric outputs.
+```bash
+python external_scorer.py --mode docker
+```
+
 ## 📊 Evaluation & Outputs
 The models compile fully assembled natural product sequence outputs into the `/results` directory:
 - `/results/gbk/*.gbk` : Synthesis-ready physical sequence plasmids.

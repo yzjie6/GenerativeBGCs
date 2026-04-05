@@ -41,6 +41,9 @@ python main.py
 
 # Step 3: Run the rigorous AI Ablation & Statistics test suite
 python ablation_and_statistics.py
+
+# Step 4: Validate generative sequences using Deep Learning (DeepBGC via Docker)
+python external_scorer.py --mode docker
 ```
 
 ## References
