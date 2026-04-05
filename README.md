@@ -4,7 +4,7 @@
   <p><strong>Deep Reinforcement Learning & Thermodynamic Annealing for Zero-Dependency Combinatorial Biosynthesis</strong></p>
   <img src="https://img.shields.io/badge/Python-3.7%2B-blue.svg" alt="Python Version">
   <img src="https://img.shields.io/badge/Dependencies-0-success.svg" alt="Zero Dependencies">
-  <img src="https://img.shields.io/badge/Algorithm-Minimax%20Optimal-red.svg" alt="Algorithms">
+  <img src="https://img.shields.io/badge/Algorithm-Statistically%20Robust-red.svg" alt="Algorithms">
   <img src="https://img.shields.io/badge/Data-MIBiG%204.0-yellow.svg" alt="Database">
 </div>
 
@@ -12,7 +12,7 @@
 
 When navigating the immense design space of combinatorial biosynthesis, which chimeric assembly lines should bioengineers synthesize? 
 
-**GenerativeBGCs** is an autonomous, full-cluster generative AI platform operating across 972 PKS/NRPS pathways (6,523 structural scaffolding proteins from the MIBiG 4.0 database). It leverages Classical Artificial Intelligence to shift computational bioengineering from random combinatorial searches into a **Minimax-Optimal learning paradigm**.
+**GenerativeBGCs** is an autonomous, full-cluster generative AI platform operating across 972 PKS/NRPS pathways (6,523 structural scaffolding proteins from the MIBiG 4.0 database). It leverages Classical Artificial Intelligence to shift computational bioengineering from random combinatorial searches into a **Statistically Robust learning paradigm**.
 
 In order to solve the crisis of ML irreproducibility in computational biology, **the entire AI architecture is built completely from scratch using Python standard libraries (Zero Dependencies) and locked by SHA-256 cryptographic verification.**
 
