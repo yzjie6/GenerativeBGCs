@@ -13,6 +13,8 @@ import os
 import sys
 import math
 import random
+import shutil
+import subprocess
 from collections import Counter
 from combinatorial_assembly import (
     load_bgc_data,
@@ -234,6 +236,60 @@ def generate_targeted_chimeras(host_candidates, donor_candidates, gamma, do_tail
     chimeras.sort(key=lambda x: x["mean_djcs"], reverse=True)
     return chimeras
 
+def apply_deepbgc_scoring(chimeras, all_entries, top_n=20):
+    """Uses external DeepBGC docker to recalculate ranking for the top candidates."""
+    print(f"\n[ML EVALUATOR] Transferring Top {top_n} candidates to Deep Learning neural network...")
+    
+    top_candidates = chimeras[:top_n]
+    tmp_dir = os.path.join(RESULTS_DIR, ".tmp_scoring")
+    if os.path.exists(tmp_dir):
+        shutil.rmtree(tmp_dir)
+    os.makedirs(tmp_dir, exist_ok=True)
+    
+    # 1. Export temporary sequences
+    from gbk_writer import export_chimeras_to_gbk
+    export_chimeras_to_gbk(top_candidates, all_entries, output_dir=tmp_dir, top_n=top_n)
+    
+    # 2. Run sequential Docker validation
+    for i, chimera in enumerate(top_candidates):
+        gbk_file = f"{chimera['chimera_id']}.gbk"
+        gbk_path = os.path.join(tmp_dir, gbk_file)
+        out_path = os.path.join(tmp_dir, f"{chimera['chimera_id']}_out")
+        
+        final_score = 0.0
+        if os.path.exists(gbk_path):
+            print(f"               Evaluating {chimera['chimera_id']} [{i+1}/{top_n}] via DeepBGC...")
+            cmd = [
+                "docker", "run", "--rm",
+                "-v", f"{os.getcwd()}:/data",
+                "antibioti/deepbgc", "pipeline",
+                f"/data/results/.tmp_scoring/{gbk_file}",
+                "-o", f"/data/results/.tmp_scoring/{chimera['chimera_id']}_out"
+            ]
+            try:
+                subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=120)
+                bgc_csv = os.path.join(out_path, f"{chimera['chimera_id']}.bgc.csv")
+                if os.path.exists(bgc_csv):
+                    with open(bgc_csv, 'r') as f:
+                        lines = f.readlines()
+                        if len(lines) > 1:
+                            parts = lines[1].split(',')
+                            scores = []
+                            for p in parts:
+                                try: scores.append(float(p))
+                                except: pass
+                            if scores: final_score = max(scores)
+            except Exception:
+                pass
+        chimera["deepbgc_score"] = float(f"{final_score:.4f}")
+        
+    shutil.rmtree(tmp_dir, ignore_errors=True)
+    
+    # 3. Re-sort
+    chimeras[:top_n] = sorted(top_candidates, key=lambda x: (x.get("deepbgc_score", 0.0), x["mean_djcs"]), reverse=True)
+    print("               -> Structural Verification Complete.")
+    return chimeras
+
 def print_chimera_summary(chimeras, top_n=5):
     print(f"\n[SCORES] RL Agent generated & explored {len(chimeras)} customized chimeric architectures.")
     if not chimeras: return
@@ -250,6 +306,7 @@ def print_chimera_summary(chimeras, top_n=5):
         tags = []
         if c['rescued']: tags.append(f"SA_Linker({c['rescue_linker']})")
         if c.get("donor_aux"): tags.append("NLP_TailorSwap")
+        if "deepbgc_score" in c: tags.append(f"DeepBGC={c['deepbgc_score']:.2f}")
         
         tag_str = f" [+ {', '.join(tags)}]" if tags else ""
         print(f"           {c['chimera_id']}: DJCS={c['mean_djcs']:.2f} "
@@ -339,10 +396,14 @@ def main():
         return
 
     do_tailoring = prompt_yes_no("\nEnable NLP-based Tailoring Gene Integration (TF-IDF Match)?")
+    do_deepbgc   = prompt_yes_no("Enable DeepBGC Neural Network Verification & ML Sorting?")
 
     print(f"\n[AI AGENT] Running Multi-Armed Bandit (UCB1) RL exploration over {len(donor_candidates)} candidates...")
     chimeras = generate_targeted_chimeras(host_candidates, donor_candidates, gamma, do_tailoring=do_tailoring)
     
+    if do_deepbgc:
+        chimeras = apply_deepbgc_scoring(chimeras, all_entries, top_n=20)
+        
     print_chimera_summary(chimeras)
     
     os.makedirs(RESULTS_DIR, exist_ok=True)

@@ -37,13 +37,11 @@ To guarantee absolute reproducibility across any platform, all advanced algorith
 python fetch_mibig_data.py
 
 # Step 2: Interactive AI Design (Generates .gbk and prints targets)
+# Note: Allows optional DeepBGC ML neural-network triage before final GBK output.
 python main.py
 
 # Step 3: Run the rigorous AI Ablation & Statistics test suite
 python ablation_and_statistics.py
-
-# Step 4: Validate generative sequences using Deep Learning (DeepBGC via Docker)
-python external_scorer.py --mode docker
 ```
 
 ## References

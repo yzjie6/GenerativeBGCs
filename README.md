@@ -53,8 +53,8 @@ Parses the local FASTA format, separates Megasynthases (Core) from tailoring var
 python fetch_mibig_data.py
 ```
 
-### 2. Generative Agent CLI
-Starts the Multi-Armed Bandit generation interface. Follow the interactive prompts to select Biosynthetic classes, targeted bioactivities, and exact host chassis backbones.
+### 2. Generative Agent CLI & ML Triage
+Starts the Multi-Armed Bandit generation interface. Follow the interactive prompts to select Biosynthetic classes, targeted bioactivities, and exact host chassis backbones. You will be prompted to optimally trigger a *built-in Docker ML Pipeline (DeepBGC)* to orthogonal re-sort sequences by deep neural network probability before finalizing.
 ```bash
 python main.py
 ```
@@ -64,12 +64,6 @@ python main.py
 Evaluate the exact $P$-values and DJCS enhancement distribution of the RL model vs. Random selection.
 ```bash
 python ablation_and_statistics.py
-```
-
-### 4. Zero-Dependency External ML Validation
-Deploy DeepBGC (via local Docker) to automatically run deep neural network classifications evaluating the biological plausibility of the chimeric outputs.
-```bash
-python external_scorer.py --mode docker
 ```
 
 ## 📊 Evaluation & Outputs

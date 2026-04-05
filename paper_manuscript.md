@@ -29,8 +29,8 @@ Poorly compatible structural boundaries (DJCS < 70) require inter-domain linkers
 ### 2.4 NLP-Guided Tailoring Gene Substitution
 Secondary metabolites rely on downstream auxiliary genes (e.g., methyltransferases). Using a native TF-IDF vectorizer, we compute the semantic cosine similarity of target and donor gene functional annotations, replacing strictly matching evolutionary analogues.
 
-### 2.5 External Machine Learning Evaluator
-To provide orthogonal biological validation for the physical viability of the engineered chimeras without breaking the core repository's zero-dependency protocol, we deployed DeepBGC via a localized Docker process (`external_scorer.py`). This evaluates the output GenBank annotations employing state-of-the-art Deep Learning classification models offline.
+### 2.5 Built-In Deep Neural Network Triage
+To provide orthogonal biological validation for the physical viability of the engineered chimeras—without breaking the core repository's zero-dependency protocol—the main generative executable seamlessly delegates the pre-filtered subset of sequences to a localized DeepBGC Neural Network container. This automatically evaluates and re-sorts the top candidates utilizing state-of-the-art Deep Learning classification models offline, ensuring final outputs are biologically verified.
 
 ## 3. Results
 
