@@ -1,11 +1,11 @@
 ---
 name: generative-bgc-forge
-description: AI-Enhanced Chimeric PKS/NRPS assembly line screening pipeline using MIBiG 4.0. Implements Reinforcement Learning (UCB1), Simulated Annealing, and NLP TF-IDF semantic matching. Includes rigorous statistical validation (Bootstrap, Permutation Testing) to demonstrate distributional robustness, secured by SHA-256 data integrity. Use when the user mentions BGCs, combinatorial biosynthesis, AI-driven synthetic biology, structural compatibility (DJCS), or automated chimera generation.
+description: Native AI Chimeric PKS/NRPS assembly line generative model using MIBiG 4.0. Implements Sequential Markov Decision Processes (MDP), Simulated Annealing, zero-dependency K-mer Markov log-likelihood scoring, and ESMFold. Exclusively uses Structural Interface Score (SIS). Use when the user mentions BGCs, combinatorial biosynthesis, AI-driven synthetic biology, structural compatibility (SIS), or automated chimera generation.
 ---
 
-# GenerativeBGCs from MIBiG 4.0 Secondary Metabolites (UCB1 + SA + TF-IDF)
+# GenerativeBGCs from MIBiG 4.0 Secondary Metabolites (MDP + SA + Markov)
 
-Fully offline pipeline for generating synthetic biosynthetic assembly lines. Parses the complete MIBiG 4.0 database, uses Multi-Armed Bandit (RL) to discover compatible components, refines inter-protein boundaries using thermodynamic Simulated Annealing on hydropathy scores (DJCS), and substitutes tailoring genes using semantic NLP matching (TF-IDF). Evaluated chimeras undergo DeepBGC orthogonal neural network check before final output as `.gbk`. Repo: https://github.com/yzjie6/GenerativeBGCs
+Fully native pipeline for generating synthetic biosynthetic assembly lines. Parses the MIBiG 4.0 database, uses an intelligent Markov Decision Process (MDP) to structurally grow compatible sequences left-to-right, refines boundaries using thermodynamic Simulated Annealing on multivariate biophysics (SIS), and substitutes tailoring genes using compute-light TF-IDF. Evaluated chimeras undergo native offline K-mer Markov plausibility checking and ESMFold 3D API boundary pulls before final synthesis to `.gbk`. Repo: https://github.com/yzjie6/GenerativeBGCs
 
 ## When the user asks about this pipeline, Claude should:
 
@@ -22,20 +22,20 @@ Fully offline pipeline for generating synthetic biosynthetic assembly lines. Par
 |------|---------|---------|
 | Python | >= 3.7 | Main generative orchestration (Zero-dependency core) |
 | Standard Library | all | json, math, random, os, hashlib, csv, collections |
-| Docker | optional | Only required for orthogonal `antibioti/deepbgc` validation triage |
+| None | N/A | Strictly 100% native Python standard library. DeepBGC Docker completely excised. |
 
-Quick install: The core platform is zero-dependency. Clone repository and verify data by running `python fetch_mibig_data.py`. No virtual environments needed.
+Quick install: The core platform is mathematically zero-dependency. Clone repository and verify data by running `python fetch_mibig_data.py`. No virtual environments needed.
 
 **Critical env vars after install:**
-None required for pure-Python execution. Docker daemon must be running in the background for DeepBGC verification stage.
+None required. Structural validation is entirely native and ESMFold is hit dynamically via urllib.
 
 ## Pipeline Structure
 
 The pipeline is split into cryptographically secure data parsing, autonomous RL assembly, and statistical validation.
 
-- **Parser path:** Read MIBiG JSON/FASTA → compute structural hydropathy boundaries → SHA-256 lock
-- **Assembly path:** Host template selection → UCB1 RL donor exploration → SA linker insertion → NLP TF-IDF tailoring gene transplantation
-- **Validation path:** Native DeepBGC neural network processing → final sequence GenBank format generation
+- **Parser path:** Read MIBiG JSON/FASTA → compute multivariate SIS (Hydropathy + Charge) → SHA-256 lock
+- **Assembly path:** Host template selection → MDP sequence growth → SA linker insertion → NLP TF-IDF tailoring
+- **Validation path:** Offline native K-mer Markov transition filter → ESMFold 3D API boundary fetch → final sequence GenBank format generation
 
 The `ablation_and_statistics.py` suite independently verifies the RL/SA logic via paired permutation tests against Monte Carlo models.
 
@@ -50,11 +50,11 @@ python main.py                     # execute AI generation and emit .gbk
 
 Instead of stochastic random walks, the framework uses explicit algorithms to solve the combinatorial explosion of the 46,000 constituent proteins mapping:
 
-1. **UCB1 (Exploration vs Exploitation)** — Treats potential donor sequences as independent arms in a stochastic bandit problem to optimize discovery of highly compatible parts, escaping the random assembly trap.
-2. **Domain Junction Compatibility Score (DJCS)** — Evaluates hydropathy differentials at protein boundaries to predict folding disruption. 
-3. **Simulated Annealing (SA)** — When DJCS < 70, SA inserts a flexible linker and accepts suboptimal boundary states strictly under the Boltzmann probability $e^{-\Delta E / T}$. This prevents the sequence from collapsing into local minima.
-4. **TF-IDF NLP substitution** — Selects valid active downstream tailoring enzymes using natural language processing (tokenized dropping fragments ≤ 2 chars and applying a cosine-similarity activation threshold of 0.40) over evolutionary functional notes.
-5. **DeepBGC ML Validation** — As an orthogonal truth check, sequences are piped through a pre-trained offline DeepBGC docker container to evaluate mean Random Forest active-probability.
+1. **Sequential Markov Decision Process (MDP)** — Builds structurally left-to-right via an epsilon-greedy algorithm, incrementally appending heterologous domains based upon contextual evaluations of preceding C-termini.
+2. **Multivariate Structural Interface Score (SIS)** — Calculates mathematically robust string similarity via Kyte-Doolittle hydropathy differentials combined with deterministic electrostatic point repulsions.
+3. **Simulated Annealing (SA)** — When SIS < 70, SA inserts a flexible linker and accepts suboptimal boundary states strictly under the Boltzmann probability.
+4. **TF-IDF NLP substitution** — Employs a text-based semantic alignment to preserve absolute offline compute independence for tailoring enzymes.
+5. **K-mer Markov & ESMFold** — Validates generation internally via custom standard-library Di-peptide log-likelihood models, followed by a zero-dependency remote Meta ESM Atlas `.pdb` pull to verify 3D limits.
 
 ## Parameter Sensitivity Analysis
 

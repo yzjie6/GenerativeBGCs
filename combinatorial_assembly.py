@@ -77,15 +77,33 @@ def mean_hydropathy(seq):
     return sum(vals) / max(1, len(vals))
 
 
-def boundary_hydropathy_diff(seq_up, seq_down, window=DOCK_WINDOW):
+def structural_interface_penalty(seq_up, seq_down, window=DOCK_WINDOW):
     """
-    Compute the hydropathy differential at the inter-protein boundary.
-    Uses the C-terminal 'window' residues of the upstream protein and
-    the N-terminal 'window' residues of the downstream protein.
+    Multivariate Structural Interface Score penalty.
+    Calculates the hydropathy differential and Isoelectric/Charge compatibility
+    at the inter-protein boundary.
     """
     c_term = seq_up[-window:] if len(seq_up) >= window else seq_up
     n_term = seq_down[:window] if len(seq_down) >= window else seq_down
-    return abs(mean_hydropathy(c_term) - mean_hydropathy(n_term))
+    
+    # 1. Hydropathy (Kyte-Doolittle) difference
+    h_diff = abs(mean_hydropathy(c_term) - mean_hydropathy(n_term))
+    
+    # 2. Charge compatibility (Net Charge at pH ~7.4)
+    def net_charge(seq):
+        pos = seq.count('R') + seq.count('K')
+        neg = seq.count('D') + seq.count('E')
+        return pos - neg
+        
+    c_charge = net_charge(c_term)
+    n_charge = net_charge(n_term)
+    
+    # Product of charges: negative means attraction (good), positive means repulsion (bad)
+    charge_parity = c_charge * n_charge
+    
+    # Base penalty is hydropathy difference. Modulate with electrostatic repulsion parity.
+    penalty = h_diff + (max(0, charge_parity) * 0.1)
+    return penalty
 
 
 def junction_compatibility_score(diff, gamma):
@@ -106,7 +124,7 @@ def calibrate_gamma(bgc_entries):
             continue
         # Proteins are ordered by genomic coordinate in the FASTA
         for i in range(len(proteins) - 1):
-            d = boundary_hydropathy_diff(
+            d = structural_interface_penalty(
                 proteins[i]["sequence"],
                 proteins[i + 1]["sequence"]
             )
@@ -138,12 +156,12 @@ def try_rescue(seq_up, seq_down, gamma):
     linker peptide. NOTE: This is a computational heuristic; linker insertion
     between megasynthase subunits requires experimental validation.
     """
-    original_diff = boundary_hydropathy_diff(seq_up, seq_down)
+    original_diff = structural_interface_penalty(seq_up, seq_down)
     original_djcs = junction_compatibility_score(original_diff, gamma)
     best = (None, original_djcs)
     for linker_seq, linker_name in FLEXIBLE_LINKERS:
         new_up = seq_up + linker_seq
-        new_diff = boundary_hydropathy_diff(new_up, seq_down)
+        new_diff = structural_interface_penalty(new_up, seq_down)
         new_djcs = junction_compatibility_score(new_diff, gamma)
         if new_djcs > best[1]:
             best = (linker_name, new_djcs)
@@ -183,7 +201,7 @@ def generate_chimeras(sampled_entries, gamma):
                 boundary_scores = []
                 boundary_diffs = []
                 for k in range(len(chimeric_line) - 1):
-                    d = boundary_hydropathy_diff(
+                    d = structural_interface_penalty(
                         chimeric_line[k]["sequence"],
                         chimeric_line[k + 1]["sequence"]
                     )
@@ -226,7 +244,7 @@ def generate_chimeras(sampled_entries, gamma):
                     "assembly_size": len(chimeric_line),
                     "num_boundaries": len(boundary_scores),
                     "mean_djcs": mean_djcs,
-                    "mean_delta_h": mean_diff,
+                    "mean_penalty": mean_diff,
                     "min_djcs": round(min(boundary_scores), 4) if boundary_scores else 0,
                     "max_djcs": round(max(boundary_scores), 4) if boundary_scores else 0,
                     "rescued": rescued,
@@ -258,7 +276,7 @@ def permutation_test(chimeras, all_proteins, gamma, n_perm=1000):
 
     for _ in range(n_perm):
         p1, p2 = random.sample(all_proteins, 2)
-        d = boundary_hydropathy_diff(p1["sequence"], p2["sequence"])
+        d = structural_interface_penalty(p1["sequence"], p2["sequence"])
         s = junction_compatibility_score(d, gamma)
         null_scores.append(s)
         if s >= top_djcs:
@@ -350,7 +368,7 @@ def main():
     stats["total_bgcs_in_database"] = len(all_entries)
     stats["bgcs_sampled_for_chimeras"] = len(sampled)
     stats["natural_boundaries_measured"] = len(natural_diffs)
-    stats["natural_mean_delta_h"] = natural_baseline
+    stats["natural_mean_penalty"] = natural_baseline
 
     stats_path = os.path.join(RESULTS_DIR, "permutation_stats.json")
     with open(stats_path, "w") as f:
@@ -375,7 +393,7 @@ def main():
                 c["host_compound"], c["donor_bgc"], c["donor_organism"],
                 c["donor_protein"], c["donor_product"], c["donor_length"],
                 c["swap_position"], c["assembly_size"],
-                c["mean_djcs"], c["min_djcs"], c["max_djcs"], c["mean_delta_h"],
+                c["mean_djcs"], c["min_djcs"], c["max_djcs"], c["mean_penalty"],
                 c["rescued"], c["rescue_linker"], ";".join(c["protein_ids"])
             ])
     print(f"[OUTPUT] {tsv_path} (top {top_n} chimeras)")
