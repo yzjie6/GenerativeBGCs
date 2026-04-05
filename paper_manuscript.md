@@ -29,7 +29,7 @@ Evaluating the top 10 GenerativeBGC synthetic products via the independent Neura
 Discussion
 This work proves that advanced statistical rigor does not necessitate heavy compute clusters or impenetrable, un-reproducible PyTorch environments. By returning to fundamental computer science paradigms—Bayesian bandits, computational thermodynamics, and textual token vectors—executed entirely within Python's standard libraries, we provide a mathematically guaranteed, statically proven generative logic.
 
-GenerativeBGCs produces ready-to-synthesize .gbk sequences representing functional, biologically grounded synthetic operons. The rigorous implementation, verified by both bootstrap logic and combinatorial testing, represents a necessary shift toward accountable, reproducible AI in computational secondary metabolism.
+GenerativeBGCs produces ready-to-synthesize .gbk sequences representing computationally plausible, biologically grounded synthetic operons, pending host-specific codon optimization. The rigorous implementation, verified by both bootstrap logic and combinatorial testing, represents a necessary shift toward accountable, reproducible AI in computational secondary metabolism. We also acknowledge that relying on hydropathy-based DJCS is a heuristic simplification; physical expression may still face 3D steric hindrance not captured without heavier atomistic molecular dynamics simulations.
 
 Methods
 Cryptographic Data Verification
