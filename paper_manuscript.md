@@ -52,13 +52,8 @@ Pipeline code (GenerativeBGC main generation and orchestration engine) and the s
 
 References
 Auer, P., Cesa-Bianchi, N., & Fischer, P. (2002). Finite-time analysis of the multiarmed bandit problem. Machine learning, 47(2), 235-256.
-
 Blin, K., Shaw, S., Kloosterman, A. M., Charlop-Powers, Z., van Wezel, G. P., Medema, M. H., & Weber, T. (2019). antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline. Nucleic acids research, 47(W1), W81-W87.
-
 Hannigan, G. D., Prihoda, D., Palicka, A., Soukup, J., Klempir, O., Rampula, L., ... & Medema, M. H. (2019). A deep learning genome-mining strategy for biosynthetic gene cluster prediction. Nucleic acids research, 47(18), e110-e110.
-
 Kirkpatrick, S., Gelatt, C. D., & Vecchi, M. P. (1983). Optimization by simulated annealing. Science, 220(4598), 671-680.
-
 Medema, M. H., Kottmann, R., Yilmaz, P., Cummings, M., Biggins, J. B., Blin, K., ... & Glöckner, F. O. (2015). Minimum information about a biosynthetic gene cluster. Nature chemical biology, 11(9), 625-631.
-
 Terlouw, B. R., Blin, K., Navarro-Muñoz, J. C., Avalon, N. E., Chevrette, M. G., Egbert, S., ... & Medema, M. H. (2023). MIBiG 3.0: a community-driven effort to annotate biosynthetically active genomic regions. Nucleic acids research, 51(D1), D603-D610.
