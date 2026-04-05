@@ -1,0 +1,281 @@
+LOCUS       BGC0003103              7383 bp    DNA     linear   BCT 04-JUN-2010
+DEFINITION  Gardnerella vaginalis 5-1 51.contig00005, whole genome shotgun
+            sequence.
+ACCESSION   BGC0003103
+VERSION     BGC0003103
+KEYWORDS    .
+SOURCE      Gardnerella vaginalis 5-1
+  ORGANISM  Gardnerella vaginalis 5-1
+            Bacteria; Actinomycetota; Actinomycetes; Bifidobacteriales;
+            Bifidobacteriaceae; Gardnerella.
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:51:16
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 0
+            Orig. end    :: 7383
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     subregion       1..7383
+                     /aStool="mibig"
+                     /contig_edge="True"
+                     /label="ribosomal"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..7383
+                     /contig_edge="True"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            385..1158
+                     /locus_tag="GV51_0142"
+     CDS             385..1158
+                     /codon_start=1
+                     /function="Transcription"
+                     /locus_tag="GV51_0142"
+                     /note="SecretomeP prediction: 0.21; GO_function: GO:0070403
+                     - NAD binding"
+                     /product="NAD-dependent protein deacetylase, SIR2 family"
+                     /protein_id="EFH71246.1"
+                     /transl_table=11
+                     /translation="MSNKQSNNKARHIVVLTGAGISTSAGIPDFRGPDGVWTKHPEQMS
+                     VYDIDAFLSSKEERVYSWRWQKESPVWNAQPGTAHKALVKLEKAGMLDLIATQNFDALH
+                     EKAGNNPNIIVNLHGSIGTSHCMSCHASYKTADIMADLDEHPDPHCRRTLPYRSNMPCN
+                     GLIKTDVVYFGEALPEGAMERSAQAIVKADELWVIGSTLEVFPAASLVPLAARAGVPIT
+                     IMNLGSTQYDYLAERIIREDIAKALPKLVDETIAK"
+     gene            complement(1159..3078)
+                     /locus_tag="GV51_0143"
+     CDS             complement(1159..3078)
+                     /codon_start=1
+                     /function="Carbohydrate transport and metabolism"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) Alpha-amylase"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1257:Alpha-glucosidase (Score: 490.5; E-value:
+                     1.1e-148)"
+                     /gene_kind="biosynthetic-additional"
+                     /locus_tag="GV51_0143"
+                     /note="SecretomeP prediction: 0.57; GO_function: GO:0043169
+                     - cation binding"
+                     /product="glycosidase"
+                     /protein_id="EFH71247.1"
+                     /sec_met_domain="Alpha-amylase (E-value: 2.7e-101,
+                     bitscore: 327.9, seeds: 31, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MTTFDRANLPESVRTNGATPNPWWANAVVYQIYPRSFQDTNGDGI
+                     GDLKGITSRLDYLADLGVDVLWLSPVYKSPQDDNGYDISDYQDIDPLFGTLEDMDELLA
+                     GAHERGLKVVMDLVVNHTSDEHAWFQASRDASSDYADWYWWRPAREGCVPGEPGAEPNK
+                     WGSYFGGSAWTYDPKRGEYFLHQYSPKQPDLNWENPAVRAAVYKMMNWWMDRGIDGFRM
+                     DVITQISKHVDSEGRLPGEDGCQIEDLPAGADGYSSPFPFCSDGPRLDEFLREMRAEVF
+                     DGREGYLTVGEAPGISPHRNTYITDPAHSELDMLFLFNHVDIDCENGTKWNPVPLKLTA
+                     LKSVMAEQQQAVVDAGWASLFFNNHDQPRALSRWGSEASEEMRVRSAKAIAMLLHMHRG
+                     TPYVYQGEEIGMTNAHFTRLEQYRDLEALNMFKQRVEKAHIQSAESMMDALAKRGRDNS
+                     RTPMQWNASKYAGFMPFNVQSLNNAEPWISVNPNYVDINAAEQMEDSDSVYAFYKYLIA
+                     LRHSEPIVSAGSWDLVDADDECVYAFVRELKSGCEKQEDSAETAAESAANSAESTERML
+                     VMVNMTDSTVPIPTQSTQLLQNRASNAFVGRDVMVTTYDVNHALTSLKNGTLAPWEGIA
+                     VTLQ"
+     gene            complement(3293..4261)
+                     /locus_tag="GV51_0144"
+     CDS             complement(3293..4261)
+                     /codon_start=1
+                     /function="Coenzyme metabolism"
+                     /locus_tag="GV51_0144"
+                     /note="SecretomeP prediction: 0.07; GO_function: GO:0050662
+                     - coenzyme binding; GO_process: GO:0055114 - oxidation
+                     reduction"
+                     /product="ketopantoate reductase"
+                     /protein_id="EFH71248.1"
+                     /transl_table=11
+                     /translation="MSGMKYAMIGSGAMGYRYGVLLQETAGIHVDFIDAWDENVNKVRE
+                     QGGVMVSRDHENRHLVPINMYTPEDYDGDPDVWIVFMKQMQLAEMLERCKHLFKEHQVV
+                     FAAMNGWGHFEKLQQYFPDDHIYGGTAMIATVLNGPGDVDFIGKVGVGTMNMCALNEQV
+                     SDVELAMRDDFKAAGLNPTITEDFKGTCMAKVVFNSVVNTLCTMYQIQMGQFISYPGAM
+                     DMAQQLINEAYDVCERAGIRMVNTRQQELEAIDYVSRVANPLHYPSMYQDMSRGRKTEV
+                     DYINGYIAKLGRENDYVCRTHEFLTHGVHLAELAFKLHNQQ"
+     gene            complement(4504..5550)
+                     /locus_tag="GV51_0145"
+     CDS             complement(4504..5550)
+                     /codon_start=1
+                     /function="Carbohydrate transport and metabolism"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1276:PfkB domain protein (Score: 189.3; E-value:
+                     1.7e-57)"
+                     /gene_kind="biosynthetic-additional"
+                     /locus_tag="GV51_0145"
+                     /note="SecretomeP prediction: 0.06; GO_function: GO:0016301
+                     - kinase activity; GO_function: GO:0016740 - transferase
+                     activity; GO_process: GO:0006014 - D-ribose metabolic
+                     process"
+                     /product="PfkB family sugar kinase"
+                     /protein_id="EFH71249.1"
+                     /transl_table=11
+                     /translation="MLDSLESLEKIKVIQPVNVALQHETLPALRNMKMPTVAIVGSMNA
+                     DYTIVANRLPMPGETIKGNEIRILPGGKSGNQAVSAAKLGAHVCMFGAVGDDANADFLT
+                     GALRESGVDTTYVRHVPNCNSGATVITVDAQSGENTIVYAPGSNSQVDIDYIQSPSVQA
+                     AITNAKVLGLCLESPLESVTMCARLAHEHGVKVLLNNSPFLDTLPQDLIRSADILLVNE
+                     HEMAQLLHISEPDSGDWDSFDWKHTLHAMHEFGFNEAIVTLGSRGSMVLDYADNSVHRI
+                     MAQHVNAVDTTGCGDAFMGTVLACLSVDMRLVDAASLASYVAAYAATGFGAQASYGTVA
+                     QIRQFFHL"
+     gene            complement(5597..5992)
+                     /locus_tag="GV51_0146"
+     CDS             complement(5597..5992)
+                     /codon_start=1
+                     /function="Carbohydrate transport and metabolism"
+                     /locus_tag="GV51_0146"
+                     /note="SecretomeP prediction: 0.03; GO_process: GO:0019303
+                     - D-ribose catabolic process; GO_process: GO:0008643 -
+                     carbohydrate transport"
+                     /product="ABC-type ribose transporter, auxiliary component"
+                     /protein_id="EFH71250.1"
+                     /transl_table=11
+                     /translation="MLTHGILNAQLAAAIAKLRHKDQFVVSDCGLPVPAGVEVIDLALV
+                     FGIPRFPDVLASIKDDLVLESGIMAEEACDDVPETWIKDLLGVPLTYVPHDGERGFKAL
+                     VSQAKFVIRTGETTPYSNVLLRCGVPF"
+     gene            complement(6287..7228)
+                     /locus_tag="GV51_0147"
+     CDS             complement(6287..7228)
+                     /codon_start=1
+                     /function="Carbohydrate transport and metabolism"
+                     /gene_functions="transport (smcogs) SMCOG1205:ABC
+                     transporter, carbohydrate uptake (Score: 229.6; E-value:
+                     6.6e-70)"
+                     /gene_kind="transport"
+                     /locus_tag="GV51_0147"
+                     /note="SecretomeP prediction: 0.08."
+                     /product="ABC-type sugar transporter, periplasmic
+                     component"
+                     /protein_id="EFH71251.1"
+                     /transl_table=11
+                     /translation="MMNYPIMRRGVKIACAVVAASALIVSMSACGSTNSGDKVALLVST
+                     LNNPFFVDLRDGAQAEAKKLGVDLQVSDAQNDSAKQQDQAQNAQSQGAKAVIINPVDSD
+                     AAGPAVAPLLSANLPVISVDRSVTGEKVTSHIASDNVAGGAQAADTLANSMGEKGEVLI
+                     LQGIPGAASTRDRGKGFKDRIKKYSNIKVVAEQTANFDRAEALNVATNLLQSHPNATGI
+                     YAENDEMALGAIQALGAKAGKEIKVVGFDGTVDGMKAIKAGAMAGTIAQQPKELGRSAV
+                     AAAVKAIKGQSVPKTEPITVKTVTIKNVGDFE"
+ORIGIN
+        1 ccaacacaag accaggaaca ataatcaaaa ccaacaaaaa ataatcaaga atagccccaa
+       61 aaacatcaaa accgggagtg tcgcaccgcc atactccaaa caaaacagca aaaaacgcaa
+      121 ttaatacaga atcaacgcga aaaatacaca ataaaaacag aaaaaatgag atatacgatt
+      181 agatatacac aaaaatatat gagtgcgata tatggaatac atacggaata agaaatacct
+      241 atataaatag atacttatta aataaacttt tataaagcat acaaagcaca taaaaacaca
+      301 aaaagcgtaa agcgcataaa aaaagaaaaa taagaaaata agaatagggt attaacagac
+      361 attaataaaa gaaggagcag aagaatgagc aacaagcaat cgaacaataa agcacgccac
+      421 attgttgtgc tcacaggcgc aggaatctcc acaagcgcag gcattcccga ctttcgcggt
+      481 ccagatggag tttggactaa acacccagag caaatgagcg tttatgacat agacgcattt
+      541 ttaagcagta aagaggaacg cgtctactct tggcgctggc aaaaagagtc tcccgtttgg
+      601 aacgcacagc cggggactgc gcacaaagca cttgtaaaac tcgagaaggc aggaatgctc
+      661 gaccttatag ccacccaaaa ctttgatgcg cttcacgaaa aagctggcaa taacccaaat
+      721 attatagtga acttgcatgg aagcatcgga acttcgcact gcatgagctg ccacgcgagc
+      781 tataaaactg ccgatattat ggcagattta gatgagcacc cggatccgca ttgcaggcgc
+      841 actctgccgt accgcagcaa tatgccttgt aacggtctca taaaaacaga cgttgtttat
+      901 tttggagaag cgcttccaga aggtgctatg gaacgcagtg cgcaagcaat agttaaagcg
+      961 gacgagctgt gggttattgg ttccacgctg gaagtatttc cagctgccag cctcgtgccg
+     1021 ttagctgcgc gcgctggagt gccgattacg ataatgaacc tgggctctac gcaatacgac
+     1081 tatttggcag agcgtattat tcgcgaagat attgcgaaag ctctgccaaa gttagtagac
+     1141 gaaactattg caaagtgatt attgcaaagt aacagctata ccttcccaag gcgcaagcgt
+     1201 accgttttta agcgatgtaa gcgcgtgatt cacgtcgtag gttgtaacca ttacgtcacg
+     1261 ccccacaaaa gcgttagagg cgcgattttg caataattgc gtgctctgcg tagggatagg
+     1321 cacagttgag tcagtcatat taaccattac gagcatgcgt tctgtagatt ccgcggaatt
+     1381 tgcagcagat tccgcagcag tctctgcaga atcttcctgc ttttcgcaac cagatttaag
+     1441 ctcgcgcacg aaagcataca cgcactcgtc atctgcatca accaaatccc aagaaccagc
+     1501 agaaacaatc ggctccgaat gacgaagcgc aatcaaatac ttatagaaag cataaacgga
+     1561 atctgaatct tccatctgct ctgctgcgtt aatatccaca taattaggat tcacactaat
+     1621 ccacggctct gcgttattta gcgattgaac attaaaaggc atgaatcccg cgtatttaga
+     1681 agcattccac tgcattggag ttcgagaatt gtcgcggccg cgctttgcga gcgcatccat
+     1741 catcgactca gcagactgaa tatgcgcttt ttctacgcgc tgcttaaaca tattcaacgc
+     1801 ttccaaatcg cgatactgct cgagacgcgt aaagtgcgcg ttagtcatac caatttcctc
+     1861 gccttggtac acgtaaggcg tgccgcggtg catgtgaaga agcatggcaa tcgccttagc
+     1921 agagcgcacg cgcatctcct cgctagcctc actaccccag cgagaaagcg cacgcggctg
+     1981 atcgtgatta ttaaagaaca ggctcgccca accagcatcc actaccgctt gttgctgctc
+     2041 tgccatcacg ctctttaatg ccgtaagctt tagcggcaca ggattccact tagtaccgtt
+     2101 ttcgcaatcg atatccacat gattgaacag gaataacatg tcaagttcgc tgtgagcagg
+     2161 gtcagtaata taagtattac ggtgcggaga aattcccgga gcctcgccaa cagtaagata
+     2221 accttcgcga ccgtcgaaaa cttctgcacg catctcgcgc aagaattcgt ctaaacgagg
+     2281 accgtccgag cagaacggga atggcgaaga atagccgtca gcaccagctg gcaaatcttc
+     2341 aatttggcag ccatcttcac ccggcaaacg accttcagaa tcaacatgct tggaaatttg
+     2401 cgtaatcaca tccatgcgga agccatcaat tccgcgatcc atccaccaat tcatcatctt
+     2461 gtacacggca gcgcgaaccg cgggattttc ccaattcaaa tctggctgct ttggcgaata
+     2521 ctggtgaagg aagtattctc cgcgcttcgg atcgtaagtc cacgcggaac cgccgaaata
+     2581 cgaaccccac ttattcggct ccgcacccgg ctcaccaggc acacaacctt cacgcgcagg
+     2641 cctccaccaa taccaatcag cgtaatcact agaagcatct cttgaagcct ggaaccaagc
+     2701 gtgctcgtca gaagtgtgat ttactactaa atccatcacg actttaagac cgcgctcgtg
+     2761 agctccagcc agcagctcgt ccatatcttc caaagttccg aaaagcggat caatatcttg
+     2821 atagtcggaa atatcgtaac cgttatcgtc ttgtggggac ttgtaaacag ggctgagcca
+     2881 gagcacgtca acgcctaaat cagccaagta atcaaggcga gaagtaattc ccttcaaatc
+     2941 tccaatgccg tcaccgtttg tgtcctggaa gcttcgcgga taaatctgat acactactgc
+     3001 attcgcccac caagggtttg gagtagcgcc gttcgtacgc acggattctg gcaagtttgc
+     3061 tctgtcaaaa gtagtcattt aatccccatt aatttacatt gataagtatt tttattgcag
+     3121 ttttatttat tacaaataat tctatttact taataatatt tatgatttta gactctaaac
+     3181 tttatcatca tactagatgt tacgcgcgga taataaaaag cggcccgcag taaaaaccgc
+     3241 gagccgcgcc tccttctcat tcattgcaag aactataggg atactctcta aattattgct
+     3301 gattatgaag tttgaacgcg agttctgcca aatgaactcc atgcgttaag aattcgtgag
+     3361 tgcggcaaac gtaatcattt tcgcgaccga gctttgctat gtaaccatta atgtaatcga
+     3421 cttcagtctt tcgtccgcga ctcatatctt ggtacataga aggatagtgc agaggatttg
+     3481 caacgcgact tacgtaatcg atagcctcta gctcctgctg acgcgtatta accatacgaa
+     3541 ttccggcacg ctcgcacacg tcgtacgctt cgttaataag ctgttgagcc atatccatag
+     3601 ccccagggta cgaaataaac tgacccattt gaatctgata cattgtgcac aaagtgttaa
+     3661 ctacggaatt gaaaactacc ttcgccatgc acgtaccctt gaaatcttcc gtaatagtag
+     3721 gattcaatcc ggcagcttta aagtcgtctc gcatagcaag ctcaacgtca ctcacctgct
+     3781 cgttcaacgc gcacatattc atagttccaa cgccaacttt accaataaaa tcaacgtcgc
+     3841 ctggaccgtt caaaacggtt gcaatcatgg cagttccgcc gtaaatatga tcatccggga
+     3901 agtactgctg caacttttca aaatgacccc agccattcat agcagcaaac acaacctgat
+     3961 gctctttaaa caaatgctta caacgctcca acatttccgc aagctgcatt tgcttcataa
+     4021 acacaatcca cacgtctgga tcgccgtcat aatcttcagg cgtatacata ttaatcggta
+     4081 ccaaatgacg gttttcatgg tcacggctca ccattacgcc gccttgctcg cgaactttat
+     4141 tcacattctc atcccaggca tcaatgaaat caacatgaat gccagccgtt tcctgcaaca
+     4201 aaacgccata gcgatatccc atagctcccg aaccgatcat tgcatatttc atgccactca
+     4261 tagtgacacc tccttttagg taaaaatgtg cttaggcgaa attcgtgcat acatgaaaat
+     4321 tcgtcgaagc gactgtaaat atagtaaaaa gcagtaaggc tgattgtagt gactaaaatc
+     4381 agccaactgc tttttggttt ttatagcata ttacacagtt ttagaagaat gtcaaaattc
+     4441 tgtacatcgg caaggcgcga acgtcaactg aatatactta caatttatgc atgcatcacc
+     4501 tacttacaag tgaaaaaatt gacgaatttg agcaactgta ccgtaagaag cttgtgcgcc
+     4561 aaatccagta gcagcatatg cagctacata agaagcgagt gacgctgcat caaccaaccg
+     4621 catatccaca gacaaacacg caagcacagt acccataaaa gcatcgccac aacccgtagt
+     4681 atcaacggca ttgacatgct gagccataat tcgatgcacc gaattatcag cataatccaa
+     4741 aaccatagac ccacgtgagc caagtgttac tattgcctca ttaaagccaa actcatgcat
+     4801 tgcatgaagc gtatgcttcc aatcaaatga atcccaatca ccgctatctg gttctgaaat
+     4861 atgcaatagc tgtgccattt catgctcatt gaccagtaag atatctgcag atcgtataag
+     4921 atcttgcggt aatgtatcca aaaaaggcga attattaagc aaaactttta cgccatgttc
+     4981 atgcgctaag cgagcgcaca tcgtaaccga ttctaatgga ctttccaagc aaagccctaa
+     5041 tacttttgca ttagtaatag cagcttgcac agatggcgac tgaatataat caatatcaac
+     5101 ttgcgagtta gacccaggcg cataaacaat agtattttcg ccactttgcg catccactgt
+     5161 aatcactgtt gcgccactgt tgcaattggg tacatgacgt acatacgtcg tatcaacacc
+     5221 agattctcgc aaagcaccag taagaaaatc agcattagca tcatcaccta cagcaccgaa
+     5281 catacatacg tgcgcaccaa gctttgcagc agatactgcc tgattacctg acttgcctcc
+     5341 aggcagtatt cgtatttcgt tacctttaat ggtctcacca ggcataggaa gacgattagc
+     5401 aacaatagta taatccgcat tcatagaacc aactatcgct acagtaggca tcttcatatt
+     5461 tcgtaacgca ggcaatgtct catgttgcaa agccacgtta acaggctgaa tgactttaat
+     5521 cttttctaaa ctctctaacg agtcaagcat atgataacta cacataattc tccctaaata
+     5581 ttgcgcaaaa caaagcttag aatggaacgc cacaacgcag caacacgtta gaatacggag
+     5641 tagtctcacc cgttcgaatc acgaatttag cttgcgaaac aagagcctta aaccctcgtt
+     5701 cgccatcatg cggcacataa gtcaatggca caccaagcaa atccttgatc catgtttctg
+     5761 gaacatcatc acaagcttct tccgccataa taccagactc aagaacaaga tcatccttta
+     5821 ttgatgcaag cacatcagga aatcgcggta ttccaaaaac caaagctaaa tcaataactt
+     5881 ctacgcccgc tgggacaggc aggccacagt cagaaacaac aaattgatcc ttatgcctca
+     5941 attttgcaat agcagctgct aattgtgcgt tcaaaatacc atgagttaac ataattcacc
+     6001 ccatatcgtg gctcatgaaa gtgacatcaa caatgatcat caccttcata acaagtgcgc
+     6061 caccacgaac atatatgata aaaaatctta ttaagaaaac aatggcgttg agaacactaa
+     6121 agcatacggt attaataaat tttactgttg cgattatttt cacgaaagca tcatgaatgc
+     6181 tctcaacacc atataaattt tgcattagct atattaatcc ataaaactac tcaacataaa
+     6241 ctttaatgtt tatatacaga attacatagt tttatgcaaa tatgtattac tcaaaatcac
+     6301 ccacattctt tattgtcact gttttcacag taattggttc agtctttgga acactttgcc
+     6361 ctttaatagc ttttacagca gcagcaacgg cggaacgacc aagttccttt ggctgctgag
+     6421 caattgttcc agccattgcg ccggccttaa tagctttcat accgtcaaca gtgccatcga
+     6481 aaccgactac tttaatttct ttaccagctt tagctcctaa tgcttgaatg gcacctaatg
+     6541 ccatctcgtc attttcggcg taaatgccgg ttgcattcgg gtgcgattgc aacaaattag
+     6601 tagccacatt taatgcttca gcacggtcaa agttagcagt ttgttctgct acaactttaa
+     6661 tatttgaata tttcttaata cgatctttga atcctttgcc acggtcgcga gtagaagccg
+     6721 ctccaggaat accttgcaaa atcaaaactt cacccttttc gcccatacta ttagctagcg
+     6781 tgtcagcagc ctgagcacca ccagcaacgt tatcggaagc aatatgcgaa gtaacttttt
+     6841 caccagttac agaacggtca acagaaatca caggcaagtt cgcgcttagc aacggggcaa
+     6901 ctgcaggacc agcagcatca gaatctacag ggttaataat aacagctttt gcaccttgtg
+     6961 attgagcatt ctgcgcttga tcctgctgct ttgcagaatc attctgagcg tcggaaactt
+     7021 gcaaatcaac accaagtttc tttgcttcag cttgagcacc atcacgcaaa tccacaaaga
+     7081 acggattgtt caaagtagaa actagcaatg cgactttatc gccactatta gtactaccac
+     7141 atgcactcat gctgacaata agtgcagatg ctgctacaac cgcgcaagca atctttacgc
+     7201 ctcgacgcat aattggataa ttcatcatat ctcctttgat tattgccctg tgctaccgca
+     7261 agttttagtt cgataaatcc acaatgttgc agtgacataa ggctgatgtt tcaccatctc
+     7321 tttaccttat tgttacgtag ttttgagtta taaagttcag ttataatatt ccaaatcgtc
+     7381 tca
+//

@@ -1,0 +1,139 @@
+LOCUS       BGC0003065              2357 bp    DNA     linear   BCT 28-OCT-2020
+DEFINITION  Thermobifida fusca strain UPMC 901 chromosome, complete genome.
+ACCESSION   BGC0003065
+VERSION     BGC0003065
+KEYWORDS    .
+SOURCE      Thermobifida fusca
+  ORGANISM  Thermobifida fusca
+            Bacteria; Actinomycetota; Actinomycetes; Streptosporangiales;
+            Nocardiopsaceae; Thermobifida.
+COMMENT     Bacteria and source DNA available from Mohd Huzairi Mohd Zainudin,
+            Institute of Tropical Agriculture and Food Security.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:48:10
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 3057201
+            Orig. end    :: 3059558
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     subregion       1..2357
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="ribosomal"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..2357
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            2..952
+                     /gene="tgmB"
+                     /locus_tag="IM867_13375"
+     CDS             2..952
+                     /codon_start=1
+                     /gene="tgmB"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_011292230.1"
+                     /locus_tag="IM867_13375"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="ATP-grasp ribosomal peptide maturase"
+                     /protein_id="QOS58363.1"
+                     /transl_table=11
+                     /translation="MTVLILTNPFDITADDVILRLTEHGVPVVRLDPADFPQQVVLHSE
+                     IGGNGWTGTLTTPHRILDLSTVTGIWYRRPRKFRLPAQMSQAEYEFAATEARRGFGGII
+                     NSLTGWINHPSAIGRAEYKPYQLHHAVQAGLNVPRTLITNDPKQAKGWCARVGDVVYKP
+                     LSAPSWLENGDTYVVFTTPITPDQWGDPAIGRTAHMFQQRLDKEFEVRLTMVDGKAFPA
+                     AIHAHSDAARIDWRSDYDALTYSIPTVPQRVLTGARDLLRRLHLRYAALDFIVSPDGRW
+                     HFLEVNPNGQYGWIEEHTGQPISDAIADALTRKEN"
+     gene            952..1221
+                     /gene="tgmA"
+                     /locus_tag="IM867_13380"
+     CDS             952..1221
+                     /codon_start=1
+                     /gene="tgmA"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_011292231.1"
+                     /locus_tag="IM867_13380"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="putative ATP-grasp-modified RiPP"
+                     /protein_id="QOS58364.1"
+                     /transl_table=11
+                     /translation="MSTAVTDAFPLGRDENRNDQVTEWRPFGMRYGVQPTPIPVPLSDT
+                     KYDPDQQVLVVADGQPCAKIERAGTMRVTYPDGQKPGQSDVEKD"
+     gene            1227..2357
+                     /gene="tgmC"
+                     /locus_tag="IM867_13385"
+     CDS             1227..2357
+                     /codon_start=1
+                     /gene="tgmC"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) PCMT"
+                     /gene_kind="biosynthetic-additional"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_011292232.1"
+                     /locus_tag="IM867_13385"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="ATP-grasp peptide maturase system
+                     methyltransferase"
+                     /protein_id="QOS58365.1"
+                     /sec_met_domain="PCMT (E-value: 9.6e-37, bitscore: 114.8,
+                     seeds: 9, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MTTQHTSSPRALADKLAHDGKLRDPAWIKAFASIPRHLFLPHIYQ
+                     PHPDGGFTLASTPEELAYQDEGWTTQINGTFPTPKDGEPIQGQPTSSSSAPGLMAVMLE
+                     ALDVADGVRVLEVGTGTGYNAALLCHRLGDQHVVTVEVDPVLAEQAQQRLAEVGYRPIV
+                     HVGDGADGYPPGAPYDRVIVTCALTSLPWKLIEQTRQGGVLVVPVWRGHLPAGLMLRLT
+                     ATGGSLARGQVLDAYGGFMPARNTPPADAVQLLHRHQAAADEGGTARTTSLTTGTSGEP
+                     WAWFAALVVPDAVSLGTIHDDGPPRHWLLTEDSWCYLTPDGRVVQGGRRHLWDEIEAAH
+                     STWEQLGQPARHQCQVIIDPDGARLTYQGREWPILL"
+ORIGIN
+        1 catgaccgtt ctcatcctca ccaacccgtt tgacatcacc gctgacgacg taatcctgcg
+       61 gctcaccgag catggcgtac ccgtcgtccg cttggaccca gccgatttcc cccaacaggt
+      121 ggtgctgcac tccgaaatcg gtggcaacgg atggacaggc acacttacca ccccgcaccg
+      181 cattctcgac ctgtccacgg tgaccggcat ctggtatcgc aggcccagga aattccgcct
+      241 acccgcccag atgagtcaag ccgagtacga gttcgcggcc actgaggccc gccgcggctt
+      301 cggtggaatc atcaacagcc tgaccggctg gatcaaccac ccttcagcga tcggccgcgc
+      361 cgaatacaag ccctaccagc tccaccacgc ggtgcaagca gggttgaacg tgccccgaac
+      421 cctgatcacc aacgacccta aacaagccaa ggggtggtgt gcgcgggtcg gcgacgtcgt
+      481 ctacaaaccg cttagcgccc cctcgtggtt ggaaaacggc gacacgtatg tcgtcttcac
+      541 caccccgatc accccagacc agtggggtga tcctgccatc ggccgcactg ctcatatgtt
+      601 ccagcaacgg ctggataaag agttcgaggt gcgtctcacc atggtggatg gcaaggcgtt
+      661 tcccgcggcc atccacgccc actcggacgc ggctcgtatc gactggcgat ccgactacga
+      721 tgcgctaacc tacagcattc ccaccgtgcc acagcgtgtt ctaacagggg cgcgtgacct
+      781 actacgccgt ctacatctgc gctacgcggc cctggacttt atcgtctccc cggacggccg
+      841 atggcacttt ctggaggtca accccaatgg ccagtacggg tggatcgagg agcacaccgg
+      901 acaaccgatc agcgacgcaa tcgctgacgc tctcacaagg aaggaaaact aatgtcgaca
+      961 gcggtcaccg acgccttccc gcttggcagg gacgagaaca gaaacgacca agtcaccgag
+     1021 tggcgcccgt tcggaatgcg gtacggcgta cagcccacgc ctatccctgt ccccctcagc
+     1081 gacaccaagt atgaccccga ccagcaggtc ctcgtggtgg cagacggcca gccgtgcgcg
+     1141 aaaatcgaaa gagccggcac catgagagtc acctatcccg acggccagaa gccggggcag
+     1201 agcgacgtgg aaaaagacta gggctgatga ccacacagca cacctcatcg ccgcgtgcgc
+     1261 tagccgacaa gctggcacac gacggcaagc tgcgggaccc cgcctggatt aaggccttcg
+     1321 cttcgatccc ccggcacctg ttcctgcccc acatctacca gccacacccc gacggcgggt
+     1381 ttactctcgc ctccacccct gaagagctgg cctaccaaga cgaggggtgg accacccaaa
+     1441 tcaacgggac cttccccacc cccaaggatg gggaacccat ccaaggacag cccacctcct
+     1501 ccagctcagc gcctgggctc atggcggtca tgctggaagc cctcgatgtg gccgacggtg
+     1561 tgcgggtact ggaagtgggc acaggaaccg gatacaacgc cgcactgctc tgccaccggc
+     1621 ttggcgacca gcacgtggtc actgtcgaag tagaccccgt actggctgaa caggcccaac
+     1681 agcggctcgc agaagtcggc taccggccca tcgtgcacgt gggagatggt gcagatgggt
+     1741 atcccccagg cgccccctat gaccgagtga tcgtcacctg tgcactgact tccctgccgt
+     1801 ggaagctgat agagcaaact cggcaaggcg gggtgttggt ggtcccagtg tggcgtggcc
+     1861 atcttcccgc tggactgatg ctacgactca ccgcaaccgg cggcagtctc gcgcgcggcc
+     1921 aggtgcttga cgcctacggc gggttcatgc cggcccggaa cacgccacct gcggacgccg
+     1981 tgcaactgct ccaccgccac caagcagccg cggatgaagg tggcacggca cgaaccacca
+     2041 gcctcaccac gggcacaagc ggggaaccat gggcgtggtt tgctgccctt gtcgtgcctg
+     2101 acgccgtctc cttggggacc atccacgacg acgggcctcc gcgccactgg ctgctcaccg
+     2161 aagactcctg gtgctatctc acccctgatg ggcgtgtcgt ccaaggcgga cggcgccacc
+     2221 tatgggatga gatagaagcc gcccacagca catgggaaca actcggccaa ccagcacggc
+     2281 accaatgtca ggtcatcatc gaccctgacg gcgcccggct cacctatcaa ggtcgggaat
+     2341 ggccgatcct gctctaa
+//

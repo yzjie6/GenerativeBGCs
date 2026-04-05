@@ -1,0 +1,97 @@
+LOCUS       BGC0003082              2028 bp    DNA     linear   CON 03-MAR-2024
+DEFINITION  Streptomyces lavendulae subsp. lavendulae strain NRRL B-2774
+            contig30.1, whole genome shotgun sequence.
+ACCESSION   BGC0003082
+VERSION     BGC0003082
+KEYWORDS    .
+SOURCE      Streptomyces lavendulae subsp. lavendulae
+  ORGANISM  Streptomyces lavendulae subsp. lavendulae
+            Bacteria; Actinomycetota; Actinomycetes; Kitasatosporales;
+            Streptomycetaceae; Streptomyces.
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            JOEW01000030.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:49:39
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 136008
+            Orig. end    :: 138036
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     subregion       1..2028
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="NRPS"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..2028
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            complement(1231..2028)
+                     /locus_tag="IF07_RS0126325"
+     CDS             complement(1231..2028)
+                     /codon_start=1
+                     /gene_functions="biosynthetic (rule-based-clusters) CDPS:
+                     CDPS"
+                     /gene_functions="biosynthetic (rule-based-clusters) CDPS:
+                     cycdipepsynth"
+                     /gene_kind="biosynthetic"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_019889609.1"
+                     /locus_tag="IF07_RS0126325"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="tRNA-dependent cyclodipeptide synthase"
+                     /protein_id="WP_078950527.1"
+                     /sec_met_domain="cycdipepsynth (E-value: 6.9e-85, bitscore:
+                     271.2, seeds: 25, tool: rule-based-clusters)"
+                     /sec_met_domain="CDPS (E-value: 2.5e-86, bitscore: 276.0,
+                     seeds: 17, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MTITADASFEVLPFTRTCRHIWEDGDHVLIGVSPGNSYFSSERIS
+                     SLARWAVTRFAQVDFVYADLHVDRMFAAFGYTREHAEKRSAKEIKAVRRRIIKGVEESG
+                     PQHAEIRVRALSEFQSNPVYQLLHRRVLHFLETDDVFRKGCEEMALHFVGSKLPEGESI
+                     TDAQLQVCFDYMAAELPFFVDTPSILDVPSSVAAYHVKMPMTDVLFARGGGLRATRNQA
+                     YAVVRPETAGSTPPAPPHDTTARDTTAHGTAPTERTVDERRAA"
+ORIGIN
+        1 tactgccagg cgacgggcag ccgttcgggc agccgcttga tgaagccggt ccgccacacg
+       61 aggttctccg cggggacggc caggcgcagg tcgggcagcc gctcgaccag cacctccagg
+      121 gcgatctccg catgcgcccg gcccagcgcg gacgccgggc agaagtgccg gccggcgccg
+      181 aaggcgaggt gggcgttggc gctcttgcgc tccaggtcca gctcgtccgg gcgctcgaag
+      241 gcctccgggt cgaagttggc cccctccagc aggacgagca ccagctcgcc ctccttcacc
+      301 agcacgtccc cgacctggac gtccgccatc gccaggcgcg gcaggccgtc gcccacggac
+      361 aggttccagc gcagcagctc gtccaccgcc gcgcccatgc gctccgggtg ctcgcgcagg
+      421 tacccgatca gctcgggccg ctggagcagg gcgaggaccg ccagtaccag gaacgcggac
+      481 gtggagaccg cgcccgcgcc gaagagcgag acggcgacgg tcgcgaacat ctcgtccgtc
+      541 aggtgggccg actccgggtc ggcctcccgc agtccggcga actttccgag gagccccgta
+      601 cgctcctcgg cggtccgcgc cagctgcgcc ttgaacgcgt cggcgaagta accgacgtcc
+      661 ttgtaccagt tgagcgcgga gtcggcgaag ggctcgcgcg cggtcatgaa cgcgacgtcc
+      721 agccccgaca tcagccgcct ccagtcctcg aagggcacgc ccagcacctg gcagtgcagc
+      781 gccgccgaga aggggtcggc gaaccccgtc cggaggtcgg ccggcccgcc ctcggcgacc
+      841 agggcctcga tcagctcgcc ggcggtggcg cgcaggaagt cctggagccc cttctgacgg
+      901 gggttgagcg ccttcatgac cgcgttgcgc agcccggcgc tgttgatgtt gcccatgttg
+      961 ttgacgacct cgggcgggat cgtcagcgcg tactggcggg gcaccccggc gttggcggtg
+     1021 tccttgaggc tgaaccgctc gtcctccagc acctgcttgg ccagcgcgta gctgctcacg
+     1081 agccaggccg ggtccccggt gagggtgcgg acccgggcga ccggggcctt ctcgcgcagc
+     1141 cacgagcact cctcggggag cacgtcaccg cgccgggaga gggggaagtc caggagcggc
+     1201 tccggctccg gcccccgctc ctgcgtgccc tcaagctgct cgacgctcat cgacggtcct
+     1261 ctcggtcggt gctgtgccgt gcgcggtggt gtcccgcgcg gtggtgtcgt gcggcggtgc
+     1321 ggggggcgtg gacccggcgg tctcggggcg tacgacggcg tacgcctggt tgcgggtcgc
+     1381 gcgcaggccg ccgccccgcg cgaagaggac gtcggtcatc ggcatcttga cgtggtacgc
+     1441 cgccaccgag gacggcacgt cgagaatgct cggggtgtcc acgaagaagg gcagctccgc
+     1501 cgccatgtaa tcgaaacaga cctgcaactg cgcgtcggtg atggattcac cttccggcaa
+     1561 cttggacccg acaaagtgaa gggccatttc ctcacagccc ttgcggaata cgtcgtcggt
+     1621 ctccaggaaa tgcagaacgc gtcggtgcaa gagttggtaa acggggttcg actggaactc
+     1681 ggaaagtgct ctcacccgga tctcggcgtg ctgaggtcct gattcctcga cgcctttgat
+     1741 gatcctcctg cggaccgcct tgatctcctt cgccgaacgc ttctccgcgt gttcccgggt
+     1801 gtagccgaaa gcggcgaaca tccggtctac gtggaggtct gcgtagacga agtcgacctg
+     1861 cgcgaagcgg gtcacggccc atctggcgag gctcgatatg cgttcggagc tgaagtagct
+     1921 gttgccggga ctcactccga tcagcacatg gtcgccgtct tcccagatgt ggcggcaggt
+     1981 gcgggtgaag ggcagaactt cgaatgatgc gtcagctgtg atcgtcac
+//

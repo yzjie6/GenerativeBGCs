@@ -1,0 +1,127 @@
+LOCUS       BGC0003073              2596 bp    DNA     linear   BCT 14-AUG-2020
+DEFINITION  Crossiella cryophila strain DSM 44230 Ga0197469_01, whole genome
+            shotgun sequence.
+ACCESSION   BGC0003073
+VERSION     BGC0003073
+KEYWORDS    .
+SOURCE      Crossiella cryophila
+  ORGANISM  Crossiella cryophila
+            Bacteria; Actinomycetota; Actinomycetes; Pseudonocardiales;
+            Pseudonocardiaceae; Crossiella.
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:48:51
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 6697504
+            Orig. end    :: 6700100
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     CDS             complement(1..1377)
+                     /codon_start=1
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) p450"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1034:cytochrome P450 (Score: 370.5; E-value:
+                     2.2e-112)"
+                     /gene_kind="biosynthetic-additional"
+                     /locus_tag="HNR67_005804"
+                     /note="product_source=COG2124; cath_funfam=1.10.630.10;
+                     cog=COG2124; pfam=PF00067; superfamily=48264"
+                     /product="cytochrome P450"
+                     /protein_id="MBB4679686.1"
+                     /sec_met_domain="p450 (E-value: 2e-76, bitscore: 244.6,
+                     seeds: 50, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MLRMNPVILEEVMPKPIPEAPGALPLIGHALPLARRRTQFLASLA
+                     ELGGIVRINMVGMPAYVLTDPDLVWRVLVSEGRNYHRGRMFDKMTEVLGNGLATISGKA
+                     HHETRRILQPTFHHQKVASYASIMTGVADAVSSAWRAGQVIEVDQAMNDLTARVVNGIL
+                     FASEMGARAADAIQLRLPEVMKGMLTRTLIPGAWQKLPLPANIRYDRANQEMHAAIDEA
+                     IAAYRAEGKDHSDMLSTLLALRDDDGNPMTDQWIHDQVITVAVGGIETTSAALAWCLHQ
+                     IGVHPEMEQRLHAELDEVLGGRPPEFADLPRLVYTGRIVLEVLRMHAVAVYMRRTLDLT
+                     QLGEFELPAKAEIIISPYALHRNPRYFPDPDVFDPDRWASEATKKLPKGAYIPFSAGGS
+                     KCIADNFAILEITMALAVICSRWRLRGVPGKQVKEITTGATRPDRLPMIVAARTPAMAV
+                     "
+     subregion       1..2596
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="terpene"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..2596
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            complement(1..1377)
+                     /locus_tag="HNR67_005804"
+     gene            1658..2596
+                     /locus_tag="HNR67_005805"
+     CDS             1658..2596
+                     /codon_start=1
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     terpene: Terpene_synth_C"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1052:Terpene synthase/cyclase metal-binding domain
+                     protein (Score: 248.5; E-value: 1.7e-75)"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="HNR67_005805"
+                     /note="product_source=Hypo-rule applied;
+                     cath_funfam=1.10.600.10; superfamily=48576"
+                     /product="hypothetical protein"
+                     /protein_id="MBB4679687.1"
+                     /sec_met_domain="Terpene_synth_C (E-value: 2.2e-20,
+                     bitscore: 60.3, seeds: 87, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MTAMRSATIWCPYPSRRNSLVSVPEVEQRLHEWALAAGLLTEPAI
+                     EKRFRQARFGECAAYSYPDAPDLLVYAKWLTWLFVADDEFDENRAPAEGGIDRGVLGLL
+                     PLDGAAPVAARTPVTAALAELWRELAATMPRPLQERFRRNADEYARSYASDLARDRTGA
+                     VPDLRAYIELRRLSGAVETCLDLIERQPEAYLYPKLAADPATRAVRLAANDIICWSNDV
+                     FSVAKEFRHGELNNLVTVLHGASGMTWRGAVETAADMTSARTREFDDLQDRLLAEQGTP
+                     ALRQFVAGLKAWISGSLDWHRSSPRYADSLL"
+ORIGIN
+        1 tcagacggcc atcgcaggcg tcctcgccgc cacgatcatc ggcagccggt ccggccgggt
+       61 ggcgccggtg gtgatctcct tgacctgctt gcccggcacc ccgcgcagcc gccaccgcga
+      121 gcagatcacc gccagcgcca tggtgatctc caggatggcg aagttgtccg cgatgcactt
+      181 gctgccgccc gcggagaacg ggatgtaggc gcccttgggc agcttcttgg tggcctcgct
+      241 cgcccagcgg tccgggtcga agacgtccgg gtccgggaag tagcgcgggt tccggtgcag
+      301 cgcgtacggg ctgatgatga tctcggcctt ggccggcagc tcgaactcgc cgagctgggt
+      361 gaggtccagg gtgcgccgca tgtacaccgc gaccgcgtgc atccgcagca cctccagcac
+      421 gatccggccg gtgtagacca gtcgcggcag gtcggcgaac tccggcggcc gcccgcccag
+      481 cacctcgtcc agctcggcgt gcagccgctg ctccatctcc gggtgcacgc cgatctggtg
+      541 caggcaccag gccagggccg cgctggtggt ctcgatgccg ccgaccgcca ccgtgatcac
+      601 ctggtcgtgg atccactggt cggtcatcgg attgccgtcg tcatcgcgca gcgcgagcag
+      661 ggtggagagc atgtcgctgt ggtccttgcc ttcggcccgg taggcggcga tggcctcgtc
+      721 gatggcggcg tgcatctcct ggttggcccg gtcgtagcgg atgttggccg gcagcgggag
+      781 cttctgccag gcgcccggga tcagcgtcct ggtcagcatc cccttcatca cctcgggcag
+      841 ccggagctgg atggcgtcgg cggcgcgggc gcccatctcg gaggcgaaca ggatcccgtt
+      901 gaccacccgc gcggtcaggt cgttcatcgc ctggtccacc tcgatgacct gcccggcccg
+      961 ccaggccgag gacaccgcgt cggccacccc ggtcatgatc gaggcgtagg aggccacctt
+     1021 ctggtggtgg aaggtgggct gcaggatgcg ccgggtctcg tggtgcgcct tgccggaaat
+     1081 ggtggccagc ccgttgccga gcacctcggt catcttgtcg aacatccggc cgcggtggta
+     1141 attgcggcct tccgagacca gcacccgcca caccagatcc ggatcggtga gcacataggc
+     1201 cggcatgccg accatgttga tccgcacgat tccgcccagt tcggccagtg aggccaggaa
+     1261 ctgggtccgc cgccgggcca ggggcagcgc gtgcccgatc agcggcagag cgccgggagc
+     1321 ttccggaatg ggcttgggca tgacttcctc caggatcacc gggttcattc gcagcacgca
+     1381 gcacgcactg tggtcgcgga ccccggcgat ttccacagtg gacgggccct ggcggcgaac
+     1441 tctgcccctt cccgcagccg ggccgggaac tcggtgcagc ccggccctgg ttcgctcaag
+     1501 tccaggccag cgcacctgcc ggtggtcgcc ccgctgcccc ttgacgcagt gcgggcggta
+     1561 actgggtgca cgccgggttt gaacccgttc acctgagccg gaaaaggatc gacatttctg
+     1621 ggcacggacc ctgttctatc ggcagacaag gtgccccatg accgcgatgc gatccgccac
+     1681 catctggtgc ccctatccct cccggcgcaa ctcgctggtt tccgtgcccg aggtcgagca
+     1741 gcgactgcac gaatgggcgc tggccgccgg tctgctcacc gagccggcca tcgagaaacg
+     1801 cttccggcag gcccgtttcg gcgaatgcgc ggcctactcc tacccggacg cgcccgatct
+     1861 gctggtctac gcgaaatggc tgacctggct gttcgtcgcc gatgacgagt tcgacgagaa
+     1921 ccgggcgcct gccgagggcg gtatcgaccg gggtgtgctc ggcctgctgc cgctggacgg
+     1981 cgccgccccg gtcgccgcgc gcacgccggt gaccgcggcc ctggccgagc tgtggcggga
+     2041 gctggccgcg accatgcccc ggccgttgca ggaacgcttc cgccgcaacg ccgacgagta
+     2101 cgcccgctcc tacgcaagcg acctggcccg cgaccgcacc ggcgccgtgc ccgacctgcg
+     2161 cgcctacatc gagctgcggc ggctcagcgg cgcggtggag acctgcctgg acctgatcga
+     2221 acgccagcca gaggcctacc tgtacccgaa gctggccgcc gacccggcga ccagggcggt
+     2281 gcggctggcc gccaacgaca tcatctgctg gagcaacgac gtgttctccg tggccaagga
+     2341 gttccggcac ggcgagctga acaacctggt caccgtgttg cacggggcct ctgggatgac
+     2401 ctggcgcggc gcggtggaga ccgctgccga catgacctcg gcccgcacca gggagttcga
+     2461 cgacctccag gaccgcctgc tcgccgagca gggcactccc gcgctgcgcc agttcgtggc
+     2521 cgggctcaag gcgtggatct ccggcagcct cgactggcac cgcagttccc cgcgctacgc
+     2581 cgacagcctg ctgtga
+//

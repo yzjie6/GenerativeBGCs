@@ -1,0 +1,108 @@
+LOCUS       BGC0002043              2153 bp    DNA     linear   BCT 19-JUL-2020
+DEFINITION  Myxococcus xanthus DK 1622 cittilin biosynthetic gene cluster,
+            complete sequence.
+ACCESSION   BGC0002043
+VERSION     BGC0002043
+KEYWORDS    .
+SOURCE      Myxococcus xanthus DK 1622
+  ORGANISM  Myxococcus xanthus DK 1622
+            Bacteria; Myxococcota; Myxococcia; Myxococcales; Cystobacterineae;
+            Myxococcaceae; Myxococcus.
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 16:46:53
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 11280
+            Orig. end    :: 13433
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     CDS             1..84
+                     /codon_start=1
+                     /product="cittilin precursor peptide"
+                     /protein_id="QLH55578.1"
+                     /transl_table=11
+                     /translation="MKKALYSLAVLMRFARADKLSAPYIYY"
+     subregion       1..2153
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="ribosomal"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..2153
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     CDS             203..1555
+                     /codon_start=1
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) p450"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1034:cytochrome P450 (Score: 414.6; E-value:
+                     9.2e-126)"
+                     /gene_kind="biosynthetic-additional"
+                     /product="cytochrome P450 family protein"
+                     /protein_id="QLH55579.1"
+                     /sec_met_domain="p450 (E-value: 9.4e-86, bitscore: 275.9,
+                     seeds: 50, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MSQVRLPPGPQGHFIAGNLVEFSEDPLGFLTRCAREYGDVVRLGK
+                     RNFLLNHPDLIERVLVNGDGNFVKLAGVGQGKRHKGGFPEAMMNSEGEDWLRKRRLVQP
+                     AFHRKHVAACGDTVVALTETMLQTWRPGDARDVHADVSALALDIVSRFLFHTPIDDEAR
+                     HVADAVDAVMRHTDSPLRPPIWVPTPTNLRLRRALGRLNTLLATLVRRYREQPESRTDL
+                     LALLLSAPVPLSENQLRDELATMIMSGHETTADALVWAWYLLAQHPEAEARLVAELETV
+                     LGGRLPGAEDLPRLRYTEAVVKEAMRLYSPAWITSREALRDCELGGFHVPAGTMLAVSQ
+                     WVTHRDARYFDAPESFRPDRWLSEDAQRMHRYVYFPFGGGPRFCIGSALAMMETVLITA
+                     CVARRFRLELAPGCVVRPRPALALQPLGVWLIPRHRSHTTQEGEVRHAAGA"
+     CDS             1539..2153
+                     /codon_start=1
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1089:methyltransferase (Score: 76.3; E-value:
+                     4.2e-23)"
+                     /gene_kind="biosynthetic-additional"
+                     /product="methyltransferase"
+                     /protein_id="QLH55580.1"
+                     /transl_table=11
+                     /translation="MRREHEGAAVRREFFRSAYLLGAPWDIGRPQQAFVQLWEAGAISG
+                     EVLDVGCGFAENALFLAAKGLPVCGVDMMEPAILRARETASLRGLDVDLRVGNALELAT
+                     LGRRFDTILDSALLHVFEPGDRPAFAASLASVLRPGGHYHALYFRDGPRAVPPEALNAT
+                     FGEGWRVKSIQEAHYEQTDPEGAQAWLATIERVPPSSSTED"
+ORIGIN
+        1 atgaagaagg ccctgtactc tttggctgtg ctgatgcggt ttgctcgcgc ggacaagctc
+       61 tccgccccgt atatctatta ctagtcaaaa tccgtcaggc attgagccct gacggttggg
+      121 tctcaagagc tggtcgacgt gggtggagcg catggttcgc tccacctgcg ccagcggtag
+      181 ttcccccctc caggaccctt tcatgtcaca ggtgcgcctt ccgccggggc cccagggcca
+      241 cttcattgct ggcaacctgg tggagttctc cgaggacccg ctggggttcc tcacccgctg
+      301 cgccagggag tacggcgacg tggtgcgcct ggggaagcgc aacttcctcc tcaatcaccc
+      361 ggacctgatt gaacgcgtcc tggtcaacgg cgacggcaac tttgtgaagc tcgccggagt
+      421 gggccaaggc aagcgtcaca aaggcggctt tcccgaagcg atgatgaaca gcgagggcga
+      481 ggactggctg cgcaagcggc gcctcgtcca gcccgcgttc catcgcaagc acgtggccgc
+      541 gtgtggtgac accgtggtgg ccctcaccga aacgatgctc cagacgtggc gcccgggcga
+      601 cgcgcgggac gtgcacgcgg acgtgtccgc gctggcgctc gacatcgtca gccgattcct
+      661 cttccacacg cccatcgacg acgaggcccg ccacgtggcc gacgccgtgg acgctgtcat
+      721 gcggcacacc gacagccccc tgcggccgcc catctgggtg cccacgccca ccaacctccg
+      781 cctgcgccgc gccctgggcc ggctcaacac gctgctcgcg acgctcgtgc gccgctatcg
+      841 ggagcaaccg gagtcgcgca cggacctgct cgccctgctg ctgtccgctc cggtccccct
+      901 ctccgagaat caactgcgcg atgagctggc gacgatgatc atgtccgggc acgagacgac
+      961 ggcggacgcg ctcgtgtggg cctggtacct gctggcccag cacccggagg ccgaggcccg
+     1021 gctggtggcg gagctggaga cggtgctcgg gggccggctc cctggcgccg aggaccttcc
+     1081 tcgcctgcgc tacacggagg cggtggtgaa ggaggccatg cgcctgtact caccggcgtg
+     1141 gatcaccagc cgggaggcgc tgcgcgactg tgagctcggc gggttccacg tcccagcggg
+     1201 aacgatgctg gcggtgagcc agtgggtcac ccaccgcgac gcgcgctact tcgacgcccc
+     1261 cgagtccttc cgtccagacc gctggctgtc cgaggacgcc caacgcatgc accggtacgt
+     1321 ctacttcccg ttcggcggcg gcccccggtt ctgcatcggc tcggcgctgg cgatgatgga
+     1381 gacggtgctc atcaccgcgt gcgtggcacg gcggttccgg ctggagctgg caccgggctg
+     1441 cgtggtgcgg ccccggccgg cgctcgcgct ccagccgctc ggggtctggc tgattccgcg
+     1501 gcatcgctct cacacaacac aggaaggcga ggtgcggcat gcggcgggag catgaagggg
+     1561 cagcggtccg gcgcgagttc ttccgctcgg catacctgct gggcgcaccc tgggacatcg
+     1621 gacggcccca acaggccttc gtccagttgt gggaggccgg cgcgatttcc ggcgaggtgc
+     1681 tcgacgtggg ctgcggcttc gcggagaacg ccctctttct ggcggccaag ggcctgccgg
+     1741 tgtgcggcgt ggacatgatg gagccggcca tcctgcgagc acgcgagacg gcctctctgc
+     1801 gcgggctcga cgtggacctg cgtgtgggca acgccctgga gctggccacg ctgggccggc
+     1861 gcttcgacac catccttgat tcggccctgc tccacgtctt cgagcctgga gaccggcccg
+     1921 cgttcgccgc cagcctcgcg agcgtgctcc ggcccggcgg gcactaccat gcgctgtact
+     1981 tccgcgacgg accgcgcgcc gttccaccgg aggcactgaa cgcgaccttc ggggaaggct
+     2041 ggcgcgtgaa gtccatccag gaggcgcact acgagcagac cgacccggag ggcgcgcagg
+     2101 cctggctcgc caccatcgaa cgggtgcctc cttcgtcatc gacagaggac tga
+//

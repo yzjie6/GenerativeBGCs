@@ -1,0 +1,82 @@
+LOCUS       BGC0003140              1428 bp    DNA     linear   PLN 28-OCT-2014
+DEFINITION  Penicillium expansum strain MD-8 contig274, whole genome shotgun
+            sequence.
+ACCESSION   BGC0003140
+VERSION     BGC0003140
+KEYWORDS    .
+SOURCE      Penicillium expansum
+  ORGANISM  Penicillium expansum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium.
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:53:23
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 7880
+            Orig. end    :: 9308
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     subregion       1..1428
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="terpene"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..1428
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            138..1295
+                     /locus_tag="PEX2_081870"
+     mRNA            join(138..444,529..802,881..1295)
+                     /locus_tag="PEX2_081870"
+                     /product="Terpenoid synthase"
+     CDS             join(138..444,529..802,881..1295)
+                     /codon_start=1
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     terpene: Terpene_synth_C"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1052:Terpene synthase/cyclase metal-binding domain
+                     protein (Score: 84.8; E-value: 1.2e-25)"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="PEX2_081870"
+                     /product="Terpenoid synthase"
+                     /protein_id="KGO52657.1"
+                     /sec_met_domain="Terpene_synth_C (E-value: 1.6e-22,
+                     bitscore: 66.3, seeds: 87, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MTRMKNSSSNVTSASGSGSGSGGFVQPLPASLLQPICHPRVTEVT
+                     SEVNDYFLTHWDFPSEKLRKKFVAADFPGVTCLYFPNALDDRISFACRLLTVLFLIDDL
+                     LEFMSLEQGSAYNEKLIPISRGDVLPDRSVPVEYITYDLWESMRGHDRSMANEILEPVF
+                     VFMRAQTDRTRIRPMGLGSYLEYRERDVGKALLAALMRFSMALHVSPVELTILGEIDVN
+                     CSKHLSVINDVYSYEKELRASKTAHAEGGALCTSVRILADEMAISIEAAKRVLVFMCRE
+                     WELRHQVLVEELRADGRQSASLTAYVKGLEFQMSGNEEWSKTTLRYNNVV"
+ORIGIN
+        1 aataggcaat tccccgaaac aagccgtaca tagagggcag tcagtattct tacctgtgag
+       61 aaagccaagg tctcaactgt cattgatcca tttgtttgta atttgcccca attcccccct
+      121 gtattcgttc tcgtgtgatg acaaggatga agaactcctc gtccaacgtc actagcgcct
+      181 caggctcagg ctcaggctca gggggcttcg tgcagcccct accagcgtcc ctcctccagc
+      241 caatatgtca ccctcgagtg acagaggtga caagcgaagt gaacgactat tttctcaccc
+      301 attgggactt cccttccgag aaattacgca agaagttcgt tgctgccgac tttccagggg
+      361 tcacctgcct ttacttcccg aatgcgttgg atgaccgcat tagctttgcc tgccgccttc
+      421 tgacggtttt gttcctcatt gatggttagt gccccccccc ctcccagtgg aagaagataa
+      481 gaaccaaaat aaaaatgaga aatggtttct aactgaatgc tgatacagac ctgcttgaat
+      541 tcatgtccct cgagcaagga tcggcctata atgagaagct tatcccaatt tcccgtggcg
+      601 atgttctccc agaccgttcc gtgcccgtgg agtatatcac gtacgatttg tgggagagca
+      661 tgcgtggtca tgatcgttcg atggcaaatg agattctcga gccggtcttt gttttcatgc
+      721 gcgcccagac tgaccgtact cgtatccgac ctatggggct gggttcttac ctggaatacc
+      781 gtgagcgcga tgtggggaaa gcgtaagtta cgagttcttt tcgtgttttg ctagctttct
+      841 ctctatctct gacactcaag ttctcttatt ctgcctttag cctattggcc gccctgatgc
+      901 gtttctcaat ggccttacat gtcagccccg ttgagttgac tatactggga gagattgatg
+      961 tcaattgctc caagcatttg tcggtcatca atgatgtcta cagctacgag aaagaacttc
+     1021 gtgcgtccaa gaccgctcac gccgagggag gagctctgtg cacctccgtg cgcattctag
+     1081 ccgatgagat ggccatttcc atcgaggccg ccaagcgtgt gctggtcttc atgtgtcgtg
+     1141 aatgggagct tcgccaccag gtcttggtgg aagaactgcg tgccgatggg cgtcagtcag
+     1201 cctcgctgac agcgtatgtt aaaggtctcg agttccagat gagtggtaac gaggagtgga
+     1261 gtaagaccac tttacgatat aacaatgtgg tctaggagtt ctagtctgtg ctcgtgttaa
+     1321 tcaatcaatc aatcaaagtt gatttaacat gttgcagtca atcaatcaat caatcaaagt
+     1381 tcaattaacc tgttgcagtc taactagttg cgtatgacta tgcaggcg
+//

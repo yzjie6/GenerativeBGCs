@@ -1,0 +1,110 @@
+LOCUS       BGC0003159              2721 bp    DNA     linear   PLN 31-MAR-2020
+DEFINITION  Colletotrichum gloeosporioides strain Lc1 consensus_12, whole genome
+            shotgun sequence.
+ACCESSION   BGC0003159
+VERSION     BGC0003159
+KEYWORDS    .
+SOURCE      Colletotrichum gloeosporioides
+  ORGANISM  Colletotrichum gloeosporioides
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Sordariomycetes; Hypocreomycetidae; Glomerellales; Glomerellaceae;
+            Colletotrichum; Colletotrichum gloeosporioides species complex.
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:55:24
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 108832
+            Orig. end    :: 111553
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     gene            1..2721
+                     /locus_tag="GCG54_00000376"
+     mRNA            join(1..315,387..658,722..1520,1590..1744,1816..1979,
+                     2031..2138,2196..2256,2313..2721)
+                     /locus_tag="GCG54_00000376"
+                     /product="Ophiobolin F synthase"
+     subregion       1..2721
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="terpene"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..2721
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     CDS             join(1..315,387..658,722..1520,1590..1744,1816..1979,
+                     2031..2138,2196..2256,2313..2721)
+                     /codon_start=1
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1182:Polyprenyl synthetase (Score: 222.7; E-value:
+                     9.2e-68)"
+                     /gene_kind="biosynthetic-additional"
+                     /locus_tag="GCG54_00000376"
+                     /product="Ophiobolin F synthase"
+                     /protein_id="KAF3810331.1"
+                     /transl_table=11
+                     /translation="MPTFAQPVPDDIVASSGLRSKFRPHVHGNYQICVEPSKGMETFYN
+                     DAMSTQLESKTLADIPGLGLVHPMALAMANCLPERLPAITRFADFTILNDDYYDIAKRD
+                     EIEKVNSDIQNALQDASVPGSKTQSSAGSDKDFKPKQMQAALVLELIMLDQQLAMDIMS
+                     SYSQGLDVATFAPDNLRTLDEYLPVRKVNSGLDVTAEMVCFGMGLRISPSDKAKLRPVV
+                     DLANFAITVVNDLYSWPKEIKCHLETPGSELPFNAVAVLMRHGGYSEPEAFRILYAKQA
+                     ELEGEHLRQLDALRAQEGGRLPENQELYVENAQRAVCGSELWSVYTRRYPSKADLRQPE
+                     VEFVDGAFRYVADGEGAGEEKVVSESVESLPTTEVEDEFSSSDASPGSVDQAISTPPST
+                     TFCSCEDEEEHIADVKEVCEDEADGVRDMSDISQKSKKKIDTLLPEGPGLTTYASRLEA
+                     APDHAVIAPIKYLATLPSKGVRDTFIDALNWWLEVPEDSLRTIKTIISMLHDSSLILDD
+                     IEDDSTLRRGSPAAHMIFGTAQCINAANHIFVMVLAELQKLRSPLKTAILIATEELESL
+                     FVGQADDLHWKYHVDCPSTEDYMEMIDNKTGGLFRLCVRLLQAESTRTDVLDLDPRPFV
+                     RQLSLFFQIRDDYQNLVSDAYAKQKGFAEDLDEGKISLPIILTLQRARTRPEIMGVLKH
+                     KQPGPMAIEMKQYIVREMEKCGALESTRELLQGMQEDLIAELRRLEGDFGAKNATLELV
+                     LRRLWIS"
+ORIGIN
+        1 atgcctacat tcgcacaacc agttccggac gacatcgtcg cctcgtcggg gctgcggtca
+       61 aagttccgac ctcatgtgca cggcaactac caaatctgcg tagagccgtc aaaggggatg
+      121 gagacattct acaacgacgc catgtcaaca cagctcgagt ccaagactct ggcagatatc
+      181 ccagggctcg ggctggttca cccaatggcg ctggccatgg cgaactgtct tccggagcgg
+      241 ctgccggcca tcacacgatt tgcggatttt accattttga atgatgatta ttatgatatt
+      301 gcgaagagag acgaggtgag atatacgccg aggctcaagc aggagccgtt ttgaatactg
+      361 tggactgacg cggagtttct tgacagatcg agaaagtcaa cagtgatatc caaaacgcgc
+      421 tgcaagacgc ctcagtgccc ggcagtaaga cccagagctc ggccggctct gataaagact
+      481 tcaagccaaa acagatgcag gctgctctgg tccttgagct gatcatgctg gatcagcaac
+      541 ttgcgatgga catcatgtca tcctacagcc agggcctcga tgtcgccacc tttgctccag
+      601 acaatctgag gacgttggac gagtacttgc ccgtgcggaa ggtcaactca ggtcttgagt
+      661 aagtaaacct gcctcaattg gtaccgccat tgagaacatc tttactaacc catcttccta
+      721 gcgtcaccgc tgaaatggtc tgcttcggca tgggcctccg catctccccc tcagacaaag
+      781 ccaagctccg cccggtagtc gacctcgcca acttcgccat caccgtcgtc aacgacctct
+      841 acagctggcc caaggagatc aagtgccacc tcgagacccc aggctccgag ctgcccttca
+      901 acgccgtggc cgtgctcatg cggcacggcg gctactccga gcccgaggcc ttccgaatcc
+      961 tctacgccaa gcaggccgag ctcgagggcg agcacctccg ccagctcgac gcgctccgcg
+     1021 cgcaggaggg cggccggctg cccgagaacc aggagctcta cgtcgagaac gcgcagcgcg
+     1081 cggtctgcgg ctcggagctg tggagcgtgt ataccaggcg gtacccgtcc aaggcggact
+     1141 tgcggcagcc ggaggttgag tttgtggacg gggcgttcag gtatgtggct gacggcgagg
+     1201 gcgccggtga ggagaaggtt gtctcggaga gtgtcgagtc cctgccgact actgaggttg
+     1261 aggacgagtt ctcctcgtcg gatgcgtctc cgggctcggt tgaccaggct atttcgaccc
+     1321 cgccgtcgac gacgttctgc agctgcgaag acgaggagga gcatatcgcc gacgttaagg
+     1381 aagtatgcga agacgaggcc gacggtgtcc gggacatgtc ggacatctcc caaaagtcca
+     1441 agaagaagat cgacaccctg cttccggaag gacctggact cacaacctac gcgtcccgac
+     1501 tggaggctgc tcccgaccac gtcagttgac ccctcgaaga catcccaaaa gcaaaagata
+     1561 gacagctaac ccatgtttta tcttcacagg ccgtcatcgc tccaatcaag tacctcgcca
+     1621 cactcccctc caaaggcgtc cgagacacct tcatcgacgc gctcaactgg tggctcgagg
+     1681 tccccgaaga ctcgctgcgc acaatcaaga ccatcatcag catgctccac gactcatctc
+     1741 taatgtacga aaaaaaaaac ccactcatcc gcaatagcac gaaaacagaa aaaagctgac
+     1801 gttgcgataa cacagtttgg acgacatcga ggacgactct accctgcgga gaggcagccc
+     1861 cgcggcgcac atgatcttcg gaacagcgca gtgcatcaac gccgcgaacc acatcttcgt
+     1921 catggtcctg gccgagctgc agaagctgcg cagcccgttg aagactgcta tcctcatcgg
+     1981 tacgtccagc actgtcaggg tgtggagaag tatcaacaac tgacacgaag caacagagga
+     2041 gctggaaagc cttttcgtcg gacaggcaga tgacctgcac tggaagtacc acgtcgactg
+     2101 cccctcgacg gaggactaca tggagatgat tgacaatagt aagtcgccat ccaccaccac
+     2161 agcaaacacc atatatacta accgaccacc cccagaaact ggcggcctct tccgtctatg
+     2221 cgtccgactc ctccaggcag aatcaacaag aaccgagtaa gcaccccttc tctctctctt
+     2281 cccctcccca accgcactaa caccccaccc agcgtcctcg acctcgaccc gcgccccttc
+     2341 gtccgccaac taagcctctt cttccaaatc cgcgacgact accagaacct cgtctccgac
+     2401 gcctacgcca agcagaaggg cttcgccgag gacctcgacg agggcaagat ctcgctgccc
+     2461 atcatcctca cgctgcagcg cgcgcgcacg cgccccgaaa tcatgggcgt gctcaagcac
+     2521 aagcagcccg gcccgatggc gatagagatg aagcagtaca ttgtgaggga gatggagaag
+     2581 tgcggcgcgc tggagtccac gagggagctg ctgcagggga tgcaggagga cttgattgcg
+     2641 gaactgagaa ggttggaggg cgacttcggc gcaaagaacg cgacgttgga gttggtgttg
+     2701 aggaggttgt ggatctcttg a
+//

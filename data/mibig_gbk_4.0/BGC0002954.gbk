@@ -1,0 +1,208 @@
+LOCUS       BGC0002954              3734 bp    DNA     linear   CON 02-MAY-2024
+DEFINITION  Actinospica robiniae DSM 44927 ActroDRAFT_ARA.1, whole genome
+            shotgun sequence.
+ACCESSION   BGC0002954
+VERSION     BGC0002954
+KEYWORDS    .
+SOURCE      Actinospica robiniae DSM 44927
+  ORGANISM  Actinospica robiniae DSM 44927
+            Bacteria; Actinomycetota; Actinomycetes; Catenulisporales;
+            Actinospicaceae; Actinospica.
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            KI632511.1.
+            URL -- http://www.jgi.doe.gov
+            JGI Project ID: 98017
+            Source DNA and organism available from Hans-Peter Klenk at the
+            German Collection of Microorganisms and Cell Cultures (DSMZ)
+            (hans-peter.klenk@dsmz.de)
+            Contacts: Jonathan  Eisen (jaeisen@ucdavis.edu)
+            Tanja Woyke (microbe@cuba.jgi-psf.org)
+            Whole genome sequencing and draft assembly at JGI
+            Annotation by JGI
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this
+            project in a timely fashion and we welcome collaborative
+            interaction on the project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:35:04
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 6106307
+            Orig. end    :: 6110041
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     CDS             1..1446
+                     /codon_start=1
+                     /gene="amcB"
+                     /inference="COORDINATES: protein motif:HMM:NF041718.1"
+                     /locus_tag="ACTRO_RS25995"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="cyclophane-forming radical SAM peptide maturase
+                     AmcB"
+                     /protein_id="WP_211244412.1"
+                     /transl_table=11
+                     /translation="MRRLQGPYAVRYDWTMRGGIQHPPHTFLDGVPSEAQAIRAGSDGF
+                     CLAASGDISLAGVAWCRVTRGPLEWQVLQEPDADAYRLAGLPSDDTDFSVEEPTVTAEM
+                     EITAPEERYDRFISRTFGTVVLQPTTFCPWACDYCYLPTKDQRFTMPLEVASVVAASVR
+                     EQDSAGCVEVVWHGGEPLAVGLEHFVRLFEPFESLRREGRVRHAVQTGAGLITAGWCEM
+                     FADFEVTVGVSIDGPEWANSQRRDRSGRSVYGRAMHGIEVLRSHGIAFSAIAVVTPETI
+                     HRADDLADFFENLGCTHVGFNIEEYEGANHARPGIAASDAQEFWSTLLRRRAAGSSLRV
+                     RELDRLFSFLRQSRTLASPWSEHLYEPIPTVAWNGDTVLLSPELAGVHAPQYANFVLGN
+                     ALTEGLLAMLARAHRARYVDEFTQALGACATGCEFYDFCRGAQAGNRYFEHSTFTATET
+                     AYCRNTRQALVHAVNDQIKGATT"
+     subregion       1..3734
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="ribosomal"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..3734
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            1..1446
+                     /gene="amcB"
+                     /locus_tag="ACTRO_RS25995"
+     gene            1443..1622
+                     /gene="amcA"
+                     /locus_tag="ACTRO_RS26000"
+     CDS             1443..1622
+                     /codon_start=1
+                     /gene="amcA"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_017606138.1"
+                     /locus_tag="ACTRO_RS26000"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="multiple cyclophane-containing RiPP AmcA"
+                     /protein_id="WP_034267136.1"
+                     /transl_table=11
+                     /translation="MTILQELAASDAPQLLQLIADGATDAPAPIMAGFDNRPTWDNKGG
+                     SFDNRPSWDNWSKK"
+     gene            1714..2382
+                     /locus_tag="ACTRO_RS43915"
+     CDS             1714..2382
+                     /codon_start=1
+                     /gene_functions="other (smcogs) SMCOG1286:Pentapeptide
+                     repeat protein (Score: 54.5; E-value: 1.2e-16)"
+                     /gene_kind="other"
+                     /inference="COORDINATES: protein motif:HMM:NF024986.4"
+                     /locus_tag="ACTRO_RS43915"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="pentapeptide repeat-containing protein"
+                     /protein_id="WP_051451401.1"
+                     /transl_table=11
+                     /translation="MDRLAIRDTTVELPAFDADVKLTPVASLDEQEVTSDFLLDGASLR
+                     SLDLDHVRLLTGRIQELRTSRASFTEVRGDSVEFSGCDLSSLTWTASKLTRVRFTNCKL
+                     LGAHLSDLTLEHVTFANCKLDYAIMERVKATGPVVFSGCSLAEAQFDTCDLTNTLFDGC
+                     SMHLTEFAHGIYHRCDLRGNDLSSARGVANLRSVVIDRPQILQLAEALTADLDVTFGDE
+                     "
+     gene            2411..3121
+                     /locus_tag="ACTRO_RS26010"
+     CDS             2411..3121
+                     /codon_start=1
+                     /inference="COORDINATES: ab initio prediction:GeneMarkS-2+"
+                     /locus_tag="ACTRO_RS26010"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /product="hypothetical protein"
+                     /protein_id="WP_034267140.1"
+                     /transl_table=11
+                     /translation="MSIGIAYTDSRRFQDRSSVTTVVYGTDDPDYDAVALLPADDWTAL
+                     PSQIASRLHAFPGAEASTVVELVRVPEMPLLDAVHRFEPLGDRHPAQFLGYTECAANQR
+                     TTTTDHRTRRRLGIHLDNFDRMPLDRRHQSRRRIGINLGPGPRYLLLTTQDIKDIARLS
+                     PLIEREPHTHQVRSYVAGGGRLACVRFRLEPGEGYIAPTELIPHDGSTCGVDSPSTIAF
+                     WLGEWPRGALLPAV"
+     gene            3258..3734
+                     /locus_tag="ACTRO_RS26015"
+     CDS             3258..3734
+                     /EC_number="3.4.23.43"
+                     /GO_component="GO:0016020 - membrane [Evidence IEA]"
+                     /GO_function="GO:0004190 - aspartic-type endopeptidase
+                     activity [Evidence IEA]"
+                     /codon_start=1
+                     /inference="COORDINATES: protein motif:HMM:NF013632.4"
+                     /locus_tag="ACTRO_RS26015"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="prepilin peptidase"
+                     /protein_id="WP_051451402.1"
+                     /transl_table=11
+                     /translation="MASLISTVFQILAFGVFLAGTASLAVIDARTMRLPNRVLYPVTAT
+                     SFGLLAAAAAIGGGWARLGIALGAATVLVLVFGLLHRLTSLGCGDVRLVGLLGLVLGWV
+                     GPGVVVTGLLLGVLLAAVVATCLLVTRRMGRGEMLAYGPFLIGGAWLALLLQAT"
+ORIGIN
+        1 atgcgcagac ttcaaggacc gtacgcggtc cgctacgact ggacgatgcg aggcggaatc
+       61 cagcatccgc cgcacacgtt cctcgacggc gtgccgtccg aggcgcaggc catcagagct
+      121 ggtagcgacg ggttctgcct cgccgccagc ggggacatct cccttgccgg cgtcgcgtgg
+      181 tgtcgcgtga cgcgcggacc gctcgaatgg caagtgcttc aggagcctga tgccgatgca
+      241 taccggcttg cagggcttcc atccgatgac acggacttca gcgtggagga accgaccgtg
+      301 acagccgaaa tggagatcac cgcgcctgag gaacgctacg accgatttat cagccgaacg
+      361 ttcggcaccg ttgttctcca accaaccacc ttctgcccgt gggcgtgcga ttactgctac
+      421 ctgccgacca aggaccagcg gttcacgatg cccctcgagg ttgcgtcagt ggtcgctgcg
+      481 agtgtccgcg agcaggactc cgccggatgc gtcgaagtgg tctggcacgg cggcgagccc
+      541 ttggcagtcg ggcttgagca cttcgtcagg ctgttcgaac cgttcgagtc gcttcgccgc
+      601 gaaggccgtg tccgccacgc tgtccagacc ggggccggcc tcatcaccgc agggtggtgc
+      661 gagatgttcg ccgacttcga ggtcaccgtt ggcgtcagca tcgacgggcc ggagtgggcg
+      721 aacagccagc ggcgcgatcg gtccggacgc agcgtgtacg gccgcgctat gcacgggatc
+      781 gaggtgctgc gatcgcacgg catcgccttc agcgccatcg cggtcgtcac acccgagacg
+      841 attcatcgcg cggacgatct cgcggacttc ttcgagaacc tgggctgtac gcacgtcggc
+      901 ttcaacatcg aggaatacga aggcgccaac cacgcgcgtc cgggaatcgc agcgagcgac
+      961 gcccaggagt tctggagcac gctgctgcgc cgccgggcgg cgggctcatc gctgcgggtg
+     1021 cgtgagttgg accggctctt ctcgttcctt cgccagtctc ggactctggc ttctccctgg
+     1081 tcagagcatc tgtacgagcc gataccgacc gtggcatgga acggcgacac cgtgctgctc
+     1141 tcccccgaac tggcgggagt tcacgcgccg caatacgcga atttcgtgct tgggaacgcg
+     1201 ctgaccgaag ggcttctcgc gatgctcgcc cgcgcccacc gtgcccgcta cgtggacgag
+     1261 ttcacccagg cgctcggtgc ttgcgccacc gggtgcgagt tctacgactt ctgccgcggc
+     1321 gcgcaggcag ggaaccgcta cttcgagcac tcgaccttca cggccacgga aaccgcctac
+     1381 tgccgcaaca cccgtcaagc actcgttcac gccgtgaacg accagatcaa gggagccacg
+     1441 acatgaccat cctgcaagaa ctggccgcat ccgacgcgcc gcaacttctc cagctcatcg
+     1501 ccgacggcgc gacggacgca ccagcaccaa tcatggccgg attcgacaac cgaccgacct
+     1561 gggacaacaa gggcggctca ttcgacaacc gacccagctg ggataactgg tccaagaagt
+     1621 agccggagca cggaagtacc cggggcggct gccgcctgga ctgccgtcgc ggatcaccac
+     1681 aaaccgctac gaactaacga ctaaggtgac gatatggacc gactcgccat ccgcgatacg
+     1741 accgtcgaac tgccggcctt cgacgccgac gtgaagctga cgcccgtcgc gtcgctcgac
+     1801 gagcaggagg tgacgtcaga ctttctgctc gacggcgcaa gcctgcgcag cctcgacctc
+     1861 gaccacgtcc ggctcctgac cggccggatc caagagctgc gcacctcacg agcaagcttc
+     1921 acggaggtcc gcggcgactc ggtcgagttc agcgggtgcg acttgtcctc gctcacctgg
+     1981 acggcgagca agctcacccg tgtccggttc accaactgca aactgctcgg cgctcacctg
+     2041 tccgatctga cgctcgagca cgtgaccttc gccaactgca agctcgacta cgccatcatg
+     2101 gagagggtca aggccaccgg ccccgtcgtc ttctccggct gctccctcgc cgaagcccag
+     2161 ttcgacacct gcgacctgac gaacacgctg ttcgatggct gctcgatgca cctcacggag
+     2221 tttgcgcacg gcatctacca caggtgcgat ctccgcggga acgacctgtc gtcggcacga
+     2281 ggcgtcgcca acctccgcag tgttgtcatc gaccgccccc agatactgca gctcgccgaa
+     2341 gcgttgaccg ccgacctcga cgtcaccttc ggcgatgaat gagagtcgca ctcctacggc
+     2401 agagatcggt gtgagcatag gcatcgccta cacggattct cggcgattcc aagatcgctc
+     2461 ctccgtcacg accgtcgtct acgggaccga cgatccggac tacgacgcag tcgccctctt
+     2521 gcctgccgac gattggaccg ctctgcccag ccagattgca tcccgactgc acgctttccc
+     2581 cggcgcagaa gcgagcaccg tcgtcgaact ggtccgcgtg ccggagatgc ccctgctcga
+     2641 cgccgtccac cgattcgagc cgctcggcga ccgccatccg gcccagttcc tcggctacac
+     2701 cgagtgcgcc gcgaaccagc ggaccaccac gacggaccac cgcaccaggc ggcgactcgg
+     2761 catccacctc gacaacttcg accgcatgcc cctcgatcgc cgccaccaga gccgccgccg
+     2821 cataggcatc aacttagggc ccggccctcg gtatctcctg ctcacgacgc aggacatcaa
+     2881 ggacattgct aggctctcgc ccctcatcga gcgtgagcct catacgcatc aggtgcgcag
+     2941 ttacgtagcc ggcggtgggc ggctcgcctg cgtgagattc cggctggagc cgggcgaagg
+     3001 gtacatcgca ccgacggaat tgattcctca cgacggttca acgtgcggag tcgattcgcc
+     3061 gtccaccatc gccttctggc tcggcgagtg gccccgtgga gcgctgttgc cggcggtgtg
+     3121 accgcgcacc atacgaattc gatcacgcgg ctgggtaggc cgtcccggcc cgagagctcc
+     3181 gccagaacgg gtgagaccta tccagctgcc agcgtggcgg atggcttcgc gtccgtcctt
+     3241 gtttacgatc agctggcatg gcgtcgctga tctccacggt cttccagatt ctggctttcg
+     3301 gagtcttcct ggcgggcacc gcctcgctgg cagtgatcga cgcgcggacg atgcgtctgc
+     3361 cgaaccgcgt cctctatccg gtcaccgcca ccagcttcgg gttgcttgcg gcagctgctg
+     3421 ctatcggagg gggatgggct cggctcggta tcgccctcgg cgcggcaacg gtcctggttc
+     3481 tcgtgttcgg gctactacac agacttacga gcctggggtg cggtgacgtc cgactcgttg
+     3541 ggcttctcgg cttggttctt ggctgggtcg ggccgggcgt cgtcgtcacc ggtctgctgc
+     3601 tcggcgtgct cctcgcagca gtggtcgcga cgtgtctgct ggtgacgcga cggatgggcc
+     3661 gcggggagat gctcgcttat gggccctttc tgatcggtgg cgcctggctg gccctgctat
+     3721 tgcaggccac ttag
+//

@@ -1,0 +1,184 @@
+LOCUS       BGC0002969              3828 bp    DNA     linear   BCT 28-JAN-2014
+DEFINITION  Salinispora arenicola CNS-205, complete genome.
+ACCESSION   BGC0002969
+VERSION     BGC0002969
+KEYWORDS    .
+SOURCE      Salinispora arenicola CNS-205
+  ORGANISM  Salinispora arenicola CNS-205
+            Bacteria; Actinobacteria; Micromonosporales; Micromonosporaceae;
+            Salinispora.
+COMMENT     URL -- http://www.jgi.doe.gov
+            JGI Project ID: 4002390
+            Source DNA and bacteria available from Paul Jensen
+            (pjensen@ucsd.edu)
+            Contacts: Paul Jensen (pjensen@ucsd.edu)
+            Paul Richardson (microbes@cuba.jgi-psf.org)
+            Quality assurance done by JGI-Stanford
+            Annotation done by JGI-ORNL and JGI-PGF
+            Finishing done by JGI-PGF
+            Finished microbial genomes have been curated to close all gaps with
+            greater than 98% coverage of at least two independent clones. Each
+            base pair has a minimum q (quality) value of 30 and the total error
+            rate is less than one per 50000.
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this
+            project in a timely fashion and we welcome collaborative
+            interaction on the project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).
+            ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:36:55
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 1495977
+            Orig. end    :: 1499805
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     CDS             1..1347
+                     /codon_start=1
+                     /db_xref="InterPro:IPR001128"
+                     /db_xref="InterPro:IPR002401"
+                     /db_xref="InterPro:IPR002403"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) p450"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1034:cytochrome P450 (Score: 356.9; E-value:
+                     2.8e-108)"
+                     /gene_kind="biosynthetic-additional"
+                     /locus_tag="Sare_1286"
+                     /note="PFAM: cytochrome P450; KEGG: mxa:MXAN_2304
+                     cytochrome P450 family protein"
+                     /product="cytochrome P450"
+                     /protein_id="ABV97189.1"
+                     /sec_met_domain="p450 (E-value: 1.3e-68, bitscore: 219.4,
+                     seeds: 50, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MPAWKALPAAVRDTHRAFVDVGNWSDGDVVRVSLGVSRPYLVTNP
+                     AHVQEVLHERAAIYPRGDDTALWRSVRKLVGDGILAEGDAWAASRRVLAPMFRPARINA
+                     MVDTMADAIAGAIDDLHGAATAGTPIDVGRELSRIVCSAIMRVFFADRITVRDALRIMK
+                     AQETIVTAMAPRILAPLVPWWIPMPGDRRFRAAVRSIDDILLPVLRQAQRQPDDGDDLL
+                     SRLVHARADDGRALSEKRMRDDLVSMVAVTTETSTVVLTWLWPLLANHPDVANRLYDEI
+                     DRVVGGGPVRGDHLAELTYTRMVLDELLRLYPAGWILPRRAATTDILGGVRINKGATVI
+                     LSPYVTQRMTAWWGPTAEAFDPERFAAGREAADGRHRYAYYPFGVGMHRCLGEHLFNLE
+                     AILIVATLLSRFRFALTDTSMPGVKVAASTRPARTVEVILKPVAPVPAR"
+     subregion       1..3828
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="terpene"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..3828
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            1..1347
+                     /locus_tag="Sare_1286"
+     gene            1356..2243
+                     /locus_tag="Sare_1287"
+     CDS             1356..2243
+                     /codon_start=1
+                     /db_xref="InterPro:IPR005630"
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     terpene: Terpene_synth_C"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="Sare_1287"
+                     /note="PFAM: Terpene synthase metal-binding domain protein"
+                     /product="Terpene synthase metal-binding domain protein"
+                     /protein_id="ABV97190.1"
+                     /sec_met_domain="Terpene_synth_C (E-value: 3.5e-15,
+                     bitscore: 43.8, seeds: 87, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MPTHHAGNGFAVASEQGRICALAARGQRDLRQCVRAYPSLFPNPP
+                     VDDTMLSALALSTAFIAPWCSAEQLRVANRASLWVTAEDWQVDRVATSDDAVRSIVSAC
+                     QAVADGAAPDVDCALGQLLAEIRDELATGAGFTEWQPVWREEVHRMLTADIREWEWRHS
+                     ARPPSFAEYLDNADNYGASFVNVSHWIVTGDAQTRSHLPELIAASREVQRILRLSNDLA
+                     SYERDIRSGDLNALLLVDREEVSRQLRDGIRACQDHLHTLEVTCPREALYLAREAGFTT
+                     GFYHGADYWGDSER"
+     gene            2233..3828
+                     /locus_tag="Sare_1288"
+     CDS             2233..3828
+                     /codon_start=1
+                     /locus_tag="Sare_1288"
+                     /note="KEGG: bja:blr2149 hypothetical protein"
+                     /product="conserved hypothetical protein"
+                     /protein_id="ABV97191.1"
+                     /transl_table=11
+                     /translation="MSADLGASAPAAVEPVPAGRADTAESLVAELIRVPAGQVSPSLYE
+                     TARLVSLAPWLTGHAERVRHLLTSQRPDGGWGPPEGYALVPTVSATEALLAELRTAPAA
+                     EPLIRATDAGLTVLTRWLSAPRSLPDTPAIDLIVPALAAAINRHLVEADLPSALGHWRA
+                     AARLRLPAGMDDRRLAAVHGLIGAGAALPEKLLHALEVVGSAAHGVRGVRPTRSGIVGA
+                     SPAATAAWLGSPAGGHRHPGASAYLERVVRQHDALAPCATPITVFERAWVVATLARAGL
+                     AVTQAPDLIPGLIADLTSVGTCAGPGLPPDADTTAVTLYALAHLGFSVDLECLWRYETP
+                     DGFCTWPGEDGFSLSTNAHVLDVVGLILTTDPGADRRHVTAARRLADALRQRQQADGSW
+                     QDRWHASPYYATMCCALALAGFPGPGTAVTSLARAASWIVDTQRANGSWGRWKGTVEET
+                     AYAVQVLATVGRGRPGADEAIRRGRAYLTEGTTAHDPGPPLWHDKDLYRPAMIVRAAVV
+                     AARHLAGAAGPATA"
+ORIGIN
+        1 gtgcccgcgt ggaaggcgct gccggcggcc gtccgggaca cgcaccgggc tttcgtggat
+       61 gtcggaaact ggtccgacgg cgacgtggtg cgggtttcgc ttggtgtctc gcgtccctac
+      121 ctggtcacca accccgctca cgtgcaggag gtgttgcacg aacgggcggc gatctacccg
+      181 cgaggggacg acacggccct ctggcggtcg gtgcgcaagc tggtcggcga cggcattctg
+      241 gccgaggggg acgcgtgggc ggcgagtcgt cgtgtgctgg cgcccatgtt ccggccggcc
+      301 cgcatcaacg ccatggtcga cacgatggcg gacgccatcg ctggggccat cgacgacctt
+      361 cacggggccg ccaccgcggg gaccccgatc gacgtcggac gggagctgtc caggatcgtg
+      421 tgcagcgcga tcatgcgggt gttcttcgcc gaccggatca ccgtccggga cgctttgcgg
+      481 atcatgaagg cacaggagac gatcgtcacc gcgatggcac cccgcatcct ggcgccgctc
+      541 gtgccgtggt ggatcccgat gcccggcgac cgccgcttcc gcgctgcggt ccgctccatc
+      601 gacgacatct tgcttccggt gttgcgtcag gcgcagcgtc agccggacga cggtgacgac
+      661 ctgctgtcca ggttggtcca cgcccgtgca gacgatggcc gggccctgag cgagaagcgg
+      721 atgcgtgacg atctcgtgtc catggtggcc gtgaccaccg aaaccagcac tgtggtcctc
+      781 acctggttgt ggccgttgct ggccaaccac cccgatgtcg cgaacaggct ctacgacgag
+      841 atcgaccgag tcgtcggcgg cggacccgtt cgtggcgatc acctggccga gctgacgtac
+      901 accaggatgg tcctggacga gctgctgcgc ctgtacccgg ctggctggat ccttccccgc
+      961 cgtgcggcga ccacggacat cctcggtggt gtccggatca acaagggtgc caccgtcatc
+     1021 ctgtcgccgt acgtcaccca gcggatgacc gcctggtggg ggccgacggc cgaggctttc
+     1081 gacccggagc ggttcgcagc cgggcgggag gctgccgacg gtcggcaccg ttatgcgtac
+     1141 tacccgttcg gggtcggcat gcatcgctgc ctcggcgagc atctgttcaa cctggaggcg
+     1201 atcctgatcg tggcaacgct gttgagtagg ttccggttcg cgctcaccga caccagcatg
+     1261 cccggagtca aggtcgccgc gtcgacgcgc cccgcgcgga cagtagaagt gattctgaaa
+     1321 cccgtcgcgc ccgtccccgc ccgatagtgc ccctcgtgcc aacacaccac gccggcaacg
+     1381 gcttcgcagt cgcctccgag caggggcgca tctgtgcact ggccgcccga gggcagcgcg
+     1441 acctgcggca gtgcgtgcgg gcctatccaa gccttttccc caaccctccg gtcgatgaca
+     1501 cgatgctcag cgccttggcg ctgtcgacgg cgttcatcgc cccgtggtgc tcggccgagc
+     1561 agctacgcgt cgccaaccgt gcctcgttgt gggtcacggc cgaggactgg caggtcgacc
+     1621 gtgtggcgac ctccgacgac gccgtccgct cgatcgtgtc ggcatgtcag gcggtcgccg
+     1681 acggcgccgc accggacgtc gactgcgcac tcggtcagct tctcgccgag attcgcgacg
+     1741 aactcgccac cggcgccgga ttcaccgagt ggcagccggt gtggcgcgag gaggtgcatc
+     1801 gcatgctgac cgccgacatt cgagaatggg agtggcggca ctccgcacga ccaccctcgt
+     1861 tcgccgaata cctggacaac gcggacaact atggcgcctc cttcgtcaac gtctcgcact
+     1921 ggatcgtcac cggagatgcc caaacccgga gccacctccc cgagctgatc gcggccagcc
+     1981 gcgaggtcca gcggattctg cgcctgtcga acgacctggc cagctacgag cgcgacatca
+     2041 ggtccggcga cctcaacgcc ctcctgctcg tcgaccggga agaggtgtcc cgacagctcc
+     2101 gcgacgggat cagagcctgc caggaccatc tccacacgct ggaggtcacc tgcccacggg
+     2161 aggcgctcta tctcgcccgc gaagcgggat tcaccacggg cttctaccac ggtgccgact
+     2221 attggggcga cagtgagcgc tgacctcggc gcatcggcgc cggcggcggt cgagccggtg
+     2281 cccgctgggc gggccgacac cgccgagagc ctggtcgcgg agctgatccg cgtgcccgcc
+     2341 gggcaggtgt cgccatcgct gtacgagaca gcccggctgg tcagcctggc cccgtggttg
+     2401 accggtcacg ccgaacgcgt gcggcacctt ctcaccagcc agcgtcccga cggtgggtgg
+     2461 ggaccacccg agggctacgc cctggtgccg acggtgagcg cgaccgaggc gctcctcgcc
+     2521 gagctgcgca ccgcacccgc cgccgagccg ctgatccggg ccaccgacgc cggactaacc
+     2581 gtcctcacgc ggtggctcag cgccccgcgg tcccttcccg acacaccggc gatcgacctc
+     2641 atcgtgccgg cactcgccgc ggccatcaac cgacacctcg tcgaggcgga tctgccgtcg
+     2701 gcgctggggc actggcgtgc cgccgcgcgc cttcgcctcc ccgcgggtat ggacgaccgt
+     2761 cgcctcgccg cggtccatgg tctgatcggc gccggtgctg ctctgccgga gaagttgctg
+     2821 cacgccctgg aagtggtcgg tagcgcggcg cacggcgtcc gaggggtgcg tcccaccagg
+     2881 tcgggcatcg tgggagcgtc gccggcggcc acggccgcgt ggctggggtc acccgccgga
+     2941 gggcaccgcc acccgggcgc gagcgcgtat ctggaacgtg tcgtccgcca gcatgatgct
+     3001 ctcgcgccct gcgcgacacc gatcacggtc ttcgagcggg cctgggtggt cgccaccctt
+     3061 gcccgcgcgg gcctcgccgt gacccaggca ccggacctga ttcccggtct gatcgccgac
+     3121 ctgacctcgg tcgggacctg cgccgggcct gggctcccgc cggatgccga caccaccgcc
+     3181 gtgacgctgt acgctctcgc gcacctcggg ttcagcgtcg acctggagtg tctgtggcgg
+     3241 tacgagacgc cggacggctt ctgcacgtgg cccggcgagg acggcttctc cctgtccacc
+     3301 aacgcccacg tgttggacgt cgtggggctg atcctcacca ccgacccggg cgccgatcgg
+     3361 cgtcacgtca cggcggcccg tcgcctggcg gacgcgctgc ggcagcgcca acaggcggac
+     3421 ggcagctggc aggatcgctg gcacgcgtcc ccgtactacg ccaccatgtg ttgcgccctg
+     3481 gcgctggccg gcttccccgg tccgggtacc gccgtcacgt cgctcgcccg agccgcgagc
+     3541 tggatcgtcg acactcagcg cgcgaacggt tcgtggggta ggtggaaggg aaccgtggag
+     3601 gagacggcct acgcggtgca ggtcctcgcc accgtgggcc gcggccggcc cggcgctgac
+     3661 gaggccatcc gacgcggccg cgcctatctc accgagggta cgacggcgca cgaccccggg
+     3721 ccgccgctgt ggcacgacaa ggacctgtac cgacccgcca tgatcgtccg tgcggctgtg
+     3781 gtggccgctc ggcacctcgc gggcgccgcc ggccccgcga cggcctga
+//

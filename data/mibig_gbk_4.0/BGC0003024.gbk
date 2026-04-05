@@ -1,0 +1,104 @@
+LOCUS       BGC0003024              1724 bp    DNA     linear   CON 18-APR-2022
+DEFINITION  Aspergillus fumigatus Af293 chromosome 3, whole genome shotgun
+            sequence.
+ACCESSION   BGC0003024
+VERSION     BGC0003024
+KEYWORDS    .
+SOURCE      Aspergillus fumigatus Af293
+  ORGANISM  Aspergillus fumigatus Af293
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Aspergillus; Aspergillus subgen. Fumigati.
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to CM000171.
+            ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:43:02
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 3610652
+            Orig. end    :: 3612376
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     gene            <1..>1724
+                     /db_xref="GeneID:3512308"
+                     /locus_tag="AFUA_3G13690"
+                     /old_locus_tag="Afu3g13690"
+     mRNA            join(<1..340,425..786,846..1587,1660..>1724)
+                     /db_xref="GeneID:3512308"
+                     /locus_tag="AFUA_3G13690"
+                     /note="transcript AFUA_3G13690A"
+                     /old_locus_tag="Afu3g13690"
+                     /product="pyoverdine/dityrosine biosynthesis family
+                     protein, putative"
+                     /transcript_id="XM_749162.1"
+     subregion       1..1724
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="NRPS"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..1724
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     CDS             join(1..340,425..786,846..1587,1660..1724)
+                     /codon_start=1
+                     /db_xref="GeneID:3512308"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) DIT1_PvcA"
+                     /gene_kind="biosynthetic-additional"
+                     /locus_tag="AFUA_3G13690"
+                     /note="encoded by transcript AFUA_3G13690A; similar to
+                     Pyoverdine/dityrosine biosynthesis protein PvcA
+                     (GI:3212172) [Pseudomonas aeruginosa] PUBMED = 10383985,
+                     8704959 similar to SP:P21623: Spore wall maturation protein
+                     DIT1 [Saccharomyces cerevisiae]"
+                     /old_locus_tag="Afu3g13690"
+                     /product="pyoverdine/dityrosine biosynthesis family
+                     protein, putative"
+                     /protein_id="XP_754255.1"
+                     /sec_met_domain="DIT1_PvcA (E-value: 1.8e-91, bitscore:
+                     292.5, seeds: 112, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MFHKEAGISHLILDIILEHALNKFDPAPDRLQGAAKNFLPIIERF
+                     VAAGTRIEACLPAFPFKSANKVYKVLGSLPDKAEELALDRLNTMCARVREVYPPGLQVA
+                     IISDGITYNDTWAYGEALRQMAAQKQFMYIVFSRIKDLLDIPLPEQMSEIVYVANCTTF
+                     RRLLLNKYERADLDIDHEIASNPDTKLTYLGYRRFLESDLKYIFPRGAHRSAHSYKRDC
+                     KYLAKQMLIRGDAFAQAIKTSYPNHLRLSIHESVAGTKLSISLLNTKTGFTTPWHCSVA
+                     QLANGEWISAPMGEFRKDDRLELVYADGRPSHFREKPREGDAFGISESTASYLQRPKRL
+                     RASEYLGATLPSVPVSPGMSSPSAASTSSSGASMQGSAATTPETHSPPTFTWSGLEIVA
+                     EDNSNNASVPYGRRLIPQIMDSLAATEPERIVFSLATFSGDSLEFRPISARTFANAIDK
+                     TAWWLHNQVGRPDSIQPVGYIGPHDLRHVLLTYACVKAGYAVSS"
+ORIGIN
+        1 atgtttcaca aggaagcagg gatctctcat ctcatcctgg atatcatcct cgagcatgcg
+       61 ctcaacaagt ttgaccctgc accggaccga ttgcagggag ctgcgaagaa cttcctgccg
+      121 attattgaac gattcgtcgc tgcaggcacg cggatagagg cttgtctccc cgcattcccg
+      181 ttcaagtcgg cgaacaaagt atacaaggtg ctcggtagcc tgccggataa agctgaagag
+      241 ctggctcttg accgtctgaa taccatgtgc gcgcgtgttc gcgaagtata cccgcctggc
+      301 cttcaagtgg cgattatctc ggacggcatc acatacaatg gtaggttctg actcggttcg
+      361 atcaggatca tagctaacca gtcgagccgt gcgcccttag acttgctctg catctccgat
+      421 caagacacgt gggcgtacgg agaggctcta cgccagatgg ccgctcagaa gcagttcatg
+      481 tacattgtct tctccagaat caaagacctg ctcgatatcc ccctgccaga acagatgagt
+      541 gaaatcgtct acgtcgctaa ctgtaccact ttccgccgat tgctcctcaa caagtacgag
+      601 agagccgacc ttgacatcga ccacgagatt gcctcgaatc ctgataccaa gctgacctac
+      661 ctcgggtaca ggaggttcct ggagtctgat ctcaagtata tcttccctcg aggggcgcat
+      721 cggtctgccc acagctacaa gcgagattgc aagtatcttg ccaaacagat gctgatacga
+      781 ggtgatgtgg gtgaagcgac catgcagtta tcttggcttg ctctctgatg ttctttgctc
+      841 gacaggcgtt tgcacaggca atcaagacct cgtatccgaa tcatttgcgg ctttccattc
+      901 acgagtcagt ggccggcacc aagctatcga tctccctgct gaacaccaag actggcttca
+      961 ccactccatg gcactgcagc gtcgctcagc tggcgaacgg ggagtggatc agtgctccga
+     1021 tgggcgaatt ccgcaaggac gacaggctgg agctcgtgta cgcggacggc cggcccagtc
+     1081 actttaggga gaagccacga gagggggacg ctttcggcat cagcgagagc accgcgagct
+     1141 acctccaacg gcccaaacga ctccgcgcca gtgaatatct cggtgcgact ttgccatccg
+     1201 ttcccgtctc acctggcatg tcctccccca gtgctgcttc cacctcctca tccggtgcga
+     1261 gcatgcaagg cagcgcagca actacaccag aaacccactc tcctcccact ttcacgtgga
+     1321 gcggtttgga gatagtcgcg gaggacaatt cgaacaatgc ttcagtgcca tacggcagaa
+     1381 ggctcatccc tcagatcatg gacagcctgg ctgccaccga gccagaacgc attgtcttct
+     1441 cactggcgac gttttctggc gattcacttg agttcaggcc catttctgct cgcacttttg
+     1501 ccaacgcaat tgacaagacc gcttggtggc ttcataacca ggttggcaga ccagactcta
+     1561 tccagcctgt gggctacatc ggaccacgta agtcggaaaa gaccgcctgg catgttgggc
+     1621 atcgtttgcg acagagtact aacttggaga tttgaaaaga tgatctacga cacgtcctgc
+     1681 ttacttacgc atgtgtcaaa gctggttacg cagtaagttc ttga
+//

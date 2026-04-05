@@ -1,0 +1,202 @@
+LOCUS       BGC0003004              4224 bp    DNA     linear   BCT 23-JAN-2017
+DEFINITION  Streptomyces sparsogenes DSM 40356 contig00439, whole genome shotgun
+            sequence.
+ACCESSION   BGC0003004
+VERSION     BGC0003004
+KEYWORDS    .
+SOURCE      Streptomyces sparsogenes DSM 40356
+  ORGANISM  Streptomyces sparsogenes DSM 40356
+            Bacteria; Actinomycetota; Actinomycetes; Kitasatosporales;
+            Streptomycetaceae; Streptomyces.
+COMMENT     Annotation was added by the NCBI Prokaryotic Genomes Automatic
+            Annotation Pipeline Group. Information about the Pipeline can be
+            found here:
+            http://www.ncbi.nlm.nih.gov/genomes/static/Pipeline.html. Please be
+            aware that the annotation is done automatically with little or no
+            manual curation.
+            ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:41:21
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 12715
+            Orig. end    :: 16939
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     subregion       1..4224
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="ribosomal"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..4224
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            715..2133
+                     /locus_tag="SPAR_34486"
+     CDS             715..2133
+                     /codon_start=1
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     ranthipeptide: TIGR04085"
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     ranthipeptide: SPASM"
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     ranthipeptide: PF04055"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) Fer4_12"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="SPAR_34486"
+                     /note="COG0535 Predicted Fe-S oxidoreductases"
+                     /product="radical SAM domain-containing protein"
+                     /protein_id="OMI34822.1"
+                     /sec_met_domain="PF04055 (E-value: 1.4e-29, bitscore: 92.1,
+                     seeds: 518, tool: rule-based-clusters)"
+                     /sec_met_domain="Fer4_12 (E-value: 2.2e-15, bitscore: 45.6,
+                     seeds: 84, tool: rule-based-clusters)"
+                     /sec_met_domain="TIGR04085 (E-value: 3.8e-18, bitscore:
+                     54.2, seeds: 281, tool: rule-based-clusters)"
+                     /sec_met_domain="SPASM (E-value: 8.2e-12, bitscore: 34.0,
+                     seeds: 166, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MKLLEQWYDLIVPEDLVYFRHSGRRLVTNPELAAWCVLTEPESTV
+                     LEALGRGQAPPSPGDGSVDVERVLATLVLKWIVYLPGHRPAVRHPEPDLTTVYYAITDG
+                     CNLRCPYCYASSEKCLPGELTTEESLDLVDQAADMGVRQFIFTGGEPMLRKDLFEVAAH
+                     ARARGLTTNMITNGTMIRTPGTARRIAEIFGTVTVSIDGGTAEIHERTRGKGTFARTGK
+                     GLGLLNEAGVVPVINHVVTPENVDALEKVCAFVDDLKVRRVRLMYHSDLGRAATDGYDF
+                     GWLDFQKIQEFFWVNPMADKLLPDGPRAAKPCSIRGNCGMGGNEIYVNSLGDVYPCKLV
+                     TEPVHKAGNVRQRPLAELFAAPVLADMRTNSVFSGENLKDCRRCYIRAACGGGCRAYHM
+                     AETGDVHRNGRHLCRMLRHSMISNWWRATGVDGRQLVEHQEEMLRPHLVRDDTVHPVYE
+                     DWKTAGRRLLPLVD"
+     gene            2146..2457
+                     /locus_tag="SPAR_34491"
+     CDS             2146..2457
+                     /codon_start=1
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     ranthipeptide: Stand_Alone_Lasso_RRE"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) PF05402"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="SPAR_34491"
+                     /product="hypothetical protein"
+                     /protein_id="OMI34823.1"
+                     /sec_met_domain="Stand_Alone_Lasso_RRE (E-value: 3.2e-15,
+                     bitscore: 44.5, seeds: 25, tool: rule-based-clusters)"
+                     /sec_met_domain="PF05402 (E-value: 7.1e-15, bitscore: 43.6,
+                     seeds: 461, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MRYRIATDVVWMADDGEVRLYDAGSGEFQTLNSTAAELWLLVSEG
+                     RTVDAVVTETVRRYALEDTAQAAVVARDVRDFLDSLAGQGLLLAADAPAPAPAPGPSA"
+     gene            2454..3404
+                     /locus_tag="SPAR_34496"
+     CDS             2454..3404
+                     /codon_start=1
+                     /gene_functions="transport (smcogs) SMCOG1000:ABC
+                     transporter ATP-binding protein (Score: 182.7; E-value:
+                     1.4e-55)"
+                     /gene_kind="transport"
+                     /locus_tag="SPAR_34496"
+                     /note="COG1131 ABC-type multidrug transport system, ATPase
+                     component"
+                     /product="daunorubicin resistance ABC transporter ATPase
+                     subunit"
+                     /protein_id="OMI34824.1"
+                     /transl_table=11
+                     /translation="MTAAVHADGLVKRYSGMTQDAVSDLSFDIEPGAVIGLLGPNGAGK
+                     TTLTKMICGATVPTRGTLEVFGVDPAEPTGAAKRRIGAVHQNGPFDMMLPALDNLRITA
+                     AFKGLRWRDIRRQVDDLLAAFGLAGKTGQLAFTLSGGERRRFQVIRALLGDPPLLLLDE
+                     PSAGLDVSGRHQVWSLLHDLRRRQGTTILWTSHYVEELERNCRRVLVINHGRLVEFAAP
+                     RELAERFGGQVALVRPDRPRDTGELLAVLGRGGPQLRVSVGEGHVEVKGQGTRACLPAL
+                     LTRAEALGIGIGAVEYRTPSLEDAFLTLVGAGHDG"
+     gene            3484..4224
+                     /locus_tag="SPAR_34501"
+     CDS             3484..4224
+                     /codon_start=1
+                     /gene_functions="transport (smcogs) SMCOG1065:ABC-2 type
+                     transporter (Score: 100.1; E-value: 2e-30)"
+                     /gene_kind="transport"
+                     /locus_tag="SPAR_34501"
+                     /note="COG0842 ABC-type multidrug transport system,
+                     permease component"
+                     /product="ABC-2 type transporter superfamily protein"
+                     /protein_id="OMI34825.1"
+                     /transl_table=11
+                     /translation="MYREYLLLTRNRTNLLLAITPSAVYLLLFATSLSRLVGEVRYEGR
+                     PIGYPEFAVPALLLSSMLAAATTAGTSLFQERLGRMDVELWSYPLRRGSYVAGKLLVST
+                     LLVLLQSLAALGVSLLVFTFRWPPSHWVAVLCGIAVASMAFNGLYLLLATFFQDFQRFS
+                     VTINVLAPTLLFASPSFYPAPQMAPVLRWLSWGNPVTYGIRCIRDGALFGFGAAWPWML
+                     VLLGVAVVTCVLIGRSLMARAREI"
+ORIGIN
+        1 cacggccagc atgccaggcc acgggcgcgg gcggggcacg ggggcgaggg gtgcgggggc
+       61 ctccccggga cgggcccgcg catcccggaa agcgcgggcc cgacgaaaat ccggccactc
+      121 ccgtcactct gatgattccc cgccactcgc caccgaatgc ggaaatgatc gggacgcaca
+      181 gcgcaagggt ctttcggggt gccatggaat cggcgcggga aaatggcgtg aacagggtgc
+      241 gggccggggc gccgatcgcc ggtcccggat caccggacat ccggatttcc ctgttcccgt
+      301 tgacaccaca accggctgcc ccaatgctgt gagggctcgg cagatccgcc gcggaaccac
+      361 accccgccct tgcgatggga atacgtcatg cgcccatcgt cgatcgcgcc tgagtacaag
+      421 gggccggccc gcgcgaaaag cggtgatctc gagcacccgt cccgagcacc ccgtcccgag
+      481 aaaggatgaa ccatggaaaa gcctgcctgg gtgaagccgg aaatgctccc cgtcgagttc
+      541 ggcgtggaac tcccgtgctc ctgtgactgc agcggcggcg ccggcgccgg ctccggtaac
+      601 gccgagtccg agcagagact cgagatctga cccacggccc tcggcattcc ccgtcggccg
+      661 gcaggcgggg cccggcgcac ggccggcgcc ccgcctgctc tttggaggta caggatgaag
+      721 ctgctggagc agtggtacga cctgatcgtt ccggaagatc tcgtctattt ccggcactcg
+      781 ggaaggcggc tggtcaccaa tcccgagctg gccgcctggt gtgtgctgac cgagccggaa
+      841 tccaccgtcc tggaggcact gggccgcggc caggcgcccc cgtcgcccgg cgacgggtcc
+      901 gtcgacgtgg agcgcgtgct ggccaccctg gtcctcaagt ggatcgtcta tctgcccggg
+      961 caccgcccgg cggtgcgcca ccccgagccg gatctcacga ccgtctacta cgcgatcacc
+     1021 gacggttgca atctgcgctg tccgtactgt tacgcctctt cggagaagtg cctgcccggc
+     1081 gagctgacca ccgaggagtc gctcgacctc gtcgaccagg cggccgacat gggcgtgcgg
+     1141 cagttcatct tcaccggcgg ggagccgatg ctgcgcaagg acctcttcga ggtcgccgcg
+     1201 cacgcccgcg cgcggggcct gaccaccaac atgatcacca acggcacgat gatccgcacg
+     1261 cccgggaccg cgcggcggat cgcggagatc ttcggcacgg tgaccgtgag catcgacggc
+     1321 ggcacggccg agatccacga gcgcacccgc ggcaagggca ccttcgcgcg gaccggcaag
+     1381 ggcctcggcc tgctcaacga ggcgggtgtc gtgcccgtca tcaatcacgt ggtgaccccg
+     1441 gagaacgtgg acgcgctgga gaaggtctgc gcattcgtgg acgatctcaa ggtgcgccgg
+     1501 gtgcgcctca tgtaccactc ggatctcggc cgcgccgcga ccgacggata cgacttcgga
+     1561 tggctggact tccagaagat ccaggaattc ttctgggtca atccgatggc cgacaaactg
+     1621 ctgcccgacg gtccccgggc cgccaagccc tgttccatca gaggtaattg cggcatgggc
+     1681 ggaaacgaaa tatatgtgaa ttcgctgggc gatgtctatc cgtgcaagct cgtcaccgag
+     1741 cccgtgcaca aggccggtaa cgtacggcag cgcccgctgg ccgaactctt cgcggccccg
+     1801 gtgctggccg atatgcgcac caacagcgta ttcagcggcg agaatctcaa ggactgccgg
+     1861 cgctgctaca tccgggcggc ctgcggcggt ggctgccggg cttatcacat ggcggagacc
+     1921 ggcgatgtgc accgcaacgg ccggcatctg tgccggatgc tgcgccactc catgatctcc
+     1981 aactggtggc gggccaccgg ggtggacggg cggcaactgg tcgagcacca ggaggagatg
+     2041 ctccgccccc atctggtccg ggacgacacg gtccatccgg tgtacgagga ctggaagacc
+     2101 gccggccgcc gcctgctgcc cctcgtcgac tgaagggaga cgcccatgcg ctaccggatc
+     2161 gccaccgatg tcgtctggat ggccgacgac ggcgaagtgc ggctctacga cgccgggtcg
+     2221 ggtgagttcc agacgctcaa cagcacggcg gccgagctgt ggctcctggt gtccgagggg
+     2281 cggaccgtcg atgccgtcgt gacggagacg gtgcggcgct acgccctcga ggacaccgcg
+     2341 caggcggccg tggtcgcgcg ggacgtgcgc gacttcctgg actcgctggc cgggcagggg
+     2401 ctcctgctgg ccgcggacgc cccggccccg gccccggccc cgggcccctc ggcatgacgg
+     2461 ccgcggtcca cgcggacggc ctggtcaagc ggtacagcgg gatgacacag gacgcggtga
+     2521 gcgacctgtc cttcgacatc gagccgggtg cggtcatcgg cctgctgggc ccgaacgggg
+     2581 cggggaagac gacgctcacc aaaatgatct gcggtgccac cgtgcccacc cggggcaccc
+     2641 tggaggtgtt cggggtcgat cccgcggagc ccacgggggc cgcgaagcgc cgcatcggcg
+     2701 cggtccacca gaacgggccg ttcgacatga tgctgcccgc gctggacaat ctgcggatca
+     2761 ccgccgcgtt caaggggctg cgctggcgcg acatccggcg gcaggtggac gatctgctcg
+     2821 ccgccttcgg cctggccggc aagaccggcc agctggcctt caccctctcc ggtggcgagc
+     2881 gaaggcggtt ccaggtcatc cgcgcgttgc tcggcgatcc gccgctgctc ctgctcgacg
+     2941 agccctccgc cgggctggat gtgagcggcc gccaccaggt gtggagcctg ctgcacgacc
+     3001 tgcgccgccg gcagggcacg accatcctgt ggaccagtca ctacgtggag gagctggagc
+     3061 gcaactgccg ccgggtgctg gtgatcaacc acggcaggct ggtggagttc gccgccccgc
+     3121 gcgaactcgc cgaacggttc ggcggccagg tggcgctggt ccgcccggac cgcccgcggg
+     3181 acaccggcga actgctggcc gtgctcggac ggggcgggcc gcagctgcgg gtgagcgtcg
+     3241 gcgagggcca tgtcgaggtg aagggccagg gcacccgggc ctgcctgccg gcgctgctca
+     3301 cccgcgcgga ggccctgggg atcggcatcg gcgcggtcga gtaccgcaca ccgtcgctcg
+     3361 aggacgcctt cctgacgctc gtgggggccg gacatgacgg ctgacctcgc tccgccaccg
+     3421 cccggggcca cggcgcccgc accggcccgg ccgtccccgc tgcgcggcga tgtcgcggcg
+     3481 acgatgtacc gcgagtacct cctcctcacc cgcaaccgca ccaatctgct gctggccatc
+     3541 actccgagcg ccgtctatct gctgctgttc gccacctctc tgtcccgcct ggtcggggag
+     3601 gtgcggtacg agggccggcc catcggctac ccggagttcg ccgtccccgc cctgctgctc
+     3661 tcgtcgatgc tcgcggcggc caccaccgcg gggacgtccc tcttccagga gcgcctgggc
+     3721 cggatggacg tcgaactctg gtcctacccg ctgcggcgcg gcagctatgt ggcgggcaag
+     3781 ctcctcgtca gcacgctgct ggtcctcctg cagagcctgg ccgcgctcgg tgtctcgctg
+     3841 ctggtgttca ccttccgctg gccaccgagc cattgggtgg cggtcctgtg cgggatcgcg
+     3901 gtcgcctcca tggccttcaa cggcctgtat ctgctgctcg ccacgttctt ccaggacttc
+     3961 cagcgcttct cggtgaccat caacgtgctc gcgccgacgc tgctgttcgc cagcccgtcg
+     4021 ttctatccgg cgccgcagat ggcccccgtg ctgcgatggc tgtcctgggg caatcccgtg
+     4081 acgtacggga tccgctgcat ccgcgacggg gccctcttcg ggttcggcgc cgcctggccc
+     4141 tggatgctgg tgctgctcgg cgtcgcggtc gtcacctgtg ttctcatcgg gcgctccctg
+     4201 atggcccgcg cccgggagat ctga
+//

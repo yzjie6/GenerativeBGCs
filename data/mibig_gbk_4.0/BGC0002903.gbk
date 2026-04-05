@@ -1,0 +1,174 @@
+LOCUS       BGC0002903              2729 bp    DNA     linear   CON 08-AUG-2024
+DEFINITION  Streptacidiphilus melanogenes strain NBRC 103184, whole genome
+            shotgun sequence.
+ACCESSION   BGC0002903
+VERSION     BGC0002903
+KEYWORDS    .
+SOURCE      Streptacidiphilus melanogenes
+  ORGANISM  Streptacidiphilus melanogenes
+            Bacteria; Actinomycetota; Actinomycetes; Kitasatosporales;
+            Streptomycetaceae; Streptacidiphilus.
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            BBPP01000024.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:30:53
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 100665
+            Orig. end    :: 103394
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     subregion       1..2729
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="ribosomal"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..2729
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            complement(2..451)
+                     /locus_tag="TR49_RS24040"
+     CDS             complement(2..451)
+                     /codon_start=1
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     lassopeptide: PF13471"
+                     /gene_kind="biosynthetic"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_014140854.1"
+                     /locus_tag="TR49_RS24040"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="lasso peptide biosynthesis B2 protein"
+                     /protein_id="WP_042385006.1"
+                     /sec_met_domain="PF13471 (E-value: 5.6e-31, bitscore: 95.2,
+                     seeds: 84, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MSVQMSLDHRATLPVRHRALPLLAVAAARVLARVKPARLRQVLQF
+                     ARRGGRPASEEEAQRARDEIVAVSMRCAGNNCLQRSIAAALLCRMRGSWPTWCTGVRTH
+                     PFAAHAWIQVDGEPVGEPHPSGYFRTLLSVTPAPGRGEPRDKSPA"
+     gene            complement(448..699)
+                     /locus_tag="TR49_RS24045"
+     CDS             complement(448..699)
+                     /codon_start=1
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) Stand_Alone_Lasso_RRE"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) Lasso_Fused_RRE"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) PF05402"
+                     /gene_kind="biosynthetic-additional"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_006604203.1"
+                     /locus_tag="TR49_RS24045"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="lasso peptide biosynthesis PqqD family chaperone"
+                     /protein_id="WP_042385008.1"
+                     /sec_met_domain="Stand_Alone_Lasso_RRE (E-value: 9.7e-26,
+                     bitscore: 77.9, seeds: 25, tool: rule-based-clusters)"
+                     /sec_met_domain="Lasso_Fused_RRE (E-value: 1.2e-10,
+                     bitscore: 29.6, seeds: 20, tool: rule-based-clusters)"
+                     /sec_met_domain="PF05402 (E-value: 1.6e-14, bitscore: 42.2,
+                     seeds: 461, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MRLHPDVSMTDTDDGTVLLHGRTGRYFQLNLTGREVLRGLLDGHA
+                     PAQVADGLAAAHGIGAERAKDDVKAVLAQLASAELVLP"
+     gene            complement(703..2517)
+                     /locus_tag="TR49_RS24050"
+     CDS             complement(703..2517)
+                     /codon_start=1
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     lassopeptide: Asn_synthase"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1177:asparagine synthase (glutamine-hydrolyzing)
+                     (Score: 121.1; E-value: 8.6e-37)"
+                     /gene_kind="biosynthetic"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_016640865.1"
+                     /locus_tag="TR49_RS24050"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="lasso peptide isopeptide bond-forming cyclase"
+                     /protein_id="WP_042385011.1"
+                     /sec_met_domain="Asn_synthase (E-value: 1.7e-41, bitscore:
+                     131.1, seeds: 78, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MSSGFVVLPDRPQAERLFPRVPLDGARVIPHASGRPWIVGRWPAD
+                     AVTVVESGPVRLVVVGDAPASRARLAQTAGRITGPADAARALVGLRGSCHLGVSLPDWS
+                     RFQGSASGLRRLFHTRAGAVALAADRADLLAALTGAGLDEEALALRAVCGLQLPYPANA
+                     RSLWSGVAALAPDHALEWDADALEEVRWWQPPKPELSLADGVAAVREALLAATHGKRPE
+                     NGRLSSDLSGGLDSSSVCFLAAREDPEILTFRWGEAEEGNDDTVFAELAMKELGRAEHL
+                     VVPQAELPDMFAEAENPVSAEMPSPLTRATARIRRSVALLAEHGSVRHLSGHGGDELFT
+                     PMPGYLHPLLRRRPVTALRHLRAHAALRRWPLRATFAELLRPSSFAGWWAAEADVLTEP
+                     PPPLRRAALGWGLGPIRAPDWITPAGAELARAALRRTAATASPLAANLGSHQTLVVIRS
+                     NTSTYRLLADLYAERGIALEAPLLDDRVVDAALRVRPDAHAGPWRFKPLLAEAMRGIVP
+                     EPVRTRATKGEFGEDVRRGLRTHLPALLDLLGPDSRLAGRGLLDPDALRVRLTGPQADN
+                     SAVQALESLVGCETWLRSLPPSRPAPKD"
+     gene            complement(2601..2729)
+                     /locus_tag="TR49_RS43040"
+     CDS             complement(2601..2729)
+                     /codon_start=1
+                     /inference="COORDINATES: protein motif:HMM:NF033521.1"
+                     /locus_tag="TR49_RS43040"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /product="lasso RiPP family leader peptide-containing
+                     protein"
+                     /protein_id="WP_236653506.1"
+                     /transl_table=11
+                     /translation="MADTTEQSNEYMAPALVEVGEFNEDTLGGWGTVPDWFFNMKW"
+ORIGIN
+        1 tctaggcggg tgacttgtcg cgcggttccc cgcgccccgg ggcaggtgtc acgctgagca
+       61 aggttcggaa gtagcccgac gggtggggtt cgcccaccgg ttcgccgtcg acctggatcc
+      121 aggcgtgggc cgcgaagggg tgcgtgcgca cccccgtgca ccaggtcggc cagctccccc
+      181 gcatgcggca cagcagcgcg gcggcgatgg agcgttggag gcagttgttg cccgcgcagc
+      241 gcatgctcac ggccacgatc tcgtcccgtg cccgttgtgc ctcttcttcg ctcgcgggcc
+      301 tgccgccgcg acgggcgaac tgaaggacct ggcggagccg cgcgggcttg acccgcgcca
+      361 ggacgcgggc cgcggcgacg gcgagcagcg gcagcgcgcg gtgccggacg gggagcgtgg
+      421 cccggtggtc gagggacatc tgcacgctca cggcagcacc agctccgccg acgccagctg
+      481 tgccagcact gccttgacgt cgtccttcgc acgctccgcg ccgatgccgt gggcggccgc
+      541 gagcccgtcc gcgacctggg cgggagcgtg gccgtcgaga aggccgcgga ggacctctcg
+      601 gccggtgagg ttcagctgga agtagcggcc ggtgcggccg tgcaggagga cggtgccgtc
+      661 gtcggtgtcg gtcatcgaga catcggggtg gagccgcatg gatcagtcct tgggagcggg
+      721 acgggacgga gggagggagc ggagccaggt ctcgcagccg acgaggctct ccaacgcctg
+      781 gacggcgctg ttgtcggcct gcgggccggt gaggcggacc cgcagggcgt cagggtcgag
+      841 caggccgcgc ccggccagcc gggagtcggg gccgagcagg tcgagcagcg cgggcaggtg
+      901 ggtccgcagc ccgcggcgga cgtcctcgcc gaactcgccc ttggtggcgc gggtgcggac
+      961 gggctccggg acgatgccgc gcatcgcctc cgccagcagg ggtttgaagc gccacggtcc
+     1021 ggcgtgcgcg tcagggcgca cccgcagggc ggcgtcgacg acccggtcgt cgagcagggg
+     1081 cgcctcgagg gcgatgccgc gttccgcgta gaggtcggcg agcaggcgat aggtgctggt
+     1141 gttggagcgg atcaccacca gcgtctgatg tgagcccagg ttcgcggcga gcggcgacgc
+     1201 ggtcgccgcg gtgcggcgca gcgccgcgcg ggcgagctcg gcaccggcgg gggtgatcca
+     1261 gtcgggggcg cggatcggac cgagtcccca gccgagggcg gcgcggcgca gcggcggagg
+     1321 cggctcggtc aggacgtccg cctcggcggc ccaccagccg gcgaaggagc tcgggcgcag
+     1381 cagctcggca aaggtcgccc gcaacggcca gcgccgcagc gcggcgtgcg cgcgcaggtg
+     1441 ccgcagcgcg gtgaccgggc ggcggcgcag cagcgggtgc aggtagccgg gcatgggtgt
+     1501 gaacagctcg tcgccgccgt ggccggaaag gtgccgaacc gatccgtgtt cggccagcag
+     1561 cgccacactg cgccggatcc gggcggtggc ccgggtgagc gggctcggca tttccgcgct
+     1621 caccggattt tccgcctcgg cgaacatgtc cgggagttcg gcctgcggga cgacgaggtg
+     1681 ctccgcgcgg ccgagttctt tcatggccaa ttccgcgaaa accgtgtcgt cgttcccttc
+     1741 ctcggcctcg ccccagcgaa acgtgaggat ttccggatcc tccctggccg cgagaaagca
+     1801 gacggagctg gaatcgagcc cgccggagag gtccgagctc agccggccat tttccgggcg
+     1861 ttttccgtgg gtggccgcga gcagcgcctc gcgcaccgcg gcaaccccgt cggccaggga
+     1921 cagttccggc ttcggcggct gccaccagcg gacctcttcg agggcgtccg cgtcccattc
+     1981 gagcgcgtgg tccggcgcga gcgcggcgac gcccgaccag aggctgcggg cgttggccgg
+     2041 gtagggcaac tggagtccgc agacggcgcg cagcgcgagc gcctcctcgt ccaggccggc
+     2101 gccggtgagc gcggcgagca ggtcggcgcg gtcggcggcg agggcgacgg cgccggcccg
+     2161 ggtgtggaag agccgccgca acccggacgc gctgccctgg aaccgggacc agtcgggcag
+     2221 ggaaacgccc aggtggcaac tgccgcgcag gccgacaagg gcccgggcgg cgtcggcggg
+     2281 ccccgtgatc cgcccggcgg tctgcgccaa ccgggcgcgg ctggccggcg cgtcgccgac
+     2341 gaccacgaga cgcaccgggc cggactcgac gaccgtcacc gcgtccgccg gccagcggcc
+     2401 gacgatccac ggccgcccgg aggcgtgcgg gatgacgcgg gcgccgtcga gcgggacgcg
+     2461 tgggaagagc cgctcggcct gcggccggtc cggaaggacc acgaacccgg agctcatgtg
+     2521 ctgctgcgac caccgtttcc ggatcgaccg cggaccggac cccgaaaggg ccggcccgcg
+     2581 gcgcggatcg tctcgacgaa ttaccacttc atgttgaaga accagtccgg aacggttccc
+     2641 cagccgccga gggtgtcctc attgaactcg ccgacctcga ccagtgccgg tgccatgtac
+     2701 tcgttcgact gctcggtggt gtcagccac
+//

@@ -1,0 +1,120 @@
+LOCUS       BGC0002965              2500 bp    DNA     linear   BCT 08-JUL-2019
+DEFINITION  Amycolatopsis cihanbeyliensis strain DSM 45679 Ga0197559_11, whole
+            genome shotgun sequence.
+ACCESSION   BGC0002965
+VERSION     BGC0002965
+KEYWORDS    .
+SOURCE      Amycolatopsis cihanbeyliensis
+  ORGANISM  Amycolatopsis cihanbeyliensis
+            Bacteria; Actinomycetota; Actinomycetes; Pseudonocardiales;
+            Pseudonocardiaceae; Amycolatopsis.
+COMMENT     ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:36:20
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 2751140
+            Orig. end    :: 2753640
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     CDS             complement(1..1185)
+                     /codon_start=1
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) PCMT"
+                     /gene_kind="biosynthetic-additional"
+                     /locus_tag="FB471_2426"
+                     /product="protein-L-isoaspartate(D-aspartate)
+                     O-methyltransferase"
+                     /protein_id="TQJ02688.1"
+                     /sec_met_domain="PCMT (E-value: 3.4e-37, bitscore: 115.9,
+                     seeds: 9, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MTEAESPAALRVKFLDDLTASGDVTAPEWLAAFRDIPRDVFVPHF
+                     FTQTPDLAGWRLVQRGEPEWLTRVHSMTPLITQLNGDDALTDKARAGEAVNGAATSSSS
+                     QPTLMGLMLQALDVHDGHRVLEIGTGTGYNTALLCHRLGAANVTSVDVDPGLIERAAER
+                     LARLGYGDAHVFAGDGRDGYAERGPYDRIIVTVGTAPVPGAWLDQTRDGGKILVPLDRR
+                     NCGGLLALLTMHGDTASGRFLADYGGFMPIRGTRHDAALDAFRSLKDYQGTQRTTNLTA
+                     EVATGGGPFEFFAALRVGGYDHMSFTPNDGGPTETWLADGHHSWVCHTTTDGTHSVRQG
+                     GPIRLWDAIEDAHREWERLGKPVRERFGLSVNHDGTHTVWLDDPNGDQQWSLLA"
+     subregion       1..2500
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="ribosomal"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..2500
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            complement(1..1185)
+                     /locus_tag="FB471_2426"
+     gene            complement(1182..2153)
+                     /locus_tag="FB471_2427"
+     CDS             complement(1182..2153)
+                     /codon_start=1
+                     /locus_tag="FB471_2427"
+                     /product="ATP-grasp ribosomal peptide maturase"
+                     /protein_id="TQJ02689.1"
+                     /transl_table=11
+                     /translation="MVGAARSVLVLTDRFDPTADRVVEELNSRDTTVVRIDVADFPERL
+                     SVSAELNGGPWSAAWLQTARRSVNLADVSGIYYRRPTGFDFHPDLSADERRWSAVQARM
+                     GFGGLLAAVGPWLNHPHHIGYAEYKPAQLGAAVACGLPVPRTLVTNDPGRARAFVTGVG
+                     RAVYKPFGGHGVTDTEGYRHVFASVVTPEQCNDPNIARTMHMFQQWVPKSYEVRLTVVD
+                     GRFFAARIDTESATAYVDWRADYESLTYTAIETPNFVQSRVNELLSTLNLRFGALDFVV
+                     APDGKWWFLECNPNGQWAWIEDQTGMPIAAAIADALEGYDKT"
+     gene            complement(2156..2500)
+                     /locus_tag="FB471_2428"
+     CDS             complement(2156..2500)
+                     /codon_start=1
+                     /locus_tag="FB471_2428"
+                     /product="putative ATP-grasp target RiPP"
+                     /protein_id="TQJ02690.1"
+                     /transl_table=11
+                     /translation="MPVHQHERPTETGAFPSSGHFPLGRRFGMVDTAPEPASPVRPFGL
+                     TLGTRPRQVTPLNPADIGYDEDAQMGLMRDDGGQLVPMSRHTDGQTNTVTDGGDGRYTN
+                     KDSDTDHRED"
+ORIGIN
+        1 ctatgcgagt aggctccatt gttggtcccc gttcgggtca tccagccaca cggtgtgtgt
+       61 tccgtcgtga ttgacgctga gcccgaaccg ttcccggacc ggtttgccga gtcgttccca
+      121 ctcgcggtgc gcgtcctcga tcgcgtccca caaccggatc ggcccaccct gccgtaccga
+      181 gtgcgtgccg tccgtcgtgg tgtggcacac ccaagagtgg tgtccgtcgg ctagccatgt
+      241 ttcggtcggt ccgccgtcgt tcggggtgaa gctcatgtgg tcgtagccgc cgacccgtag
+      301 cgcagcgaag aactcgaacg ggccgccacc ggtcgccacc tcggccgtta ggttggttgt
+      361 gcgctgggtg ccttggtagt ccttcaagga acggaaggcg tcgagggccg cgtcgtgccg
+      421 ggtgccgcgt atcggcatga acccgccgta atcggccagg aaccgaccgg acgcagtgtc
+      481 accgtgcatg gtcagcaggg ccaggagtcc accacagttg cgccggtcca acgggaccag
+      541 aatctttccg ccgtcgcggg tctggtcaag ccacgcgccg ggcacgggcg cggtgcccac
+      601 ggtgacgatg atccggtcat acggcccgcg ctcggcgtac ccgtcgcgac cgtctccggc
+      661 gaatacgtgc gcgtcgccgt agccgagtct ggcaagccgc tcggcggccc gttcgatcaa
+      721 accggggtcc acgtccacgc ttgtcacgtt cgccgcgccg agtcggtgac acagcaatgc
+      781 cgtgttgtac ccggtgccgg tgccgatctc caacacccgg tgaccgtcgt gcacgtccag
+      841 agcttgcagc atcaacccca taagcgtggg ctgactgctg gatgacgtag ccgcaccgtt
+      901 gacggcctcc ccggcacgcg ccttgtcggt cagtgcgtcg tcaccgttca attgtgtgat
+      961 caatggggtc atgctgtgta cgcgcgtgag ccattccggt tcgccacgtt ggacgagacg
+     1021 ccacccggca aggtctggcg tctgtgtgaa gaaatgcggt acgaacacgt cacgtggtat
+     1081 gtcccggaac gccgcgagcc attcaggggc cgtcacgtcg ccactggcgg ttaggtcgtc
+     1141 aaggaacttg acccgcaagg cggccgggga ttcagcttcg gtcacgtctt gtcgtatcct
+     1201 tccaaagcgt ccgcgatagc ggccgcgatc ggcattccgg tctgatcttc aatccaggcc
+     1261 cattgcccat tcgggttgca ttccagaaac caccatttcc cgtccggtgc caccacgaaa
+     1321 tccaacgcgc cgaaccgcaa gttcagtgtg ctcaacagtt cattgacacg gctttgaaca
+     1381 aagtttggtg tctcgatggc cgtataggtc aaggactcgt agtctgcccg ccagtcgaca
+     1441 tacgccgtgg ctgattccgt gtctattcgt gcggcgaaga atcgtccatc caccacggtt
+     1501 aaccggacct cataggattt cggtacccac tgttggaaca tgtgcatggt tcgggcaatg
+     1561 ttcgggtcgt tgcactgttc cggggtaacc acgctggcga acacgtggcg gtatccttcg
+     1621 gtgtcggtca cgccgtgccc gccgaacggc ttgtacaccg cgcggcctac accggtgacg
+     1681 aacgcgcggg cacgtcccgg gtcgttggtg accagcgtac gtggcaccgg taacccgcac
+     1741 gccacggccg cgccgagttg tgccggtttg tactcggcat agccgatgtg gtgcggatgg
+     1801 ttcagccatg gccccacggc cgccagcagc ccgccgaacc ccatccgcgc ctgcacggcc
+     1861 gaccaccgac gttcgtcggc cgacaggtcc gggtggaagt cgaacccggt cggtcggcgg
+     1921 tagtagatcc cggacacgtc ggcaaggttc accgagcgcc gcgcggtctg caaccacgct
+     1981 gccgaccacg gcccgccgtt caactcggcg gacacggaca gccgttcggg gaagtcggca
+     2041 acatcgatcc gaaccaccgt ggtgtcccgg ctgttcagtt cctccacgac ccggtcggcc
+     2101 gtggggtcga aacgatcggt cagcacgagc acagaccgcg cggcacccac catgatcaat
+     2161 cctcccgatg gtcggtgtca ctgtctttgt tggtgtaccg gccgtcacct ccatcggtca
+     2221 cggtgttggt ctggccgtcc gtgtgacgac tcatcgggac caactggccc ccgtcgtcgc
+     2281 gcatcaagcc catttgggca tcctcgtcat aaccgatgtc ggcggggttc agcggcgtga
+     2341 cctgacgtgg ccgcgtgccc aacgtgagcc cgaacgggcg cacgggtgac gccggttcag
+     2401 gggccgtgtc gaccatgccg aaccgtcgac cgagcgggaa gtgacccgac gacgggaacg
+     2461 cgcccgtctc ggtcgggcgt tcgtgctggt gtacgggcat
+//

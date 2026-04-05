@@ -1,0 +1,132 @@
+LOCUS       BGC0003084              2006 bp    DNA     linear   CON 04-MAY-2024
+DEFINITION  Saccharopolyspora antimicrobica strain DSM 45119 Ga0074777_12, whole
+            genome shotgun sequence.
+ACCESSION   BGC0003084
+VERSION     BGC0003084
+KEYWORDS    .
+SOURCE      Saccharopolyspora antimicrobica
+  ORGANISM  Saccharopolyspora antimicrobica
+            Bacteria; Actinomycetota; Actinomycetes; Pseudonocardiales;
+            Pseudonocardiaceae; Saccharopolyspora.
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            RBXX01000002.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:49:47
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 6782132
+            Orig. end    :: 6784138
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     CDS             1..774
+                     /codon_start=1
+                     /gene_functions="biosynthetic (rule-based-clusters) CDPS:
+                     cycdipepsynth"
+                     /gene_functions="biosynthetic (rule-based-clusters) CDPS:
+                     CDPS"
+                     /gene_kind="biosynthetic"
+                     /inference="COORDINATES: protein motif:HMM:TIGR04539.1"
+                     /locus_tag="ATL45_RS32150"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /old_locus_tag="ATL45_6525"
+                     /product="tRNA-dependent cyclodipeptide synthase"
+                     /protein_id="WP_093145978.1"
+                     /sec_met_domain="cycdipepsynth (E-value: 6e-72, bitscore:
+                     228.9, seeds: 25, tool: rule-based-clusters)"
+                     /sec_met_domain="CDPS (E-value: 8.3e-74, bitscore: 235.0,
+                     seeds: 17, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MPPTPTTAAQLEGDATTCVEDDFTIEPYTENCRRVCARGEHLLVG
+                     VSPGNSYFSVELLARLFAWAHRRFAAVDVVIPDTALVHTQLALEHEAKRAHQRSREECN
+                     RVHNRVVRAWSQAGLAAAPERWHRLSDFTDRPRYQTLLRQAEDAVTQASPLREACLQTS
+                     RTVLASRKPGTSFTDEQIEKGAQYVVAELPFIVDTPSILGVPSSVSFYHRPAAFIREVM
+                     SARGGLSPAPEQGCALIRPHAVAGNVPQPRRASTA"
+     subregion       1..2006
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="NRPS"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..2006
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            1..774
+                     /locus_tag="ATL45_RS32150"
+                     /old_locus_tag="ATL45_6525"
+     gene            804..2006
+                     /locus_tag="ATL45_RS32155"
+                     /old_locus_tag="ATL45_6526"
+     CDS             804..2006
+                     /GO_function="GO:0020037 - heme binding [Evidence IEA];
+                     GO:0005506 - iron ion binding [Evidence IEA]; GO:0004497 -
+                     monooxygenase activity [Evidence IEA]; GO:0016705 -
+                     oxidoreductase activity, acting on paired donors, with
+                     incorporation or reduction of molecular oxygen [Evidence
+                     IEA]"
+                     /codon_start=1
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) p450"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1007:cytochrome P450 (Score: 286.1; E-value: 6.8e-87)"
+                     /gene_kind="biosynthetic-additional"
+                     /inference="COORDINATES: protein motif:HMM:NF012296.4"
+                     /locus_tag="ATL45_RS32155"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /old_locus_tag="ATL45_6526"
+                     /product="cytochrome P450"
+                     /protein_id="WP_121505431.1"
+                     /sec_met_domain="p450 (E-value: 1e-23, bitscore: 70.8,
+                     seeds: 50, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MFAIDDIPVWPFERWDHQLSPWVARLRDTDEPGYRVRTHNGDTIW
+                     LVTQAAVARACLSDPRMSLRAAGADDAPRQEPVRFRPPGTRGDATPVLDHPALRRVFRQ
+                     ALSPHTAASLQPAAAAAAEDLLAKIARTGGPIDFYAEIAVPLPFRMVGRTLLGDLSAEL
+                     RHRLQADVRIGLTGVGHTREEIETAWLDYHRLLTDWYADPAHLTGDHLMARIHHAAPEP
+                     LSAHHLAEIAGMLWAAGYESTVGFLTNACLTLLRHPKTWNELLDQPDLIPQAVDELLRY
+                     TPLATGGAPRLVTADAHIAGLDLTRGQCVAFSYEAANHDPRAYPDPDRLDIHRKPVDHL
+                     GFGHGPHRCPGHHLARMQIETALRALLRHFPALHLVAPVDTLTWRTGQVIRTPHALPVS
+                     W"
+ORIGIN
+        1 atgccaccca cgcctaccac tgctgcccag ctggagggcg atgccacgac ctgcgtcgaa
+       61 gacgacttca cgatcgagcc ctacaccgag aactgccgcc gggtatgcgc gcggggcgag
+      121 cacctgctgg tgggcgtgag cccgggcaac agctacttca gcgtcgagct gctcgcgcgg
+      181 ctgttcgcct gggcgcaccg gcggttcgcc gcggtggacg tggtcatccc ggacacagcg
+      241 ctggtgcaca cgcagctggc gctggagcac gaggcgaaac gagcccacca gcgcagccgg
+      301 gaggagtgca accgggtcca caaccgcgtg gtgcgggcgt ggagccaggc cgggctggcg
+      361 gccgccccgg aacggtggca ccggctttcg gacttcaccg accgcccccg gtaccagacc
+      421 ctgctgcgcc aggccgagga cgcggtcacc caagcatcac cactgcgcga agcgtgcctg
+      481 cagaccagcc gcaccgtgct ggcgagccgg aagcccggca cgtcgttcac cgacgagcag
+      541 atcgagaagg gtgcccagta cgtcgtggcc gagctgccgt tcatcgtgga cacgcccagc
+      601 atcttgggcg tgccctcgtc ggtgagcttc taccaccggc ccgctgcgtt catccgcgaa
+      661 gtgatgtccg cccggggcgg gctgagcccc gcacccgaac agggatgtgc gctgatcaga
+      721 ccgcacgcag tggccggcaa cgtgccgcag cccagacgag ccagcaccgc gtgaccgagg
+      781 tgcccagccg cgaaaggagc ggaatgttcg ccatcgacga catcccggtg tggccgttcg
+      841 agcgctggga ccaccagctc tcgccctggg tggcccggct gcgcgacacc gacgaacccg
+      901 gctaccgggt ccgcacccac aacggggaca ccatctggct ggtcacccaa gccgccgtcg
+      961 ctcgcgcgtg cctgagcgac ccccggatga gcttgcgcgc agccggcgcc gacgacgccc
+     1021 cgcgtcagga accggtgcga ttccggccgc cgggcactcg aggcgatgcc accccggtgc
+     1081 tggaccatcc cgcgctccga cgggtgttcc ggcaggcctt gagcccgcac accgccgcaa
+     1141 gcctgcaacc tgcggccgcc gcagccgccg aggacctcct ggccaagatc gcccgcactg
+     1201 gtgggcccat cgacttctac gccgagatcg ccgtgccgct gccgttccgg atggtcggcc
+     1261 ggacactgct gggcgacctc agcgcggagc tgcgccaccg actccaggcc gacgtccgca
+     1321 tcgggctcac cggtgtcggg cacacccgcg aggagatcga aaccgcctgg ctcgactacc
+     1381 accggctgct caccgactgg tacgccgacc ccgcccacct gaccggggac cacctcatgg
+     1441 cccgcatcca ccacgccgct cccgagccgc tctccgcgca ccacctggca gagatcgcgg
+     1501 ggatgctgtg ggccgccggt tacgagagca ccgtcgggtt cctcaccaac gcctgcctga
+     1561 ccctgctgcg gcacccgaag acctggaacg aactgctcga tcagcccgac ctgatccccc
+     1621 aggcagtcga cgaactgctg cgctacaccc cgctggccac cggcggtgct ccccggctgg
+     1681 tcaccgcgga cgcgcacatc gccggactcg acctcacccg cgggcagtgc gtcgccttct
+     1741 cctacgaagc cgccaaccac gatccccgcg cctaccccga tcccgatcgg ctcgacatcc
+     1801 accgcaagcc cgtcgaccac ctcggcttcg ggcacggccc gcaccgctgc cccggccacc
+     1861 acctggcccg catgcagatc gaaaccgcgc tgcgcgccct gctgcgccac tttcccgccc
+     1921 tccacctcgt cgcccccgtc gacacgctca cctggcgcac cggccaggtc atccgaacac
+     1981 cccacgccct tcccgtgagc tggtag
+//

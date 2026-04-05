@@ -1,0 +1,192 @@
+LOCUS       BGC0002990              3845 bp    DNA     linear   CON 02-SEP-2024
+DEFINITION  Streptomyces morookaense strain JCM 4793 sequence08, whole genome
+            shotgun sequence.
+ACCESSION   BGC0002990
+VERSION     BGC0002990
+KEYWORDS    .
+SOURCE      Streptomyces morookaense
+  ORGANISM  Streptomyces morookaense
+            Bacteria; Actinomycetota; Actinomycetes; Kitasatosporales;
+            Streptomycetaceae; Streptomyces.
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            BNBU01000008.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:39:05
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 23857
+            Orig. end    :: 27702
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     CDS             complement(1..1323)
+                     /codon_start=1
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) LANC_like"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1140:Lanthionine synthetase C family protein (Score:
+                     294.4; E-value: 2.2e-89)"
+                     /gene_kind="biosynthetic-additional"
+                     /inference="COORDINATES: protein motif:HMM:NF017000.5"
+                     /locus_tag="IE303_RS23710"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /old_locus_tag="GCM10010359_48200"
+                     /product="lanthionine synthetase C family protein"
+                     /protein_id="WP_171084029.1"
+                     /sec_met_domain="LANC_like (E-value: 7.2e-44, bitscore:
+                     138.0, seeds: 47, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MNSDQTSQTRTRARSVVQDVAERLADPRYVAEHTTPVPPGLMGTL
+                     LAGGHAGVALLFAELSHDDGRLRQAADAHLAACARGMKGSAARVGLFSGLAGLGFACDA
+                     VATGGGGTEHAVLRDKVRAAVDPTALRLSATVRDRLRGAGGLQMLDYDLLYGLTGVGTY
+                     LLVESISKSGAADDTVLRSVLDTLQHFDGTRDVDGIPVPAWTVGRRTPASPHGYVSLGL
+                     AHGVAGPLALMSTALLHGVQHSGLNRAVEGLAEWCLTQLRDDGQGRPAWPRLLEIDATG
+                     RAAPTAPATLLGWCYGSASVAAALHRAARALGRDDWADRARAVLLDAFRNTNDLARVTE
+                     PHLCHGWSGLLQIVLRTGTPGSPDPELSTLATTLAERLLDQYDPAAPFGFRTDLGLPHG
+                     RQDEPGFLLGAAGNALALHTYATGRPPASGWDMALLLAAPA"
+     subregion       1..3845
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="ribosomal"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..3845
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            complement(1..1323)
+                     /locus_tag="IE303_RS23710"
+                     /old_locus_tag="GCM10010359_48200"
+     gene            1566..1706
+                     /locus_tag="IE303_RS23715"
+                     /old_locus_tag="GCM10010359_48210"
+     CDS             1566..1706
+                     /codon_start=1
+                     /inference="COORDINATES: ab initio prediction:GeneMarkS-2+"
+                     /locus_tag="IE303_RS23715"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /old_locus_tag="GCM10010359_48210"
+                     /product="hypothetical protein"
+                     /protein_id="WP_171084027.1"
+                     /transl_table=11
+                     /translation="MSTEDLMSGFSFHVDAEEFAADAWAAQDMASGNPLTTTFCCSVQC
+                     G"
+     gene            1795..2901
+                     /gene="lxmK"
+                     /locus_tag="IE303_RS23720"
+                     /old_locus_tag="GCM10010359_48220"
+     CDS             1795..2901
+                     /codon_start=1
+                     /gene="lxmK"
+                     /inference="COORDINATES: protein motif:HMM:NF038156.1"
+                     /locus_tag="IE303_RS23720"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /old_locus_tag="GCM10010359_48220"
+                     /product="class V lanthionine synthetase subunit LxmK"
+                     /protein_id="WP_171084025.1"
+                     /transl_table=11
+                     /translation="MHTSVLDPAPDGAPQADALLVRLGLGEFVPGSIRARPGRNASWSG
+                     PTRSGRHVFVKQLQGPAEDSLQRFRRALAFEDTVSQAREPQLCSPPLLGHSEPGRFLVH
+                     ACLDARSGAELLADHAWDEALSQALGRTVAAVHMLPPRPDTAEETPPPLLPPLHLLDAL
+                     PEQGYLMATQGELELWRLLQRDTELIDSLHRLRESEQQAPGRPSHCDLRLDQVLVHGGT
+                     PALVDWEEFRCADPARDIGSVVGELLWTAVTRIPAAHDDTSSASGPVSPHDIAAAGTRE
+                     WQRLRPLATAFWHGYRDADKSRRPEPDPLLAARACGFAGWHLLDRVLAHAGEQARLPAT
+                     GLAAVGIGRRILTAPHHTTAVLGLTETS"
+     gene            2898..3845
+                     /locus_tag="IE303_RS23725"
+                     /old_locus_tag="GCM10010359_48230"
+     CDS             2898..3845
+                     /codon_start=1
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) HopA1"
+                     /gene_kind="biosynthetic-additional"
+                     /inference="COORDINATES: protein motif:HMM:NF037672.5"
+                     /locus_tag="IE303_RS23725"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /old_locus_tag="GCM10010359_48230"
+                     /product="T3SS effector HopA1 family protein"
+                     /protein_id="WP_171084023.1"
+                     /sec_met_domain="HopA1 (E-value: 2.4e-53, bitscore: 168.5,
+                     seeds: 25, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MTSPAAAPLLPGELADALADVRLDLPTLRARVGQEDVSAQSPEDL
+                     RSKLASALYRTLHTGAPPRDENPGLRTRRDPDLELRFRAGMPHRRTVSPVRLLERRPAD
+                     GTVLVELDGIRVRLPEERLMAAGPRDLAAHDAARPALSPGFFFAHGSQGRGAPQEPVLR
+                     LYVHLRHPDAAVATWTAALRVLERQALPYQAKVLSAPQHYPRRDALVLYLTAAHRTVAD
+                     EVATAVSDVEGLGTSTSLLAQRLAPGVAVAWEPADDRPGMQRLSFGQHRAHAIAEGLLA
+                     HARHPLTPRQTAIAQAMRAASVDPAAPHRNLPSS"
+ORIGIN
+        1 tcaggccggt gctgcgagga ggagcgccat gtcccaaccg ctggccggcg ggcggccggt
+       61 tgcgtaagtg tgcagagcca gggcgttgcc cgctgcgccg aggagaaagc cgggttcgtc
+      121 ctggcggccg tgggggaggc cgaggtcggt gcggaagccg aaaggggcgg cagggtcgta
+      181 ctggtccagg aggcgttcgg cgagagtggt ggccagggtg gatagttcgg ggtccgggct
+      241 gcccggggtg ccggtgcgca ggacgatctg gaggagtccg gaccagccgt ggcacaggtg
+      301 gggttccgtc acgcgtgcga ggtcgttggt gttgcggaag gcgtcgagga gtacggcccg
+      361 ggcgcggtcg gcccagtcgt cgcggccgag ggcccgggct gcccggtgga gggcggcggc
+      421 gacgctggcg ctgccgtagc accagcccag cagggttgcc ggggcggtgg gggccgcccg
+      481 ccccgtggcg tcgatctcga gcaggcgggg ccaggcaggg cggccctggc cgtcgtccct
+      541 gagctgggtg aggcaccatt cggccagccc ctccacggcc cggttcagtc ctgagtgctg
+      601 cacaccgtgg agaagtgcgg tggacatcag ggccagcggg ccggccacgc cgtgggcgag
+      661 gcccaggctc acatagccgt gcggggatgc gggcgttctc cggcccacgg tccaggcggg
+      721 gacggggatg ccgtcgacgt cgcgggtgcc gtcgaagtgc tgcagggtgt cgaggacgga
+      781 gcggaggacg gtgtcgtcgg cagcgccgga tttggatatg gattcgacga ggaggtacgt
+      841 gcccaccccg gtgagcccgt agagcaggtc gtagtcgagc atctggagac cgcctgcacc
+      901 gcgcaggcgg tcgcggacgg tcgcgctcag ccgcagggcc gtcggatcca cggctgcgcg
+      961 gaccttgtca cgcaggacgg cgtgttcggt gccgcctcca ccggtggcca cggcgtcgca
+     1021 ggcgaaacca aggcctgcga gtccgctgaa caggcccacc cgggccgccg aacccttcat
+     1081 gccgcgggcg caggcggcca ggtgggcgtc ggccgcctgc ctcagccgtc cgtcgtcgtg
+     1141 cgacagttcc gcaaagagca gagccactcc cgcgtggccg ccggcgagga gagtgcccat
+     1201 caggcccgga gggacggggg tggtgtgttc ggcgacgtag cgggggtcgg ccaggcgctc
+     1261 ggccacgtcc tggacgacac tgcgggcgcg ggtgcgtgtc tggctcgtct gatcggagtt
+     1321 cacaggtcca ccttgccggg agagggaatg gacgcctgtc ggacggaagt tgatgccctg
+     1381 ccatgctgat ggcgaaggtg tctccgatgg aggggccggc agtcaactat cggccgtagc
+     1441 aggtagctca ccgggttgat gtgctcgttg caggagcgcg gcaggccgcc tccgccggga
+     1501 tccggccgac atgccggggt ccgggcgctt cactttctgc aactcacatg aaaggcaggc
+     1561 tcgttatgag caccgaggac ctgatgtccg gcttctcctt ccacgtggac gccgaggaat
+     1621 tcgcggcgga cgcctgggca gcacaggaca tggccagcgg taacccgctg accaccacct
+     1681 tctgctgctc cgtgcagtgc ggctgacgcc tcgcgcgtag aagccgagcg attccccttg
+     1741 tgggccctcc ggttgcggtg ggcccacaac ccttgcggcc ccgggaggaa ccccgtgcac
+     1801 acttccgtcc ttgatccggc tcccgacggc gctccgcagg ccgacgcgct gctggtccga
+     1861 ctcggcctcg gggagttcgt ccccggaagc atccgggccc gtccggggcg gaacgcgagc
+     1921 tggtccgggc ccacccggtc cggcaggcat gtcttcgtca aacagctcca ggggcctgcc
+     1981 gaggacagcc tgcaacgctt ccgccgggcc ctcgccttcg aggacaccgt ctcacaggcc
+     2041 cgggaaccgc agctgtgctc gccgcccctg ctcgggcaca gcgagcccgg acggtttctg
+     2101 gtccatgcct gcctggacgc gcgctccggc gccgaactgc tggccgacca tgcctgggac
+     2161 gaggcccttt cgcaggcgct cggccggacc gtggcagccg tgcacatgct gcctccgcgg
+     2221 ccggacaccg ccgaggagac cccgccaccg ctgctgcccc cgctccacct cctcgacgca
+     2281 ctgcccgagc agggatatct catggccact cagggtgagc tggagctgtg gagactgctc
+     2341 cagcgtgaca ccgaactcat cgacagcctg caccggttgc gagagagcga gcagcaggcg
+     2401 cccgggcgcc cgtcccactg cgatctgcgg ctcgaccagg tgctcgtgca cggcggaacg
+     2461 cccgccctgg tggactggga ggagttccgc tgcgccgacc cggcgcggga catcggcagt
+     2521 gtcgtcggag agctgctgtg gaccgccgtg acccgtatcc ccgctgcaca tgacgacacg
+     2581 tcatccgcat ccgggcccgt ctccccgcac gacatcgcgg ccgcgggcac ccgtgagtgg
+     2641 cagcggctgc ggccgctcgc cacagccttc tggcacggat accgggacgc ggacaagagc
+     2701 cgccgcccgg aaccggaccc cctcctcgcc gcacgcgcct gcgggttcgc cggctggcac
+     2761 ctgctcgacc gtgtcctggc ccatgccggc gaacaggccc gccttccggc caccggactg
+     2821 gccgccgtcg gcatcggccg ccgcatcctg accgcaccgc accacaccac cgccgtcctc
+     2881 ggcctcacgg aaacctcatg acatcaccgg cagcagcccc tctcctgccc ggcgaactgg
+     2941 ccgacgccct ggccgacgtc cgcctcgacc tccccacgct gcgcgcacgg gtcggacagg
+     3001 aggacgtgag cgcacagagc cccgaagacc tgcggagcaa gctggcctcc gccctctacc
+     3061 gcaccctgca caccggtgct ccaccgaggg acgagaaccc cggcctccgt actcggcgcg
+     3121 acccggacct cgaactccga ttccgtgccg gcatgccgca ccggcgcacg gtcagccccg
+     3181 tacgcctcct ggagcgtcgg ccggcggacg ggaccgtgct ggtggagctc gacggaatcc
+     3241 gcgtccgact gccggaggag cgcctgatgg ccgcaggccc gcgcgatctg gccgcgcacg
+     3301 atgcagcacg gcctgccctg tcccccggct tcttcttcgc acacggctcg caggggcgag
+     3361 gagcgccgca ggaaccggtc ctccggctgt acgtccatct gcggcacccc gacgccgctg
+     3421 tcgccacgtg gacggccgcc ctgcgggttc tggaacggca ggccctgccc taccaggcga
+     3481 aggtgctctc cgccccgcag cactatcccc ggcgcgacgc cctcgtcctg tacctcacgg
+     3541 ccgcccaccg caccgtcgcc gacgaggtgg cgaccgccgt ctccgacgtc gaagggctcg
+     3601 gcacgagcac ctccctcctc gcccaacggc tcgcacccgg cgtcgccgtc gcctgggagc
+     3661 cggccgatga tcgccccggc atgcagcgcc tcagcttcgg tcagcaccgt gcccacgcca
+     3721 tcgccgaagg actcctcgcc cacgcccgcc acccactgac accgcggcag acggcgattg
+     3781 cacaggccat gcgggccgcg tcggtcgacc ctgcggctcc gcaccggaac ctcccgtctt
+     3841 cttag
+//

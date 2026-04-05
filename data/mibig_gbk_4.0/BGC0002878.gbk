@@ -1,0 +1,252 @@
+LOCUS       BGC0002878              5399 bp    DNA     linear   BCT 08-JAN-2015
+DEFINITION  Thermomonospora curvata DSM 43183, complete genome.
+ACCESSION   BGC0002878
+VERSION     BGC0002878
+KEYWORDS    .
+SOURCE      Thermomonospora curvata DSM 43183
+  ORGANISM  Thermomonospora curvata DSM 43183
+            Bacteria; Actinomycetota; Actinomycetes; Streptosporangiales;
+            Thermomonosporaceae; Thermomonospora.
+COMMENT     URL -- http://www.jgi.doe.gov
+            JGI Project ID: 4082717
+            Source DNA and organism available from Hans-Peter Klenk at the
+            German Collection of Microorganisms and Cell Cultures (DSMZ)
+            (hans-peter.klenk@dsmz.de)
+            Contacts: Jonathan A. Eisen (jaeisen@ucdavis.edu)
+            David Bruce (microbe@cuba.jgi-psf.org)
+            Whole genome sequencing and draft assembly at JGI-PGF
+            Finishing done by JGI-LANL
+            Annotation by JGI-ORNL and JGI-PGF
+            The JGI and collaborators endorse the principles for the
+            distribution and use of large scale sequencing data adopted by the
+            larger genome sequencing community and urge users of this data to
+            follow them. It is our intention to publish the work of this
+            project in a timely fashion and we welcome collaborative
+            interaction on the project and analysis.
+            (http://www.genome.gov/page.cfm?pageID=10506376).
+            ##antiSMASH-Data-START##
+            Version      :: False
+            Run date     :: 2024-10-17 18:28:56
+            NOTE: This is a single region extracted from a larger record!
+            Orig. start  :: 424732
+            Orig. end    :: 430131
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     CDS             complement(1..2598)
+                     /codon_start=1
+                     /db_xref="InterPro:IPR000719"
+                     /db_xref="InterPro:IPR002290"
+                     /db_xref="InterPro:IPR007822"
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     lanthipeptide-class-iv: Pkinase"
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     lanthipeptide-class-iv: LANC_like"
+                     /gene_functions="regulatory (smcogs)
+                     SMCOG1030:serine/threonine protein kinase (Score: 128.1;
+                     E-value: 7.1e-39)"
+                     /gene_kind="biosynthetic"
+                     /inference="protein motif:PFAM:PF05147"
+                     /locus_tag="Tcur_0376"
+                     /note="PFAM: Lanthionine synthetase C family protein;
+                     SMART: serine/threonine protein kinase; KEGG: smt:Smal_2130
+                     serine/threonine protein kinase"
+                     /product="serine/threonine protein kinase"
+                     /protein_id="ACY95977.1"
+                     /sec_met_domain="Pkinase (E-value: 2.1e-20, bitscore: 61.5,
+                     seeds: 54, tool: rule-based-clusters)"
+                     /sec_met_domain="LANC_like (E-value: 5.5e-30, bitscore:
+                     92.7, seeds: 47, tool: rule-based-clusters)"
+                     /transl_table=11
+                     /translation="MSHAPATPTEQELRAELTGPVTGAGRQIHARGVWLAVDDPAFHLP
+                     RQGWKIHLSARPATLQETIRRMLPAVLAVPCHFKVVRSGRHLQDLNSANNHPGSIGKAV
+                     TIYPSPEDVAPLARRLAEDLAGMAGPRICSDRRVRPDAPVYYRYGPFHPCYDINDDGDL
+                     ELVVTDPQGNTHPGAADDSFWQPHWSPDPLTGATPHPAPSDGPAAPVLLGGRYRVVRGL
+                     TRNGKGCVYRAIDTTDNRPVIIKEARAHVNEDTLGRDSRLRLRNERYVLHLLRDLDDVP
+                     KVIDHFRHEDREYLAITDLGALALGQDVAENGLYVADPAPPGRSLRALATALLELLDHV
+                     HRRGVLVRDLTPTNVVLDDATGRPRLVDFEISHAEDPQLYGWTPGYSPPEQERDEPATV
+                     EADYYSLGATLFYAATGLPPTWMTGDPGNHDPRRAAEVLAGRGGMSGTILGLLDPDPAR
+                     RRAAADDIRAGRFTDAPPPPPPSARQRARRLAAAIAHSLTELSRHAADLMSGKDFTGGL
+                     VGSPINLYRGAAGMGMELLRHDEPSRALARGLAYWTGGFRALRNGRPGLYTGDTGIAVF
+                     IAEAGATLGDETLLKIAEPLARPVLSRITATDQHTGLAGIGTGQLLLWRLTKDAGRLEL
+                     ADACARRLLARDLTAELQENPPDYADCGAVSRTLGFAHGLAGIVHFLRDHHAATGETAT
+                     EAALHKGCDTLLEHLPPLLEAARAVSAKPMHASFCQGLAGIGAALARTGRDLGADDHLQ
+                     AAREAAAACLELAPRMYALTQCCGLAGIGELFLDLCQITGDRTYAQWADRIADLILARA
+                     GGSPEAPVFPDTSLHGSSGGWSIGTSGVVSFLRRLGDPAAPRLWLDPPAGTAR"
+     subregion       1..5399
+                     /aStool="mibig"
+                     /contig_edge="False"
+                     /label="ribosomal"
+                     /subregion_number="1"
+                     /tool="antismash"
+     region          1..5399
+                     /contig_edge="False"
+                     /product="unknown"
+                     /region_number="1"
+                     /subregion_numbers="1"
+                     /tool="antismash"
+     gene            complement(1..2598)
+                     /locus_tag="Tcur_0376"
+     gene            complement(2721..2876)
+                     /locus_tag="Tcur_0377"
+     CDS             complement(2721..2876)
+                     /codon_start=1
+                     /inference="ab initio prediction:Prodigal:1.4"
+                     /locus_tag="Tcur_0377"
+                     /product="hypothetical protein"
+                     /protein_id="ACY95978.1"
+                     /transl_table=11
+                     /translation="MSALLEPRDAGTTNLDALATVPSEAPAFQAGSCTVCHWGRTVLCD
+                     DFSTQA"
+     gene            complement(3265..3420)
+                     /locus_tag="Tcur_0378"
+     CDS             complement(3265..3420)
+                     /codon_start=1
+                     /inference="ab initio prediction:Prodigal:1.4"
+                     /locus_tag="Tcur_0378"
+                     /product="hypothetical protein"
+                     /protein_id="ACY95979.1"
+                     /transl_table=11
+                     /translation="MSALLEPRDAGATNLDALAAVPSEAPAHQAGTCTVCHWGYTILCD
+                     DFSTRS"
+     gene            3595..4560
+                     /locus_tag="Tcur_0379"
+     CDS             3595..4560
+                     /codon_start=1
+                     /db_xref="InterPro:IPR003439"
+                     /db_xref="InterPro:IPR003593"
+                     /db_xref="InterPro:IPR005894"
+                     /db_xref="InterPro:IPR017871"
+                     /gene_functions="transport (smcogs) SMCOG1000:ABC
+                     transporter ATP-binding protein (Score: 218.5; E-value:
+                     1.6e-66)"
+                     /gene_kind="transport"
+                     /inference="protein motif:TFAM:TIGR01188"
+                     /locus_tag="Tcur_0379"
+                     /note="KEGG: mxa:MXAN_5317 putative daunorubicin resistance
+                     ABC transporter, ATP-binding subunit; TIGRFAM: daunorubicin
+                     resistance ABC transporter ATPase subunit; PFAM: ABC
+                     transporter related; SMART: AAA ATPase"
+                     /product="daunorubicin resistance ABC transporter ATPase
+                     subunit"
+                     /protein_id="ACY95980.1"
+                     /transl_table=11
+                     /translation="MTAGDTASDTPAAPVIHARALAKSYPGGPAVRGVDLSVAAGETFG
+                     FLGPNGAGKTTTIAMLCTLTAPSGGRAEIAGHDVVTEAHQVRRHIGLVFQDTTLDLGLT
+                     AWENLRFHARLYGVPAAAARERARMLLDLVGLGGRRDDLVGTFSGGMKRRLEVVRALMH
+                     RPRVLFLDEPTIGLDPHTRAQIWEHLRLLRERERITVFLTTHYLDEAEHCDRIAIIDDG
+                     RIIAEGTPAELKTVVGADRIELRSSDDRAAAAQLRDLFGLEATVTERGLSVRVADGAAF
+                     VPRMCAALTVPIESVTVVRPSLDDVFFHYTGRTIREEGGR"
+     gene            4557..5399
+                     /locus_tag="Tcur_0380"
+     CDS             4557..5399
+                     /codon_start=1
+                     /db_xref="InterPro:IPR000412"
+                     /db_xref="InterPro:IPR013525"
+                     /db_xref="InterPro:IPR013526"
+                     /gene_functions="transport (smcogs) SMCOG1065:ABC-2 type
+                     transporter (Score: 158.8; E-value: 2.3e-48)"
+                     /gene_kind="transport"
+                     /inference="protein motif:PFAM:PF01061"
+                     /locus_tag="Tcur_0380"
+                     /note="PFAM: ABC-2 type transporter; KEGG: sat:SYN_01665
+                     ABC-type multidrug transport system, permease component"
+                     /product="ABC-2 type transporter"
+                     /protein_id="ACY95981.1"
+                     /transl_table=11
+                     /translation="MTAPATAPRASRYADELAALGVVWQRDMLHYVRDRLKIVVTVLQP
+                     VLMLLALGAGLAALLPASPGGADYRTFLFPGMLVMTVQAPAISAGVALVTDRQAGFLRE
+                     MIVAPVRRETLLVGRCLGGATIAACQGALLLPLAGIAHLPYDPVLLALLLGELAVVALA
+                     MTALGVLLAVTITRTESFYAVLSVLTMPLIFLSGAMFPVQGLPGWLSWAVLINPVSYAV
+                     DALRRTITGYLPGPVPPQLFDGPRWGGWSPPVALELAGIAVLGAVMLVWASRRFGRLG"
+ORIGIN
+        1 tcagcgggcg gtgcctgcgg gcgggtccag ccacaggcgc ggggccgccg ggtcgccgag
+       61 ccgccgcagg aaggacacca ccccggaagt cccgatcgac cagccgccgc tgcttccgtg
+      121 cagggaggtg tcggggaaca ccggggcctc gggggagccg ccggcgcggg cgaggatgag
+      181 gtcggcgatc cggtccgccc actgggcgta cgtccggtca ccggtgatct ggcacaggtc
+      241 gaggaagagt tccccgatgc ccgccagccc gcagcactgg gtgagggcgt acatgcgcgg
+      301 cgccagctcc aggcaggccg cggcggcctc gcgggccgcc tgcaggtggt cgtcggcgcc
+      361 caggtcgcgt ccggtccggg cgagggcggc gccgatcccg gccagtccct ggcagaacga
+      421 ggcgtgcatc ggcttggccg ataccgcccg ggcggcctcc agcagcggcg gcaggtgctc
+      481 aaggagcgtg tcgcatcctt tgtgcagggc ggcctcggtg gccgtctcgc cggtggccgc
+      541 gtggtggtcg cgcaggaagt ggacgatgcc ggccaggccg tgcgcgaagc ccagggtgcg
+      601 ggagaccgcc ccgcagtcgg cgtagtcggg cgggttctcc tgcagttcgg ccgtcaggtc
+      661 gcgggccagg agccgccggg cgcaggcgtc ggccagttcc aggcggccgg cgtctttggt
+      721 gagccgccac agcagcagct ggccggtgcc gatgccggcc agtccggtgt gctggtcggt
+      781 ggcggtgatc cgggagagga cgggacgggc cagcggctcg gcgatcttca ggagggtctc
+      841 gtcgccgagg gtcgctccgg cttcggcgat gaagacggcg atgccggtgt cgccggtgta
+      901 cagtcccggg cggccgttgc gcagcgcccg gaagccgccg gtccagtagg ccaggccgcg
+      961 tgccagggcg cgggacggtt cgtcgtgccg cagcagttcc atgcccattc cggcggcgcc
+     1021 ccggtagagg ttgatggggc tgcccaccag gccgccggtg aagtctttcc cgctcatgag
+     1081 gtcggcggcg tggcgggaca gttcggtgag gctgtgggcg atggccgccg ccaggcggcg
+     1141 ggcccgctgc cgggcagaag gcggcggcgg gggcggggcg tcggtgaagc ggccggcgcg
+     1201 gatgtcgtcg gcggcggccc ggcgccgggc ggggtcgggg tcgagcaggc cgaggatcgt
+     1261 cccgctcatg ccgccccggc cggccagtac ctcggcggcg cggcgggggt cgtggttgcc
+     1321 ggggtcgccg gtcatccagg tgggcggcag gccggtggcg gcgtagaaca gggtggcgcc
+     1381 gagggagtag tagtcggctt cgacggtggc cggttcgtcg cgttcctgtt cgggtgggct
+     1441 gtagccgggg gtccagccgt acagttgcgg gtcttcggcg tggctgattt cgaagtccac
+     1501 caggcggggg cggccggtgg cgtcgtcgag gacgacgttg gtgggggtca ggtcgcggac
+     1561 cagcacgccg cgccggtgca cgtggtccag cagttccagc agggccgtgg ccagggcgcg
+     1621 caggcttcgt ccgggcggtg ccgggtcggc gacgtacagg ccgttctcgg cgacgtcctg
+     1681 gccgagggcc agggcgccca ggtcggtgat ggccaggtat tcgcggtctt cgtggcggaa
+     1741 gtggtcgatc actttcggta cgtcgtccag gtcgcgcagc aggtgcagga cgtaccgttc
+     1801 gttgcgcagc cgcaggcggg agtcgcgtcc cagggtgtct tcgttgacgt gggcccgtgc
+     1861 ctctttgatg atcaccggcc ggttgtcggt ggtgtcgatc gcccggtata cgcagccttt
+     1921 tccgttgcgg gtcaggccgc gtaccactcg gtagcgtccg cccagcagga cgggggcggc
+     1981 cgggccgtcg gacggtgcgg ggtggggggt ggcgccggtg agcgggtcgg gggaccagtg
+     2041 gggttgccag aaggagtcgt cggcggcgcc cgggtgggtg ttgccctgcg ggtcggtgac
+     2101 cacgagttcc aggtcgccgt cgtcgttgat gtcgtagcag gggtggaagg ggccgtagcg
+     2161 gtagtagacg ggggcgtcgg gccgtacccg ccggtcgctg cagatgcggg ggcctgccat
+     2221 gcccgccagg tcttcggcga gccggcgggc caggggtgcc acgtcctcgg gggacgggta
+     2281 gatcgtcacg gccttgccga tggagccggg gtggttgttg gcggagttga ggtcttgcag
+     2341 gtgccgtccg gagcggacga ctttgaagtg gcaggggacg gcgaggacgg cgggcagcat
+     2401 gcgccggatc gtctcctgca gggtggcggg ccgggccgac aggtggatct tccagccctg
+     2461 gcgggggagg tggaaggcgg ggtcgtccac ggccagccag acgccgcggg cgtgtatctg
+     2521 gcggccggcg ccggtgaccg ggccggtgag ttcggcgcgc agttcctgct cggtcggggt
+     2581 ggcgggtgcg tgggacacgt tgggtggcct cttcctggtg gtgcggtggc gtggcggccc
+     2641 gggcaagcgg ccgaggggcc actgagttcg gcagcccctc ggtttcgccc ggcggtgtgg
+     2701 tcgccgggtg tcaggcgatg tcaggcctgg gtgctgaagt cgtcacacag gaccgtccgg
+     2761 ccccagtggc agacggtgca gctccccgcc tggaaggccg gggcctccga cggcacggtg
+     2821 gccagggcgt ccaggttggt ggtgccggcg tcgcgcggtt cgagaagtgc ggacacagtg
+     2881 acctcctgat gtcgctttgt gtgtccttac gattacagaa cgcaacatcg ctgggtggga
+     2941 tgtccatccg ggtcgtgcca gttggcgcct atggatccgc aaagggtgcg agcgggggag
+     3001 aaggggtcac atgttcacaa ggtcgggcga tggcgggaga gtgccgtggt ggccgctgcg
+     3061 ggcgatgcgt ctggagcgtg cgccgtttcg ggggttcgcc gtctgccggc cggttgggtg
+     3121 cgcggttacc gcccggcggg ccggtgacct cttcccggtg gcacggccgg gggcagtggc
+     3181 ccgtgcagcg gccgaggggc cgccgaactc ggcgacccct cggtttcgtc cggtgatctg
+     3241 ctcaccgggt cgtcaggcag gaggtcagga cctggtgctg aagtcgtcgc acaggatcgt
+     3301 gtagccccag tgacagaccg tgcaggttcc tgcctggtgg gcgggggcct ccgagggcac
+     3361 cgcggccagg gcgtccaggt tggtggcgcc ggcgtcgcgc ggttcgagga gagcagacat
+     3421 gaagacctcc tgctgttgct tggggtgttc ttgtagttac aaagagtaac atggtcgggg
+     3481 cgattgtcca ctgagaaacg tcaggtggtt tttacaagcc cgtgaatggc tcgggtaaag
+     3541 aggagataag gccacatggt caccagatcc ggtcatggtg agcggagcgc tgccgtgacc
+     3601 gccggggaca ccgcgtccga cacgcccgcc gctccggtca tccatgcccg cgccctggcc
+     3661 aagtcctacc cgggcgggcc ggccgtgcgc ggagtcgacc tgtcggtcgc cgcgggcgag
+     3721 accttcgggt tcctcggccc caacggggcg gggaagacca ccaccatcgc catgctgtgc
+     3781 accctgaccg ccccctcggg gggacgggcc gagatcgccg gccacgacgt ggtcaccgag
+     3841 gcccaccagg tgcggcggca catcggcctg gtcttccagg acaccaccct cgacctgggc
+     3901 ctcaccgcct gggagaacct gcgcttccac gcccgcctgt acggcgtccc ggccgccgcc
+     3961 gcccgcgaac gcgcccggat gctgctggac ctggtgggcc tgggcgggcg gcgcgacgac
+     4021 ctggtgggca ccttctccgg cggaatgaaa cgccgcctgg aagtggtgcg cgccctcatg
+     4081 caccgcccgc gcgtgctgtt tctggatgag ccgaccatcg ggctcgaccc ccacacccgc
+     4141 gcccagatct gggagcacct gcgcctgctg cgcgaacgcg aacggatcac cgtgttcttg
+     4201 accacgcact acctggacga ggccgagcac tgcgaccgca tagccatcat cgacgacggg
+     4261 cgcatcatcg ccgagggcac gcccgcggag ctgaagaccg tggtcggcgc cgaccgcatc
+     4321 gaactgcgct ccagcgacga ccgggcggcc gcggcgcaac tgcgcgacct tttcggcctg
+     4381 gaggccacgg tgaccgagcg cgggctgtcg gtgcgggtcg ccgacggggc cgccttcgtc
+     4441 ccgcggatgt gcgcggcttt gacggtcccc atcgagtcgg tcacggtcgt gcgtcccagc
+     4501 ctcgatgacg tgttcttcca ctacaccggc cgcaccatcc gcgaggaggg cgggcgatga
+     4561 cggcgccggc cacggccccc cgggcgtccc ggtacgccga cgagctggcc gccctcggcg
+     4621 tggtgtggca gcgcgacatg ctgcactacg tccgcgaccg cctgaagatc gtggtcacgg
+     4681 tgctccagcc ggtgctgatg ctgctggcgc tgggggcggg gctggccgcg ctgctgccgg
+     4741 cctccccggg cggcgccgac taccggacgt tcctgttccc cggcatgctg gtgatgacgg
+     4801 tccaggcgcc ggcgatctcg gccggggtcg cgctggtcac cgaccgccag gccggctttt
+     4861 tgcgcgagat gatcgtcgcc ccggtgcgcc gggagacgct gctggtcggc cggtgcctgg
+     4921 gcggcgcgac catcgccgcc tgccagggcg ccctgctgct gccgctggcc gggatcgcgc
+     4981 acctgcctta tgaccccgtc ctgctggccc tgctgctggg ggagctggcc gtcgtcgcct
+     5041 tggcgatgac cgcgctgggc gtgctgctgg cggtgacgat cacccgtacc gagtcctttt
+     5101 acgcggtgct gagcgtgctg acgatgccgc tgatcttcct gtccggggcg atgttcccgg
+     5161 tgcaggggct gcccggctgg ctgtcgtggg cggtgctgat caacccggtc agctacgcgg
+     5221 tggacgcgct gcgccggacg atcaccgggt atctgcccgg cccggtcccg ccgcagctgt
+     5281 tcgacgggcc gcgctggggc gggtggagcc cgccggtggc cctcgagctg gccggtatcg
+     5341 ccgtgctcgg ggccgtcatg ctggtgtggg cgagccggcg tttcggccgg ctcgggtga
+//
