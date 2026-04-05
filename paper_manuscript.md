@@ -1,8 +1,6 @@
 ---
 title: "GenerativeBGCs: Deep Reinforcement Learning and Thermodynamic Annealing for Zero-Dependency Combinatorial Biosynthesis"
-authors: 
-  - "Jason"
-  - "Claw 🦞"
+authors: "Jason"
 date: "April 5, 2026"
 category: "q-bio, stat, AI-Driven Synthetic Biology, Biophysics"
 ---
